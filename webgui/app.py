@@ -1,5 +1,8 @@
-from flask import Flask, render_template, Response, jsonify
+from flask import Flask, render_template, Response, jsonify, request
 import cv2
+import subprocess
+
+
 
 app = Flask(__name__)
 
@@ -38,6 +41,15 @@ def set_mode(mode):
     # Implement robot control logic here for Autonomous 1, Autonomous 2, or Manual modes
     print(f"Mode set to: {mode}")
     return jsonify({'status': 'success', 'mode': mode})
+
+@app.route('/run', methods=['POST'])
+def run_command():
+    try:
+        command = request.form['command']
+        result = subprocess.check_output(command, shell=True, stderr=subprocess.STDOUT, universal_newlines=True)
+        return jsonify({'output': result})
+    except subprocess.CalledProcessError as e:
+        return jsonify({'error': e.output})
 
 if __name__ == '__main__':
     app.run(host='0.0.0.0', port=5000)
