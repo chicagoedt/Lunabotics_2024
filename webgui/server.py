@@ -10,7 +10,7 @@ import select
 app = Flask(__name__)
 app.secret_key = 'colton_is_a_latina_baddie'
 socketio = SocketIO(app)
-
+# unrelated but if we wanted 2 be more secure: we could implement a shell sandbox, / display over https / make a better pw than coltin is a latnia baddie
 def generate_frames():
     
     cap = cv2.VideoCapture(0)
