@@ -1,0 +1,40 @@
+body {
+    background-color: gray;
+
+    display: grid;
+    
+    grid-template-columns: 2fr 1fr;
+    grid-template-rows: 80vh 20vh;
+}
+
+#Video-Box {
+    background-color: blue;
+
+    grid-row: 1;
+    
+
+    text-align: center;
+}
+
+#Side-Box {
+    background-color: red;
+    grid-row-start: 1;
+    grid-row-end: 2;
+
+}
+
+#Term-Box {
+    background-color: black;
+
+    grid-row: 2;
+    grid-column-start: 1;
+    grid-column-end: 2;
+}
+
+
+button {
+    width: 70%;
+    height: 30px;
+
+    background-color: lightblue;
+}
