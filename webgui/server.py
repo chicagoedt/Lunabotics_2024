@@ -6,7 +6,7 @@ from flask_socketio import SocketIO, emit
 import pty
 import os
 import select
-
+# make sure to install flask-socketio on jetson b4 running, otherwise itll poop :(
 app = Flask(__name__)
 app.secret_key = 'colton_is_a_latina_baddie'
 socketio = SocketIO(app)
