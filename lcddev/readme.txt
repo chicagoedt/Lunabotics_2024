@@ -19,3 +19,7 @@ to list tempratures of each thermal zones.
 
 
 time.sleep(0.1) was added at the end of the py script simply because i think it would use too much cpu, and it would be evident from the temp
+
+
+the new updated files are marked with test after the original name.
+ill test it and then update the files as they are probably needed to be edited lol
