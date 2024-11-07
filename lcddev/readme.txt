@@ -3,6 +3,7 @@ sudo chmod 666 /dev/ttyACM0
 
 **note this fix only applies on that session, restarting the jetson will need us to apply this fix once more.
 
+the ardiuno is written to be connected at ttyACM0, so make sure its connected to that! otherwise the script will NOT work. (ie, the first usb port on the top left.)
 
 
 temp reading:
