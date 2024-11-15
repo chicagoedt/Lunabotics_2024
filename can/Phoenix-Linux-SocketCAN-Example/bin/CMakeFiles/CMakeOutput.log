@@ -1,0 +1,35 @@
+Performing C SOURCE FILE Test CMAKE_HAVE_LIBC_PTHREAD succeeded with the following output:
+Change Dir: /home/poppet/can/Phoenix-Linux-SocketCAN-Example/build/CMakeFiles/CMakeScratch/TryCompile-N3Zdf0
+
+Run Build Command(s):/bin/gmake -f Makefile cmTC_3bd27/fast && /bin/gmake  -f CMakeFiles/cmTC_3bd27.dir/build.make CMakeFiles/cmTC_3bd27.dir/build
+gmake[1]: Entering directory '/home/poppet/can/Phoenix-Linux-SocketCAN-Example/build/CMakeFiles/CMakeScratch/TryCompile-N3Zdf0'
+Building C object CMakeFiles/cmTC_3bd27.dir/src.c.o
+/bin/cc -DCMAKE_HAVE_LIBC_PTHREAD   -o CMakeFiles/cmTC_3bd27.dir/src.c.o -c /home/poppet/can/Phoenix-Linux-SocketCAN-Example/build/CMakeFiles/CMakeScratch/TryCompile-N3Zdf0/src.c
+Linking C executable cmTC_3bd27
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3bd27.dir/link.txt --verbose=1
+/bin/cc -rdynamic CMakeFiles/cmTC_3bd27.dir/src.c.o -o cmTC_3bd27 
+gmake[1]: Leaving directory '/home/poppet/can/Phoenix-Linux-SocketCAN-Example/build/CMakeFiles/CMakeScratch/TryCompile-N3Zdf0'
+
+
+Source file was:
+#include <pthread.h>
+
+static void* test_func(void* data)
+{
+  return data;
+}
+
+int main(void)
+{
+  pthread_t thread;
+  pthread_create(&thread, NULL, test_func, NULL);
+  pthread_detach(thread);
+  pthread_cancel(thread);
+  pthread_join(thread, NULL);
+  pthread_atfork(NULL, NULL, NULL);
+  pthread_exit(NULL);
+
+  return 0;
+}
+
+
