@@ -1,0 +1,22 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from interfaces_pkg/msg/DutyCycleOutput.msg
+// generated code does not contain a copyright notice
+
+
+module interfaces_pkg {
+  module msg {
+    struct DutyCycleOutput {
+      double left_drive_output;
+
+      double right_drive_output;
+
+      double left_lift_output;
+
+      double right_lift_output;
+
+      double tilt_output;
+
+      double vibrator_output;
+    };
+  };
+};

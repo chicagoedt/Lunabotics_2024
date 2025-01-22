@@ -1,0 +1,6 @@
+{
+  "package_name": "interfaces_pkg",
+  "non_idl_tuples": [
+    "/home/catherineschuch/lunabotics_ros2_ws/src/interfaces_pkg:msg/DutyCycleOutput.msg"
+  ]
+}

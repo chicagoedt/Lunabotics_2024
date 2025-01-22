@@ -1,0 +1,15 @@
+/home/catherineschuch/lunabotics_ros2_ws/install/navigation_pkg/share/ament_index/resource_index/package_run_dependencies/navigation_pkg
+/home/catherineschuch/lunabotics_ros2_ws/install/navigation_pkg/share/ament_index/resource_index/parent_prefix_path/navigation_pkg
+/home/catherineschuch/lunabotics_ros2_ws/install/navigation_pkg/share/navigation_pkg/environment/ament_prefix_path.sh
+/home/catherineschuch/lunabotics_ros2_ws/install/navigation_pkg/share/navigation_pkg/environment/ament_prefix_path.dsv
+/home/catherineschuch/lunabotics_ros2_ws/install/navigation_pkg/share/navigation_pkg/environment/path.sh
+/home/catherineschuch/lunabotics_ros2_ws/install/navigation_pkg/share/navigation_pkg/environment/path.dsv
+/home/catherineschuch/lunabotics_ros2_ws/install/navigation_pkg/share/navigation_pkg/local_setup.bash
+/home/catherineschuch/lunabotics_ros2_ws/install/navigation_pkg/share/navigation_pkg/local_setup.sh
+/home/catherineschuch/lunabotics_ros2_ws/install/navigation_pkg/share/navigation_pkg/local_setup.zsh
+/home/catherineschuch/lunabotics_ros2_ws/install/navigation_pkg/share/navigation_pkg/local_setup.dsv
+/home/catherineschuch/lunabotics_ros2_ws/install/navigation_pkg/share/navigation_pkg/package.dsv
+/home/catherineschuch/lunabotics_ros2_ws/install/navigation_pkg/share/ament_index/resource_index/packages/navigation_pkg
+/home/catherineschuch/lunabotics_ros2_ws/install/navigation_pkg/share/navigation_pkg/cmake/navigation_pkgConfig.cmake
+/home/catherineschuch/lunabotics_ros2_ws/install/navigation_pkg/share/navigation_pkg/cmake/navigation_pkgConfig-version.cmake
+/home/catherineschuch/lunabotics_ros2_ws/install/navigation_pkg/share/navigation_pkg/package.xml

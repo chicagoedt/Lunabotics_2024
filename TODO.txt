@@ -1,0 +1,61 @@
+1. Message Types
+
+If we have custom .msg files (e.g., special drive commands, scoop commands, or status messages), we need to import them.
+CS- We need to set up actions for scooping, dumping, etc. 
+
+2. Hardware-Specific Motor Control
+
+CS- figure out how to incorporate sparkcan into control_pkg
+CS- need a launch file in cpp that flashes all presets onto the SparkMAX motor controllers UPDATE: No specific file required, can do it in scoop.cpp and drivetrain.cpp
+CS- Add changes to drivetrain.cpp and scoop.cpp that allow for sparkmax control with duty cycle DONE
+CS - Later need to add changes to drivetrain.cpp and scoop.cpp to allow for positional and velocity control
+
+
+3. Camera Input & Processing
+
+
+The vision_data_node uses a simple subscription to sensor_msgs/msg/Image.
+
+In reality, we need to process the images (OpenCV-based object detection) and then publish results or pass them along to Nav2.
+
+
+Since we have multiple cameras, we need to set the correct topics, handle synchronization, and so on.
+
+4. Joystick Mapping
+
+
+In the brain_node.py example, I assumed a button toggles “auto vs. manual” and that axes[0]/axes[1] were linear and angular.
+
+We need to figure out your actual button mappings and axis indices and adapt the code accordingly.
+
+
+
+5. Error Handling
+
+The  code doesn’t handle exceptions like “camera not found,” or “motor controller unresponsive.”
+
+We need to add that (heartbeat system)
+
+6. Nav2 Config
+
+We need more parameter YAMLs, ie costmaps planners etc
+
+We should add:
+
+7. Action clients for NavigateToPose.
+
+A LifecycleNode with proper bringup and tear down.
+
+TF transforms, map server, localization, etc.
+
+8. status tracking
+
+in status_tracking_node we must add things like drivetrain status, scoop status, battery status, etc.
+
+9. webgui integration
+
+use rosbridge_suite and roslibjs in the browser, & integrate rclpy directly in the Flask app.
+
+10. firewall
+
+pssshhh do we need security?

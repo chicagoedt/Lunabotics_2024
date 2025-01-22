@@ -1,0 +1,6 @@
+float64 left_drive_output
+float64 right_drive_output
+float64 left_lift_output
+float64 right_lift_output
+float64 tilt_output
+float64 vibrator_output
