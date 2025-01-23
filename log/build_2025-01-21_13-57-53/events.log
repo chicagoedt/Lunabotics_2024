@@ -1,0 +1,450 @@
+[0.000000] (-) TimerEvent: {}
+[0.000515] (-) JobUnselected: {'identifier': 'brain_pkg'}
+[0.000832] (-) JobUnselected: {'identifier': 'motor_control_pkg'}
+[0.001038] (-) JobUnselected: {'identifier': 'navigation_pkg'}
+[0.001463] (-) JobUnselected: {'identifier': 'sensors_pkg'}
+[0.001742] (-) JobUnselected: {'identifier': 'webgui_pkg'}
+[0.001990] (interfaces_pkg) JobQueued: {'identifier': 'interfaces_pkg', 'dependencies': OrderedDict()}
+[0.002050] (interfaces_pkg) JobStarted: {'identifier': 'interfaces_pkg'}
+[0.099130] (-) TimerEvent: {}
+[0.162984] (interfaces_pkg) JobProgress: {'identifier': 'interfaces_pkg', 'progress': 'cmake'}
+[0.164198] (interfaces_pkg) Command: {'cmd': ['/usr/bin/cmake', '/ssd/home/edt/Documents/lunabotics_ros_ws/src/interfaces_pkg', '-DCMAKE_INSTALL_PREFIX=/ssd/home/edt/Documents/lunabotics_ros_ws/install/interfaces_pkg'], 'cwd': '/ssd/home/edt/Documents/lunabotics_ros_ws/build/interfaces_pkg', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'edt'), ('SSH_CLIENT', '192.168.0.221 55270 22'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/ssd/home/edt'), ('OLDPWD', '/ssd/home/edt/Documents/lunabotics_ros_ws/install'), ('SSH_TTY', '/dev/pts/0'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLCON_PREFIX_PATH', '/ssd/home/edt/Documents/lunabotics_ros_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'edt'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '6'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/ssd/home/edt/Documents/lunabotics_ros_ws/build/interfaces_pkg'), ('SSH_CONNECTION', '192.168.0.221 55270 192.168.0.131 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.8/site-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.199542] (-) TimerEvent: {}
+[0.300512] (-) TimerEvent: {}
+[0.400957] (-) TimerEvent: {}
+[0.501655] (-) TimerEvent: {}
+[0.602078] (-) TimerEvent: {}
+[0.702627] (-) TimerEvent: {}
+[0.803466] (-) TimerEvent: {}
+[0.904214] (-) TimerEvent: {}
+[1.004905] (-) TimerEvent: {}
+[1.105576] (-) TimerEvent: {}
+[1.206437] (-) TimerEvent: {}
+[1.307058] (-) TimerEvent: {}
+[1.321634] (interfaces_pkg) StdoutLine: {'line': b'-- The C compiler identification is GNU 9.4.0\n'}
+[1.407121] (-) TimerEvent: {}
+[1.507689] (-) TimerEvent: {}
+[1.608337] (-) TimerEvent: {}
+[1.709107] (-) TimerEvent: {}
+[1.809942] (-) TimerEvent: {}
+[1.910571] (-) TimerEvent: {}
+[2.011535] (-) TimerEvent: {}
+[2.029921] (interfaces_pkg) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 9.4.0\n'}
+[2.111611] (-) TimerEvent: {}
+[2.189664] (interfaces_pkg) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc\n'}
+[2.211755] (-) TimerEvent: {}
+[2.312428] (-) TimerEvent: {}
+[2.413282] (-) TimerEvent: {}
+[2.471303] (interfaces_pkg) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc -- works\n'}
+[2.513370] (-) TimerEvent: {}
+[2.614068] (-) TimerEvent: {}
+[2.616281] (interfaces_pkg) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[2.714299] (-) TimerEvent: {}
+[2.815191] (-) TimerEvent: {}
+[2.872414] (interfaces_pkg) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[2.915285] (-) TimerEvent: {}
+[3.015868] (-) TimerEvent: {}
+[3.041926] (interfaces_pkg) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[3.043104] (interfaces_pkg) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[3.049497] (interfaces_pkg) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++\n'}
+[3.116117] (-) TimerEvent: {}
+[3.216931] (-) TimerEvent: {}
+[3.317607] (-) TimerEvent: {}
+[3.339853] (interfaces_pkg) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ -- works\n'}
+[3.343706] (interfaces_pkg) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[3.417794] (-) TimerEvent: {}
+[3.518641] (-) TimerEvent: {}
+[3.619257] (-) TimerEvent: {}
+[3.720068] (-) TimerEvent: {}
+[3.762483] (interfaces_pkg) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[3.798199] (interfaces_pkg) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[3.799445] (interfaces_pkg) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[3.820134] (-) TimerEvent: {}
+[3.921067] (-) TimerEvent: {}
+[3.950891] (interfaces_pkg) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.6 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[4.021306] (-) TimerEvent: {}
+[4.122164] (-) TimerEvent: {}
+[4.223152] (-) TimerEvent: {}
+[4.324203] (-) TimerEvent: {}
+[4.425087] (-) TimerEvent: {}
+[4.525774] (-) TimerEvent: {}
+[4.626625] (-) TimerEvent: {}
+[4.634742] (interfaces_pkg) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3.9 (found version "3.9.5") found components: Interpreter \n'}
+[4.726884] (-) TimerEvent: {}
+[4.827582] (-) TimerEvent: {}
+[4.928119] (-) TimerEvent: {}
+[5.028996] (-) TimerEvent: {}
+[5.129840] (-) TimerEvent: {}
+[5.168372] (interfaces_pkg) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)\n'}
+[5.178229] (interfaces_pkg) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[5.195488] (interfaces_pkg) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[5.229957] (-) TimerEvent: {}
+[5.330427] (-) TimerEvent: {}
+[5.430809] (-) TimerEvent: {}
+[5.450738] (interfaces_pkg) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[5.530959] (-) TimerEvent: {}
+[5.631572] (-) TimerEvent: {}
+[5.732548] (-) TimerEvent: {}
+[5.833381] (-) TimerEvent: {}
+[5.934224] (-) TimerEvent: {}
+[6.034754] (-) TimerEvent: {}
+[6.135530] (-) TimerEvent: {}
+[6.236104] (-) TimerEvent: {}
+[6.336961] (-) TimerEvent: {}
+[6.437606] (-) TimerEvent: {}
+[6.538415] (-) TimerEvent: {}
+[6.639271] (-) TimerEvent: {}
+[6.739997] (-) TimerEvent: {}
+[6.840798] (-) TimerEvent: {}
+[6.941608] (-) TimerEvent: {}
+[7.042304] (-) TimerEvent: {}
+[7.143096] (-) TimerEvent: {}
+[7.243787] (-) TimerEvent: {}
+[7.344737] (-) TimerEvent: {}
+[7.445666] (-) TimerEvent: {}
+[7.546723] (-) TimerEvent: {}
+[7.647719] (-) TimerEvent: {}
+[7.705705] (interfaces_pkg) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)\n'}
+[7.747837] (-) TimerEvent: {}
+[7.848553] (-) TimerEvent: {}
+[7.949318] (-) TimerEvent: {}
+[8.050028] (-) TimerEvent: {}
+[8.150678] (-) TimerEvent: {}
+[8.251534] (-) TimerEvent: {}
+[8.352397] (-) TimerEvent: {}
+[8.453102] (-) TimerEvent: {}
+[8.553584] (-) TimerEvent: {}
+[8.654556] (-) TimerEvent: {}
+[8.694041] (interfaces_pkg) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[8.754613] (-) TimerEvent: {}
+[8.855152] (-) TimerEvent: {}
+[8.955912] (-) TimerEvent: {}
+[9.056885] (-) TimerEvent: {}
+[9.157788] (-) TimerEvent: {}
+[9.258770] (-) TimerEvent: {}
+[9.359696] (-) TimerEvent: {}
+[9.460802] (-) TimerEvent: {}
+[9.562055] (-) TimerEvent: {}
+[9.662685] (-) TimerEvent: {}
+[9.763341] (-) TimerEvent: {}
+[9.864178] (-) TimerEvent: {}
+[9.964802] (-) TimerEvent: {}
+[10.065665] (-) TimerEvent: {}
+[10.166337] (-) TimerEvent: {}
+[10.267079] (-) TimerEvent: {}
+[10.367888] (-) TimerEvent: {}
+[10.468876] (-) TimerEvent: {}
+[10.569894] (-) TimerEvent: {}
+[10.670488] (-) TimerEvent: {}
+[10.771324] (-) TimerEvent: {}
+[10.846758] (interfaces_pkg) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[10.871400] (-) TimerEvent: {}
+[10.971946] (-) TimerEvent: {}
+[11.036835] (interfaces_pkg) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3.6") \n'}
+[11.072088] (-) TimerEvent: {}
+[11.172968] (-) TimerEvent: {}
+[11.180074] (interfaces_pkg) StdoutLine: {'line': b'-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)\n'}
+[11.273095] (-) TimerEvent: {}
+[11.373883] (-) TimerEvent: {}
+[11.381100] (interfaces_pkg) StdoutLine: {'line': b'-- Found PythonLibs: /usr/lib/aarch64-linux-gnu/libpython3.8.so (found suitable version "3.8.10", minimum required is "3.5") \n'}
+[11.381684] (interfaces_pkg) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[11.381998] (interfaces_pkg) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.8\n'}
+[11.382284] (interfaces_pkg) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/aarch64-linux-gnu/libpython3.8.so\n'}
+[11.426203] (interfaces_pkg) StdoutLine: {'line': b'-- Found PythonExtra: .so  \n'}
+[11.473989] (-) TimerEvent: {}
+[11.574658] (-) TimerEvent: {}
+[11.675558] (-) TimerEvent: {}
+[11.776276] (-) TimerEvent: {}
+[11.876757] (-) TimerEvent: {}
+[11.977461] (-) TimerEvent: {}
+[12.078199] (-) TimerEvent: {}
+[12.079088] (interfaces_pkg) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.9 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[12.137223] (interfaces_pkg) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[12.140589] (interfaces_pkg) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[12.152923] (interfaces_pkg) StdoutLine: {'line': b'-- Configuring done\n'}
+[12.178279] (-) TimerEvent: {}
+[12.206735] (interfaces_pkg) StdoutLine: {'line': b'-- Generating done\n'}
+[12.229945] (interfaces_pkg) StdoutLine: {'line': b'-- Build files have been written to: /ssd/home/edt/Documents/lunabotics_ros_ws/build/interfaces_pkg\n'}
+[12.251409] (interfaces_pkg) CommandEnded: {'returncode': 0}
+[12.253377] (interfaces_pkg) JobProgress: {'identifier': 'interfaces_pkg', 'progress': 'build'}
+[12.256137] (interfaces_pkg) Command: {'cmd': ['/usr/bin/cmake', '--build', '/ssd/home/edt/Documents/lunabotics_ros_ws/build/interfaces_pkg', '--', '-j6', '-l6'], 'cwd': '/ssd/home/edt/Documents/lunabotics_ros_ws/build/interfaces_pkg', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'edt'), ('SSH_CLIENT', '192.168.0.221 55270 22'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/ssd/home/edt'), ('OLDPWD', '/ssd/home/edt/Documents/lunabotics_ros_ws/install'), ('SSH_TTY', '/dev/pts/0'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLCON_PREFIX_PATH', '/ssd/home/edt/Documents/lunabotics_ros_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'edt'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '6'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/ssd/home/edt/Documents/lunabotics_ros_ws/build/interfaces_pkg'), ('SSH_CONNECTION', '192.168.0.221 55270 192.168.0.131 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.8/site-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[12.278469] (-) TimerEvent: {}
+[12.357402] (interfaces_pkg) StdoutLine: {'line': b'[  3%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[12.358227] (interfaces_pkg) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target ament_cmake_python_copy_interfaces_pkg\x1b[0m\n'}
+[12.358462] (interfaces_pkg) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target interfaces_pkg__cpp\x1b[0m\n'}
+[12.378680] (-) TimerEvent: {}
+[12.381116] (interfaces_pkg) StdoutLine: {'line': b'[  6%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[12.403926] (interfaces_pkg) StdoutLine: {'line': b'[  6%] Built target ament_cmake_python_copy_interfaces_pkg\n'}
+[12.428064] (interfaces_pkg) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target ament_cmake_python_build_interfaces_pkg_egg\x1b[0m\n'}
+[12.478938] (-) TimerEvent: {}
+[12.579990] (-) TimerEvent: {}
+[12.681061] (-) TimerEvent: {}
+[12.781909] (-) TimerEvent: {}
+[12.882790] (-) TimerEvent: {}
+[12.983576] (-) TimerEvent: {}
+[13.084436] (-) TimerEvent: {}
+[13.185501] (-) TimerEvent: {}
+[13.286589] (-) TimerEvent: {}
+[13.316709] (interfaces_pkg) StdoutLine: {'line': b'[  6%] Built target interfaces_pkg__cpp\n'}
+[13.339169] (interfaces_pkg) StdoutLine: {'line': b'[ 16%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[13.340100] (interfaces_pkg) StdoutLine: {'line': b'[ 16%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[13.340377] (interfaces_pkg) StdoutLine: {'line': b'[ 16%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[13.386826] (-) TimerEvent: {}
+[13.480371] (interfaces_pkg) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target interfaces_pkg__rosidl_generator_c\x1b[0m\n'}
+[13.486864] (-) TimerEvent: {}
+[13.571598] (interfaces_pkg) StdoutLine: {'line': b'[ 19%] \x1b[32mBuilding C object CMakeFiles/interfaces_pkg__rosidl_generator_c.dir/rosidl_generator_c/interfaces_pkg/msg/detail/duty_cycle_output__functions.c.o\x1b[0m\n'}
+[13.587248] (-) TimerEvent: {}
+[13.688417] (-) TimerEvent: {}
+[13.789617] (-) TimerEvent: {}
+[13.879533] (interfaces_pkg) StdoutLine: {'line': b'[ 22%] \x1b[32m\x1b[1mLinking C shared library libinterfaces_pkg__rosidl_generator_c.so\x1b[0m\n'}
+[13.889672] (-) TimerEvent: {}
+[13.961825] (interfaces_pkg) StdoutLine: {'line': b'[ 22%] Built target interfaces_pkg__rosidl_generator_c\n'}
+[13.985330] (interfaces_pkg) StdoutLine: {'line': b'[ 29%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[13.986076] (interfaces_pkg) StdoutLine: {'line': b'[ 29%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[13.989773] (-) TimerEvent: {}
+[14.090776] (-) TimerEvent: {}
+[14.126513] (interfaces_pkg) StdoutLine: {'line': b'running egg_info\n'}
+[14.132952] (interfaces_pkg) StdoutLine: {'line': b'creating interfaces_pkg.egg-info\n'}
+[14.133837] (interfaces_pkg) StdoutLine: {'line': b'writing interfaces_pkg.egg-info/PKG-INFO\n'}
+[14.134414] (interfaces_pkg) StdoutLine: {'line': b'writing dependency_links to interfaces_pkg.egg-info/dependency_links.txt\n'}
+[14.134918] (interfaces_pkg) StdoutLine: {'line': b'writing top-level names to interfaces_pkg.egg-info/top_level.txt\n'}
+[14.135738] (interfaces_pkg) StdoutLine: {'line': b"writing manifest file 'interfaces_pkg.egg-info/SOURCES.txt'\n"}
+[14.137898] (interfaces_pkg) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target interfaces_pkg__rosidl_typesupport_cpp\x1b[0m\n'}
+[14.180060] (interfaces_pkg) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target interfaces_pkg__rosidl_typesupport_fastrtps_cpp\x1b[0m\n'}
+[14.190938] (-) TimerEvent: {}
+[14.192550] (interfaces_pkg) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target interfaces_pkg__rosidl_typesupport_introspection_cpp\x1b[0m\n'}
+[14.291194] (-) TimerEvent: {}
+[14.331247] (interfaces_pkg) StdoutLine: {'line': b'[ 35%] \x1b[32mBuilding CXX object CMakeFiles/interfaces_pkg__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/interfaces_pkg/msg/detail/duty_cycle_output__type_support.cpp.o\x1b[0m\n'}
+[14.332122] (interfaces_pkg) StdoutLine: {'line': b'[ 35%] \x1b[32mBuilding CXX object CMakeFiles/interfaces_pkg__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/interfaces_pkg/msg/duty_cycle_output__type_support.cpp.o\x1b[0m\n'}
+[14.338239] (interfaces_pkg) StdoutLine: {'line': b'[ 38%] \x1b[32mBuilding CXX object CMakeFiles/interfaces_pkg__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/interfaces_pkg/msg/detail/dds_fastrtps/duty_cycle_output__type_support.cpp.o\x1b[0m\n'}
+[14.391488] (-) TimerEvent: {}
+[14.492981] (-) TimerEvent: {}
+[14.575993] (interfaces_pkg) StdoutLine: {'line': b"reading manifest file 'interfaces_pkg.egg-info/SOURCES.txt'\n"}
+[14.577884] (interfaces_pkg) StdoutLine: {'line': b"writing manifest file 'interfaces_pkg.egg-info/SOURCES.txt'\n"}
+[14.587665] (interfaces_pkg) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target interfaces_pkg__rosidl_typesupport_c\x1b[0m\n'}
+[14.593239] (-) TimerEvent: {}
+[14.626213] (interfaces_pkg) StdoutLine: {'line': b'[ 41%] \x1b[32mBuilding CXX object CMakeFiles/interfaces_pkg__rosidl_typesupport_c.dir/rosidl_typesupport_c/interfaces_pkg/msg/duty_cycle_output__type_support.cpp.o\x1b[0m\n'}
+[14.671488] (interfaces_pkg) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target interfaces_pkg__rosidl_typesupport_fastrtps_c\x1b[0m\n'}
+[14.693557] (-) TimerEvent: {}
+[14.707281] (interfaces_pkg) StdoutLine: {'line': b'[ 45%] Built target ament_cmake_python_build_interfaces_pkg_egg\n'}
+[14.708190] (interfaces_pkg) StdoutLine: {'line': b'[ 45%] \x1b[32m\x1b[1mLinking CXX shared library libinterfaces_pkg__rosidl_typesupport_c.so\x1b[0m\n'}
+[14.720058] (interfaces_pkg) StdoutLine: {'line': b'[ 48%] \x1b[32mBuilding CXX object CMakeFiles/interfaces_pkg__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/interfaces_pkg/msg/detail/duty_cycle_output__type_support_c.cpp.o\x1b[0m\n'}
+[14.732758] (interfaces_pkg) StdoutLine: {'line': b'[ 51%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[14.793843] (-) TimerEvent: {}
+[14.821954] (interfaces_pkg) StdoutLine: {'line': b'[ 51%] Built target interfaces_pkg__rosidl_typesupport_c\n'}
+[14.894191] (-) TimerEvent: {}
+[15.014146] (-) TimerEvent: {}
+[15.115899] (-) TimerEvent: {}
+[15.217093] (-) TimerEvent: {}
+[15.318375] (-) TimerEvent: {}
+[15.390893] (interfaces_pkg) StdoutLine: {'line': b'[ 54%] \x1b[32m\x1b[1mLinking CXX shared library libinterfaces_pkg__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[15.418649] (-) TimerEvent: {}
+[15.493901] (interfaces_pkg) StdoutLine: {'line': b'[ 54%] Built target interfaces_pkg__rosidl_typesupport_cpp\n'}
+[15.525789] (-) TimerEvent: {}
+[15.547681] (interfaces_pkg) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target interfaces_pkg__rosidl_typesupport_introspection_c\x1b[0m\n'}
+[15.626100] (-) TimerEvent: {}
+[15.660767] (interfaces_pkg) StdoutLine: {'line': b'[ 58%] \x1b[32m\x1b[1mLinking CXX shared library libinterfaces_pkg__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[15.665764] (interfaces_pkg) StdoutLine: {'line': b'[ 61%] \x1b[32mBuilding C object CMakeFiles/interfaces_pkg__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/interfaces_pkg/msg/detail/duty_cycle_output__type_support.c.o\x1b[0m\n'}
+[15.701676] (interfaces_pkg) StdoutLine: {'line': b'[ 64%] \x1b[32m\x1b[1mLinking CXX shared library libinterfaces_pkg__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[15.726327] (-) TimerEvent: {}
+[15.799934] (interfaces_pkg) StdoutLine: {'line': b'[ 64%] Built target interfaces_pkg__rosidl_typesupport_introspection_cpp\n'}
+[15.826379] (-) TimerEvent: {}
+[15.871596] (interfaces_pkg) StdoutLine: {'line': b'[ 67%] \x1b[32m\x1b[1mLinking C shared library libinterfaces_pkg__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[15.872407] (interfaces_pkg) StdoutLine: {'line': b'[ 67%] Built target interfaces_pkg__rosidl_typesupport_fastrtps_cpp\n'}
+[15.926687] (-) TimerEvent: {}
+[15.936619] (interfaces_pkg) StdoutLine: {'line': b'[ 67%] Built target interfaces_pkg__rosidl_typesupport_introspection_c\n'}
+[16.026734] (-) TimerEvent: {}
+[16.032882] (interfaces_pkg) StdoutLine: {'line': b'[ 70%] \x1b[32m\x1b[1mLinking CXX shared library libinterfaces_pkg__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[16.126831] (-) TimerEvent: {}
+[16.202861] (interfaces_pkg) StdoutLine: {'line': b'[ 70%] Built target interfaces_pkg__rosidl_typesupport_fastrtps_c\n'}
+[16.225866] (interfaces_pkg) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target interfaces_pkg\x1b[0m\n'}
+[16.226934] (-) TimerEvent: {}
+[16.247926] (interfaces_pkg) StdoutLine: {'line': b'[ 70%] Built target interfaces_pkg\n'}
+[16.268571] (interfaces_pkg) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target interfaces_pkg__py\x1b[0m\n'}
+[16.290308] (interfaces_pkg) StdoutLine: {'line': b'[ 74%] \x1b[34m\x1b[1mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[16.327039] (-) TimerEvent: {}
+[16.427531] (-) TimerEvent: {}
+[16.528070] (-) TimerEvent: {}
+[16.628592] (-) TimerEvent: {}
+[16.729112] (-) TimerEvent: {}
+[16.829871] (-) TimerEvent: {}
+[16.930674] (-) TimerEvent: {}
+[17.031429] (-) TimerEvent: {}
+[17.132230] (-) TimerEvent: {}
+[17.232746] (-) TimerEvent: {}
+[17.333404] (-) TimerEvent: {}
+[17.342881] (interfaces_pkg) StdoutLine: {'line': b'[ 74%] Built target interfaces_pkg__py\n'}
+[17.366105] (interfaces_pkg) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target interfaces_pkg__rosidl_generator_py\x1b[0m\n'}
+[17.433434] (-) TimerEvent: {}
+[17.533923] (-) TimerEvent: {}
+[17.634348] (-) TimerEvent: {}
+[17.639115] (interfaces_pkg) StdoutLine: {'line': b'[ 77%] \x1b[32mBuilding C object CMakeFiles/interfaces_pkg__rosidl_generator_py.dir/rosidl_generator_py/interfaces_pkg/msg/_duty_cycle_output_s.c.o\x1b[0m\n'}
+[17.734444] (-) TimerEvent: {}
+[17.835102] (-) TimerEvent: {}
+[17.935658] (-) TimerEvent: {}
+[18.036422] (-) TimerEvent: {}
+[18.137060] (-) TimerEvent: {}
+[18.237654] (-) TimerEvent: {}
+[18.280026] (interfaces_pkg) StdoutLine: {'line': b'[ 80%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/interfaces_pkg/libinterfaces_pkg__rosidl_generator_py.so\x1b[0m\n'}
+[18.337770] (-) TimerEvent: {}
+[18.357944] (interfaces_pkg) StdoutLine: {'line': b'[ 80%] Built target interfaces_pkg__rosidl_generator_py\n'}
+[18.381879] (interfaces_pkg) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target interfaces_pkg__rosidl_typesupport_fastrtps_c__pyext\x1b[0m\n'}
+[18.382601] (interfaces_pkg) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target interfaces_pkg__rosidl_typesupport_c__pyext\x1b[0m\n'}
+[18.382786] (interfaces_pkg) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target interfaces_pkg__rosidl_typesupport_introspection_c__pyext\x1b[0m\n'}
+[18.437880] (-) TimerEvent: {}
+[18.538747] (-) TimerEvent: {}
+[18.542222] (interfaces_pkg) StdoutLine: {'line': b'[ 90%] \x1b[32mBuilding C object CMakeFiles/interfaces_pkg__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/interfaces_pkg/_interfaces_pkg_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[18.542830] (interfaces_pkg) StdoutLine: {'line': b'[ 90%] \x1b[32mBuilding C object CMakeFiles/interfaces_pkg__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/interfaces_pkg/_interfaces_pkg_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[18.543144] (interfaces_pkg) StdoutLine: {'line': b'[ 90%] \x1b[32mBuilding C object CMakeFiles/interfaces_pkg__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/interfaces_pkg/_interfaces_pkg_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[18.639026] (-) TimerEvent: {}
+[18.740662] (-) TimerEvent: {}
+[18.842098] (-) TimerEvent: {}
+[18.848689] (interfaces_pkg) StdoutLine: {'line': b'[ 96%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/interfaces_pkg/interfaces_pkg_s__rosidl_typesupport_introspection_c.cpython-38-aarch64-linux-gnu.so\x1b[0m\n'}
+[18.849236] (interfaces_pkg) StdoutLine: {'line': b'[ 96%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/interfaces_pkg/interfaces_pkg_s__rosidl_typesupport_c.cpython-38-aarch64-linux-gnu.so\x1b[0m\n'}
+[18.851613] (interfaces_pkg) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/interfaces_pkg/interfaces_pkg_s__rosidl_typesupport_fastrtps_c.cpython-38-aarch64-linux-gnu.so\x1b[0m\n'}
+[18.924086] (interfaces_pkg) StdoutLine: {'line': b'[100%] Built target interfaces_pkg__rosidl_typesupport_c__pyext\n'}
+[18.924847] (interfaces_pkg) StdoutLine: {'line': b'[100%] Built target interfaces_pkg__rosidl_typesupport_introspection_c__pyext\n'}
+[18.925029] (interfaces_pkg) StdoutLine: {'line': b'[100%] Built target interfaces_pkg__rosidl_typesupport_fastrtps_c__pyext\n'}
+[18.942172] (-) TimerEvent: {}
+[19.042781] (-) TimerEvent: {}
+[19.105716] (interfaces_pkg) CommandEnded: {'returncode': 0}
+[19.108385] (interfaces_pkg) JobProgress: {'identifier': 'interfaces_pkg', 'progress': 'install'}
+[19.137528] (interfaces_pkg) Command: {'cmd': ['/usr/bin/cmake', '--install', '/ssd/home/edt/Documents/lunabotics_ros_ws/build/interfaces_pkg'], 'cwd': '/ssd/home/edt/Documents/lunabotics_ros_ws/build/interfaces_pkg', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'edt'), ('SSH_CLIENT', '192.168.0.221 55270 22'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/ssd/home/edt'), ('OLDPWD', '/ssd/home/edt/Documents/lunabotics_ros_ws/install'), ('SSH_TTY', '/dev/pts/0'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLCON_PREFIX_PATH', '/ssd/home/edt/Documents/lunabotics_ros_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'edt'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '6'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/ssd/home/edt/Documents/lunabotics_ros_ws/build/interfaces_pkg'), ('SSH_CONNECTION', '192.168.0.221 55270 192.168.0.131 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.8/site-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[19.145709] (-) TimerEvent: {}
+[19.165598] (interfaces_pkg) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[19.166325] (interfaces_pkg) StdoutLine: {'line': b'-- Installing: /ssd/home/edt/Documents/lunabotics_ros_ws/install/interfaces_pkg/share/ament_index/resource_index/rosidl_interfaces/interfaces_pkg\n'}
+[19.166734] (interfaces_pkg) StdoutLine: {'line': b'-- Installing: /ssd/home/edt/Documents/lunabotics_ros_ws/install/interfaces_pkg/include/interfaces_pkg/interfaces_pkg\n'}
+[19.167089] (interfaces_pkg) StdoutLine: {'line': b'-- Installing: /ssd/home/edt/Documents/lunabotics_ros_ws/install/interfaces_pkg/include/interfaces_pkg/interfaces_pkg/msg\n'}
+[19.167479] (interfaces_pkg) StdoutLine: {'line': b'-- Installing: /ssd/home/edt/Documents/lunabotics_ros_ws/install/interfaces_pkg/include/interfaces_pkg/interfaces_pkg/msg/rosidl_generator_c__visibility_control.h\n'}
+[19.167828] (interfaces_pkg) StdoutLine: {'line': b'-- Installing: /ssd/home/edt/Documents/lunabotics_ros_ws/install/interfaces_pkg/include/interfaces_pkg/interfaces_pkg/msg/detail\n'}
+[19.168127] (interfaces_pkg) StdoutLine: {'line': b'-- Installing: /ssd/home/edt/Documents/lunabotics_ros_ws/install/interfaces_pkg/include/interfaces_pkg/interfaces_pkg/msg/detail/duty_cycle_output__functions.h\n'}
+[19.168420] (interfaces_pkg) StdoutLine: {'line': b'-- Installing: /ssd/home/edt/Documents/lunabotics_ros_ws/install/interfaces_pkg/include/interfaces_pkg/interfaces_pkg/msg/detail/duty_cycle_output__struct.h\n'}
+[19.168736] (interfaces_pkg) StdoutLine: {'line': b'-- Installing: /ssd/home/edt/Documents/lunabotics_ros_ws/install/interfaces_pkg/include/interfaces_pkg/interfaces_pkg/msg/detail/duty_cycle_output__type_support.h\n'}
+[19.169038] (interfaces_pkg) StdoutLine: {'line': b'-- Installing: /ssd/home/edt/Documents/lunabotics_ros_ws/install/interfaces_pkg/include/interfaces_pkg/interfaces_pkg/msg/detail/duty_cycle_output__functions.c\n'}
+[19.169325] (interfaces_pkg) StdoutLine: {'line': b'-- Installing: /ssd/home/edt/Documents/lunabotics_ros_ws/install/interfaces_pkg/include/interfaces_pkg/interfaces_pkg/msg/duty_cycle_output.h\n'}
+[19.169558] (interfaces_pkg) StdoutLine: {'line': b'-- Installing: /ssd/home/edt/Documents/lunabotics_ros_ws/install/interfaces_pkg/share/interfaces_pkg/environment/library_path.sh\n'}
+[19.169845] (interfaces_pkg) StdoutLine: {'line': b'-- Installing: /ssd/home/edt/Documents/lunabotics_ros_ws/install/interfaces_pkg/share/interfaces_pkg/environment/library_path.dsv\n'}
+[19.170115] (interfaces_pkg) StdoutLine: {'line': b'-- Installing: /ssd/home/edt/Documents/lunabotics_ros_ws/install/interfaces_pkg/lib/libinterfaces_pkg__rosidl_generator_c.so\n'}
+[19.170405] (interfaces_pkg) StdoutLine: {'line': b'-- Set runtime path of "/ssd/home/edt/Documents/lunabotics_ros_ws/install/interfaces_pkg/lib/libinterfaces_pkg__rosidl_generator_c.so" to ""\n'}
+[19.170798] (interfaces_pkg) StdoutLine: {'line': b'-- Up-to-date: /ssd/home/edt/Documents/lunabotics_ros_ws/install/interfaces_pkg/include/interfaces_pkg/interfaces_pkg\n'}
+[19.171094] (interfaces_pkg) StdoutLine: {'line': b'-- Up-to-date: /ssd/home/edt/Documents/lunabotics_ros_ws/install/interfaces_pkg/include/interfaces_pkg/interfaces_pkg/msg\n'}
+[19.171327] (interfaces_pkg) StdoutLine: {'line': b'-- Up-to-date: /ssd/home/edt/Documents/lunabotics_ros_ws/install/interfaces_pkg/include/interfaces_pkg/interfaces_pkg/msg/detail\n'}
+[19.171610] (interfaces_pkg) StdoutLine: {'line': b'-- Installing: /ssd/home/edt/Documents/lunabotics_ros_ws/install/interfaces_pkg/include/interfaces_pkg/interfaces_pkg/msg/detail/duty_cycle_output__rosidl_typesupport_fastrtps_c.h\n'}
+[19.171851] (interfaces_pkg) StdoutLine: {'line': b'-- Installing: /ssd/home/edt/Documents/lunabotics_ros_ws/install/interfaces_pkg/include/interfaces_pkg/interfaces_pkg/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[19.172127] (interfaces_pkg) StdoutLine: {'line': b'-- Installing: /ssd/home/edt/Documents/lunabotics_ros_ws/install/interfaces_pkg/lib/libinterfaces_pkg__rosidl_typesupport_fastrtps_c.so\n'}
+[19.172550] (interfaces_pkg) StdoutLine: {'line': b'-- Set runtime path of "/ssd/home/edt/Documents/lunabotics_ros_ws/install/interfaces_pkg/lib/libinterfaces_pkg__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[19.172834] (interfaces_pkg) StdoutLine: {'line': b'-- Up-to-date: /ssd/home/edt/Documents/lunabotics_ros_ws/install/interfaces_pkg/include/interfaces_pkg/interfaces_pkg\n'}
+[19.173114] (interfaces_pkg) StdoutLine: {'line': b'-- Up-to-date: /ssd/home/edt/Documents/lunabotics_ros_ws/install/interfaces_pkg/include/interfaces_pkg/interfaces_pkg/msg\n'}
+[19.173397] (interfaces_pkg) StdoutLine: {'line': b'-- Up-to-date: /ssd/home/edt/Documents/lunabotics_ros_ws/install/interfaces_pkg/include/interfaces_pkg/interfaces_pkg/msg/detail\n'}
+[19.173680] (interfaces_pkg) StdoutLine: {'line': b'-- Installing: /ssd/home/edt/Documents/lunabotics_ros_ws/install/interfaces_pkg/include/interfaces_pkg/interfaces_pkg/msg/detail/duty_cycle_output__rosidl_typesupport_introspection_c.h\n'}
+[19.173955] (interfaces_pkg) StdoutLine: {'line': b'-- Installing: /ssd/home/edt/Documents/lunabotics_ros_ws/install/interfaces_pkg/include/interfaces_pkg/interfaces_pkg/msg/detail/duty_cycle_output__type_support.c\n'}
+[19.174302] (interfaces_pkg) StdoutLine: {'line': b'-- Installing: /ssd/home/edt/Documents/lunabotics_ros_ws/install/interfaces_pkg/include/interfaces_pkg/interfaces_pkg/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[19.174535] (interfaces_pkg) StdoutLine: {'line': b'-- Installing: /ssd/home/edt/Documents/lunabotics_ros_ws/install/interfaces_pkg/lib/libinterfaces_pkg__rosidl_typesupport_introspection_c.so\n'}
+[19.174889] (interfaces_pkg) StdoutLine: {'line': b'-- Set runtime path of "/ssd/home/edt/Documents/lunabotics_ros_ws/install/interfaces_pkg/lib/libinterfaces_pkg__rosidl_typesupport_introspection_c.so" to ""\n'}
+[19.175223] (interfaces_pkg) StdoutLine: {'line': b'-- Installing: /ssd/home/edt/Documents/lunabotics_ros_ws/install/interfaces_pkg/lib/libinterfaces_pkg__rosidl_typesupport_c.so\n'}
+[19.175563] (interfaces_pkg) StdoutLine: {'line': b'-- Set runtime path of "/ssd/home/edt/Documents/lunabotics_ros_ws/install/interfaces_pkg/lib/libinterfaces_pkg__rosidl_typesupport_c.so" to ""\n'}
+[19.175861] (interfaces_pkg) StdoutLine: {'line': b'-- Up-to-date: /ssd/home/edt/Documents/lunabotics_ros_ws/install/interfaces_pkg/include/interfaces_pkg/interfaces_pkg\n'}
+[19.176208] (interfaces_pkg) StdoutLine: {'line': b'-- Up-to-date: /ssd/home/edt/Documents/lunabotics_ros_ws/install/interfaces_pkg/include/interfaces_pkg/interfaces_pkg/msg\n'}
+[19.177125] (interfaces_pkg) StdoutLine: {'line': b'-- Up-to-date: /ssd/home/edt/Documents/lunabotics_ros_ws/install/interfaces_pkg/include/interfaces_pkg/interfaces_pkg/msg/detail\n'}
+[19.177438] (interfaces_pkg) StdoutLine: {'line': b'-- Installing: /ssd/home/edt/Documents/lunabotics_ros_ws/install/interfaces_pkg/include/interfaces_pkg/interfaces_pkg/msg/detail/duty_cycle_output__builder.hpp\n'}
+[19.177688] (interfaces_pkg) StdoutLine: {'line': b'-- Installing: /ssd/home/edt/Documents/lunabotics_ros_ws/install/interfaces_pkg/include/interfaces_pkg/interfaces_pkg/msg/detail/duty_cycle_output__traits.hpp\n'}
+[19.178164] (interfaces_pkg) StdoutLine: {'line': b'-- Installing: /ssd/home/edt/Documents/lunabotics_ros_ws/install/interfaces_pkg/include/interfaces_pkg/interfaces_pkg/msg/detail/duty_cycle_output__struct.hpp\n'}
+[19.178471] (interfaces_pkg) StdoutLine: {'line': b'-- Installing: /ssd/home/edt/Documents/lunabotics_ros_ws/install/interfaces_pkg/include/interfaces_pkg/interfaces_pkg/msg/duty_cycle_output.hpp\n'}
+[19.178716] (interfaces_pkg) StdoutLine: {'line': b'-- Up-to-date: /ssd/home/edt/Documents/lunabotics_ros_ws/install/interfaces_pkg/include/interfaces_pkg/interfaces_pkg\n'}
+[19.179009] (interfaces_pkg) StdoutLine: {'line': b'-- Up-to-date: /ssd/home/edt/Documents/lunabotics_ros_ws/install/interfaces_pkg/include/interfaces_pkg/interfaces_pkg/msg\n'}
+[19.179242] (interfaces_pkg) StdoutLine: {'line': b'-- Installing: /ssd/home/edt/Documents/lunabotics_ros_ws/install/interfaces_pkg/include/interfaces_pkg/interfaces_pkg/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[19.179529] (interfaces_pkg) StdoutLine: {'line': b'-- Up-to-date: /ssd/home/edt/Documents/lunabotics_ros_ws/install/interfaces_pkg/include/interfaces_pkg/interfaces_pkg/msg/detail\n'}
+[19.179815] (interfaces_pkg) StdoutLine: {'line': b'-- Installing: /ssd/home/edt/Documents/lunabotics_ros_ws/install/interfaces_pkg/include/interfaces_pkg/interfaces_pkg/msg/detail/duty_cycle_output__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[19.180042] (interfaces_pkg) StdoutLine: {'line': b'-- Installing: /ssd/home/edt/Documents/lunabotics_ros_ws/install/interfaces_pkg/include/interfaces_pkg/interfaces_pkg/msg/detail/dds_fastrtps\n'}
+[19.180322] (interfaces_pkg) StdoutLine: {'line': b'-- Installing: /ssd/home/edt/Documents/lunabotics_ros_ws/install/interfaces_pkg/lib/libinterfaces_pkg__rosidl_typesupport_fastrtps_cpp.so\n'}
+[19.180600] (interfaces_pkg) StdoutLine: {'line': b'-- Set runtime path of "/ssd/home/edt/Documents/lunabotics_ros_ws/install/interfaces_pkg/lib/libinterfaces_pkg__rosidl_typesupport_fastrtps_cpp.so" to ""\n'}
+[19.180880] (interfaces_pkg) StdoutLine: {'line': b'-- Up-to-date: /ssd/home/edt/Documents/lunabotics_ros_ws/install/interfaces_pkg/include/interfaces_pkg/interfaces_pkg\n'}
+[19.181142] (interfaces_pkg) StdoutLine: {'line': b'-- Up-to-date: /ssd/home/edt/Documents/lunabotics_ros_ws/install/interfaces_pkg/include/interfaces_pkg/interfaces_pkg/msg\n'}
+[19.181470] (interfaces_pkg) StdoutLine: {'line': b'-- Up-to-date: /ssd/home/edt/Documents/lunabotics_ros_ws/install/interfaces_pkg/include/interfaces_pkg/interfaces_pkg/msg/detail\n'}
+[19.181763] (interfaces_pkg) StdoutLine: {'line': b'-- Installing: /ssd/home/edt/Documents/lunabotics_ros_ws/install/interfaces_pkg/include/interfaces_pkg/interfaces_pkg/msg/detail/duty_cycle_output__rosidl_typesupport_introspection_cpp.hpp\n'}
+[19.182102] (interfaces_pkg) StdoutLine: {'line': b'-- Installing: /ssd/home/edt/Documents/lunabotics_ros_ws/install/interfaces_pkg/include/interfaces_pkg/interfaces_pkg/msg/detail/duty_cycle_output__type_support.cpp\n'}
+[19.182453] (interfaces_pkg) StdoutLine: {'line': b'-- Installing: /ssd/home/edt/Documents/lunabotics_ros_ws/install/interfaces_pkg/lib/libinterfaces_pkg__rosidl_typesupport_introspection_cpp.so\n'}
+[19.182795] (interfaces_pkg) StdoutLine: {'line': b'-- Set runtime path of "/ssd/home/edt/Documents/lunabotics_ros_ws/install/interfaces_pkg/lib/libinterfaces_pkg__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[19.183092] (interfaces_pkg) StdoutLine: {'line': b'-- Installing: /ssd/home/edt/Documents/lunabotics_ros_ws/install/interfaces_pkg/lib/libinterfaces_pkg__rosidl_typesupport_cpp.so\n'}
+[19.183389] (interfaces_pkg) StdoutLine: {'line': b'-- Set runtime path of "/ssd/home/edt/Documents/lunabotics_ros_ws/install/interfaces_pkg/lib/libinterfaces_pkg__rosidl_typesupport_cpp.so" to ""\n'}
+[19.183681] (interfaces_pkg) StdoutLine: {'line': b'-- Installing: /ssd/home/edt/Documents/lunabotics_ros_ws/install/interfaces_pkg/share/interfaces_pkg/environment/pythonpath.sh\n'}
+[19.184024] (interfaces_pkg) StdoutLine: {'line': b'-- Installing: /ssd/home/edt/Documents/lunabotics_ros_ws/install/interfaces_pkg/share/interfaces_pkg/environment/pythonpath.dsv\n'}
+[19.184318] (interfaces_pkg) StdoutLine: {'line': b'-- Installing: /ssd/home/edt/Documents/lunabotics_ros_ws/install/interfaces_pkg/lib/python3.9/site-packages/interfaces_pkg-0.0.0-py3.9.egg-info\n'}
+[19.184613] (interfaces_pkg) StdoutLine: {'line': b'-- Installing: /ssd/home/edt/Documents/lunabotics_ros_ws/install/interfaces_pkg/lib/python3.9/site-packages/interfaces_pkg-0.0.0-py3.9.egg-info/dependency_links.txt\n'}
+[19.184948] (interfaces_pkg) StdoutLine: {'line': b'-- Installing: /ssd/home/edt/Documents/lunabotics_ros_ws/install/interfaces_pkg/lib/python3.9/site-packages/interfaces_pkg-0.0.0-py3.9.egg-info/SOURCES.txt\n'}
+[19.185209] (interfaces_pkg) StdoutLine: {'line': b'-- Installing: /ssd/home/edt/Documents/lunabotics_ros_ws/install/interfaces_pkg/lib/python3.9/site-packages/interfaces_pkg-0.0.0-py3.9.egg-info/top_level.txt\n'}
+[19.185441] (interfaces_pkg) StdoutLine: {'line': b'-- Installing: /ssd/home/edt/Documents/lunabotics_ros_ws/install/interfaces_pkg/lib/python3.9/site-packages/interfaces_pkg-0.0.0-py3.9.egg-info/PKG-INFO\n'}
+[19.185661] (interfaces_pkg) StdoutLine: {'line': b'-- Installing: /ssd/home/edt/Documents/lunabotics_ros_ws/install/interfaces_pkg/lib/python3.9/site-packages/interfaces_pkg\n'}
+[19.185880] (interfaces_pkg) StdoutLine: {'line': b'-- Installing: /ssd/home/edt/Documents/lunabotics_ros_ws/install/interfaces_pkg/lib/python3.9/site-packages/interfaces_pkg/_interfaces_pkg_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[19.186147] (interfaces_pkg) StdoutLine: {'line': b'-- Installing: /ssd/home/edt/Documents/lunabotics_ros_ws/install/interfaces_pkg/lib/python3.9/site-packages/interfaces_pkg/msg\n'}
+[19.186379] (interfaces_pkg) StdoutLine: {'line': b'-- Installing: /ssd/home/edt/Documents/lunabotics_ros_ws/install/interfaces_pkg/lib/python3.9/site-packages/interfaces_pkg/msg/_duty_cycle_output.py\n'}
+[19.186605] (interfaces_pkg) StdoutLine: {'line': b'-- Installing: /ssd/home/edt/Documents/lunabotics_ros_ws/install/interfaces_pkg/lib/python3.9/site-packages/interfaces_pkg/msg/_duty_cycle_output_s.c\n'}
+[19.186850] (interfaces_pkg) StdoutLine: {'line': b'-- Installing: /ssd/home/edt/Documents/lunabotics_ros_ws/install/interfaces_pkg/lib/python3.9/site-packages/interfaces_pkg/msg/__init__.py\n'}
+[19.187070] (interfaces_pkg) StdoutLine: {'line': b'-- Installing: /ssd/home/edt/Documents/lunabotics_ros_ws/install/interfaces_pkg/lib/python3.9/site-packages/interfaces_pkg/libinterfaces_pkg__rosidl_generator_py.so\n'}
+[19.187286] (interfaces_pkg) StdoutLine: {'line': b'-- Installing: /ssd/home/edt/Documents/lunabotics_ros_ws/install/interfaces_pkg/lib/python3.9/site-packages/interfaces_pkg/interfaces_pkg_s__rosidl_typesupport_fastrtps_c.cpython-38-aarch64-linux-gnu.so\n'}
+[19.187540] (interfaces_pkg) StdoutLine: {'line': b'-- Installing: /ssd/home/edt/Documents/lunabotics_ros_ws/install/interfaces_pkg/lib/python3.9/site-packages/interfaces_pkg/_interfaces_pkg_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[19.187761] (interfaces_pkg) StdoutLine: {'line': b'-- Installing: /ssd/home/edt/Documents/lunabotics_ros_ws/install/interfaces_pkg/lib/python3.9/site-packages/interfaces_pkg/interfaces_pkg_s__rosidl_typesupport_introspection_c.cpython-38-aarch64-linux-gnu.so\n'}
+[19.187978] (interfaces_pkg) StdoutLine: {'line': b'-- Installing: /ssd/home/edt/Documents/lunabotics_ros_ws/install/interfaces_pkg/lib/python3.9/site-packages/interfaces_pkg/_interfaces_pkg_s.ep.rosidl_typesupport_c.c\n'}
+[19.188193] (interfaces_pkg) StdoutLine: {'line': b'-- Installing: /ssd/home/edt/Documents/lunabotics_ros_ws/install/interfaces_pkg/lib/python3.9/site-packages/interfaces_pkg/__init__.py\n'}
+[19.188407] (interfaces_pkg) StdoutLine: {'line': b'-- Installing: /ssd/home/edt/Documents/lunabotics_ros_ws/install/interfaces_pkg/lib/python3.9/site-packages/interfaces_pkg/interfaces_pkg_s__rosidl_typesupport_c.cpython-38-aarch64-linux-gnu.so\n'}
+[19.245768] (-) TimerEvent: {}
+[19.346351] (-) TimerEvent: {}
+[19.402337] (interfaces_pkg) StdoutLine: {'line': b"Listing '/ssd/home/edt/Documents/lunabotics_ros_ws/install/interfaces_pkg/lib/python3.9/site-packages/interfaces_pkg'...\n"}
+[19.402772] (interfaces_pkg) StdoutLine: {'line': b"Compiling '/ssd/home/edt/Documents/lunabotics_ros_ws/install/interfaces_pkg/lib/python3.9/site-packages/interfaces_pkg/__init__.py'...\n"}
+[19.403060] (interfaces_pkg) StdoutLine: {'line': b"Listing '/ssd/home/edt/Documents/lunabotics_ros_ws/install/interfaces_pkg/lib/python3.9/site-packages/interfaces_pkg/msg'...\n"}
+[19.403315] (interfaces_pkg) StdoutLine: {'line': b"Compiling '/ssd/home/edt/Documents/lunabotics_ros_ws/install/interfaces_pkg/lib/python3.9/site-packages/interfaces_pkg/msg/__init__.py'...\n"}
+[19.403619] (interfaces_pkg) StdoutLine: {'line': b"Compiling '/ssd/home/edt/Documents/lunabotics_ros_ws/install/interfaces_pkg/lib/python3.9/site-packages/interfaces_pkg/msg/_duty_cycle_output.py'...\n"}
+[19.419233] (interfaces_pkg) StdoutLine: {'line': b'-- Installing: /ssd/home/edt/Documents/lunabotics_ros_ws/install/interfaces_pkg/lib/python3.9/site-packages/interfaces_pkg/interfaces_pkg_s__rosidl_typesupport_fastrtps_c.cpython-38-aarch64-linux-gnu.so\n'}
+[19.420279] (interfaces_pkg) StdoutLine: {'line': b'-- Set runtime path of "/ssd/home/edt/Documents/lunabotics_ros_ws/install/interfaces_pkg/lib/python3.9/site-packages/interfaces_pkg/interfaces_pkg_s__rosidl_typesupport_fastrtps_c.cpython-38-aarch64-linux-gnu.so" to ""\n'}
+[19.421080] (interfaces_pkg) StdoutLine: {'line': b'-- Installing: /ssd/home/edt/Documents/lunabotics_ros_ws/install/interfaces_pkg/lib/python3.9/site-packages/interfaces_pkg/interfaces_pkg_s__rosidl_typesupport_introspection_c.cpython-38-aarch64-linux-gnu.so\n'}
+[19.422038] (interfaces_pkg) StdoutLine: {'line': b'-- Set runtime path of "/ssd/home/edt/Documents/lunabotics_ros_ws/install/interfaces_pkg/lib/python3.9/site-packages/interfaces_pkg/interfaces_pkg_s__rosidl_typesupport_introspection_c.cpython-38-aarch64-linux-gnu.so" to ""\n'}
+[19.422754] (interfaces_pkg) StdoutLine: {'line': b'-- Installing: /ssd/home/edt/Documents/lunabotics_ros_ws/install/interfaces_pkg/lib/python3.9/site-packages/interfaces_pkg/interfaces_pkg_s__rosidl_typesupport_c.cpython-38-aarch64-linux-gnu.so\n'}
+[19.423623] (interfaces_pkg) StdoutLine: {'line': b'-- Set runtime path of "/ssd/home/edt/Documents/lunabotics_ros_ws/install/interfaces_pkg/lib/python3.9/site-packages/interfaces_pkg/interfaces_pkg_s__rosidl_typesupport_c.cpython-38-aarch64-linux-gnu.so" to ""\n'}
+[19.423947] (interfaces_pkg) StdoutLine: {'line': b'-- Installing: /ssd/home/edt/Documents/lunabotics_ros_ws/install/interfaces_pkg/lib/libinterfaces_pkg__rosidl_generator_py.so\n'}
+[19.424550] (interfaces_pkg) StdoutLine: {'line': b'-- Set runtime path of "/ssd/home/edt/Documents/lunabotics_ros_ws/install/interfaces_pkg/lib/libinterfaces_pkg__rosidl_generator_py.so" to ""\n'}
+[19.424990] (interfaces_pkg) StdoutLine: {'line': b'-- Installing: /ssd/home/edt/Documents/lunabotics_ros_ws/install/interfaces_pkg/share/interfaces_pkg/msg/DutyCycleOutput.idl\n'}
+[19.425356] (interfaces_pkg) StdoutLine: {'line': b'-- Installing: /ssd/home/edt/Documents/lunabotics_ros_ws/install/interfaces_pkg/share/interfaces_pkg/msg/DutyCycleOutput.msg\n'}
+[19.425692] (interfaces_pkg) StdoutLine: {'line': b'-- Installing: /ssd/home/edt/Documents/lunabotics_ros_ws/install/interfaces_pkg/share/ament_index/resource_index/package_run_dependencies/interfaces_pkg\n'}
+[19.426027] (interfaces_pkg) StdoutLine: {'line': b'-- Installing: /ssd/home/edt/Documents/lunabotics_ros_ws/install/interfaces_pkg/share/ament_index/resource_index/parent_prefix_path/interfaces_pkg\n'}
+[19.426354] (interfaces_pkg) StdoutLine: {'line': b'-- Installing: /ssd/home/edt/Documents/lunabotics_ros_ws/install/interfaces_pkg/share/interfaces_pkg/environment/ament_prefix_path.sh\n'}
+[19.426659] (interfaces_pkg) StdoutLine: {'line': b'-- Installing: /ssd/home/edt/Documents/lunabotics_ros_ws/install/interfaces_pkg/share/interfaces_pkg/environment/ament_prefix_path.dsv\n'}
+[19.426952] (interfaces_pkg) StdoutLine: {'line': b'-- Installing: /ssd/home/edt/Documents/lunabotics_ros_ws/install/interfaces_pkg/share/interfaces_pkg/environment/path.sh\n'}
+[19.427236] (interfaces_pkg) StdoutLine: {'line': b'-- Installing: /ssd/home/edt/Documents/lunabotics_ros_ws/install/interfaces_pkg/share/interfaces_pkg/environment/path.dsv\n'}
+[19.427559] (interfaces_pkg) StdoutLine: {'line': b'-- Installing: /ssd/home/edt/Documents/lunabotics_ros_ws/install/interfaces_pkg/share/interfaces_pkg/local_setup.bash\n'}
+[19.427862] (interfaces_pkg) StdoutLine: {'line': b'-- Installing: /ssd/home/edt/Documents/lunabotics_ros_ws/install/interfaces_pkg/share/interfaces_pkg/local_setup.sh\n'}
+[19.428161] (interfaces_pkg) StdoutLine: {'line': b'-- Installing: /ssd/home/edt/Documents/lunabotics_ros_ws/install/interfaces_pkg/share/interfaces_pkg/local_setup.zsh\n'}
+[19.428444] (interfaces_pkg) StdoutLine: {'line': b'-- Installing: /ssd/home/edt/Documents/lunabotics_ros_ws/install/interfaces_pkg/share/interfaces_pkg/local_setup.dsv\n'}
+[19.428732] (interfaces_pkg) StdoutLine: {'line': b'-- Installing: /ssd/home/edt/Documents/lunabotics_ros_ws/install/interfaces_pkg/share/interfaces_pkg/package.dsv\n'}
+[19.429029] (interfaces_pkg) StdoutLine: {'line': b'-- Installing: /ssd/home/edt/Documents/lunabotics_ros_ws/install/interfaces_pkg/share/ament_index/resource_index/packages/interfaces_pkg\n'}
+[19.429555] (interfaces_pkg) StdoutLine: {'line': b'-- Installing: /ssd/home/edt/Documents/lunabotics_ros_ws/install/interfaces_pkg/share/interfaces_pkg/cmake/export_interfaces_pkg__rosidl_generator_cExport.cmake\n'}
+[19.429895] (interfaces_pkg) StdoutLine: {'line': b'-- Installing: /ssd/home/edt/Documents/lunabotics_ros_ws/install/interfaces_pkg/share/interfaces_pkg/cmake/export_interfaces_pkg__rosidl_generator_cExport-noconfig.cmake\n'}
+[19.430265] (interfaces_pkg) StdoutLine: {'line': b'-- Installing: /ssd/home/edt/Documents/lunabotics_ros_ws/install/interfaces_pkg/share/interfaces_pkg/cmake/export_interfaces_pkg__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[19.430589] (interfaces_pkg) StdoutLine: {'line': b'-- Installing: /ssd/home/edt/Documents/lunabotics_ros_ws/install/interfaces_pkg/share/interfaces_pkg/cmake/export_interfaces_pkg__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[19.431045] (interfaces_pkg) StdoutLine: {'line': b'-- Installing: /ssd/home/edt/Documents/lunabotics_ros_ws/install/interfaces_pkg/share/interfaces_pkg/cmake/interfaces_pkg__rosidl_typesupport_introspection_cExport.cmake\n'}
+[19.431377] (interfaces_pkg) StdoutLine: {'line': b'-- Installing: /ssd/home/edt/Documents/lunabotics_ros_ws/install/interfaces_pkg/share/interfaces_pkg/cmake/interfaces_pkg__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[19.431717] (interfaces_pkg) StdoutLine: {'line': b'-- Installing: /ssd/home/edt/Documents/lunabotics_ros_ws/install/interfaces_pkg/share/interfaces_pkg/cmake/interfaces_pkg__rosidl_typesupport_cExport.cmake\n'}
+[19.432032] (interfaces_pkg) StdoutLine: {'line': b'-- Installing: /ssd/home/edt/Documents/lunabotics_ros_ws/install/interfaces_pkg/share/interfaces_pkg/cmake/interfaces_pkg__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[19.432488] (interfaces_pkg) StdoutLine: {'line': b'-- Installing: /ssd/home/edt/Documents/lunabotics_ros_ws/install/interfaces_pkg/share/interfaces_pkg/cmake/export_interfaces_pkg__rosidl_generator_cppExport.cmake\n'}
+[19.432886] (interfaces_pkg) StdoutLine: {'line': b'-- Installing: /ssd/home/edt/Documents/lunabotics_ros_ws/install/interfaces_pkg/share/interfaces_pkg/cmake/export_interfaces_pkg__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[19.433225] (interfaces_pkg) StdoutLine: {'line': b'-- Installing: /ssd/home/edt/Documents/lunabotics_ros_ws/install/interfaces_pkg/share/interfaces_pkg/cmake/export_interfaces_pkg__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[19.433644] (interfaces_pkg) StdoutLine: {'line': b'-- Installing: /ssd/home/edt/Documents/lunabotics_ros_ws/install/interfaces_pkg/share/interfaces_pkg/cmake/interfaces_pkg__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[19.434020] (interfaces_pkg) StdoutLine: {'line': b'-- Installing: /ssd/home/edt/Documents/lunabotics_ros_ws/install/interfaces_pkg/share/interfaces_pkg/cmake/interfaces_pkg__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[19.434371] (interfaces_pkg) StdoutLine: {'line': b'-- Installing: /ssd/home/edt/Documents/lunabotics_ros_ws/install/interfaces_pkg/share/interfaces_pkg/cmake/interfaces_pkg__rosidl_typesupport_cppExport.cmake\n'}
+[19.434694] (interfaces_pkg) StdoutLine: {'line': b'-- Installing: /ssd/home/edt/Documents/lunabotics_ros_ws/install/interfaces_pkg/share/interfaces_pkg/cmake/interfaces_pkg__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[19.435095] (interfaces_pkg) StdoutLine: {'line': b'-- Installing: /ssd/home/edt/Documents/lunabotics_ros_ws/install/interfaces_pkg/share/interfaces_pkg/cmake/export_interfaces_pkg__rosidl_generator_pyExport.cmake\n'}
+[19.435448] (interfaces_pkg) StdoutLine: {'line': b'-- Installing: /ssd/home/edt/Documents/lunabotics_ros_ws/install/interfaces_pkg/share/interfaces_pkg/cmake/export_interfaces_pkg__rosidl_generator_pyExport-noconfig.cmake\n'}
+[19.435762] (interfaces_pkg) StdoutLine: {'line': b'-- Installing: /ssd/home/edt/Documents/lunabotics_ros_ws/install/interfaces_pkg/share/interfaces_pkg/cmake/rosidl_cmake-extras.cmake\n'}
+[19.436060] (interfaces_pkg) StdoutLine: {'line': b'-- Installing: /ssd/home/edt/Documents/lunabotics_ros_ws/install/interfaces_pkg/share/interfaces_pkg/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[19.436354] (interfaces_pkg) StdoutLine: {'line': b'-- Installing: /ssd/home/edt/Documents/lunabotics_ros_ws/install/interfaces_pkg/share/interfaces_pkg/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[19.436643] (interfaces_pkg) StdoutLine: {'line': b'-- Installing: /ssd/home/edt/Documents/lunabotics_ros_ws/install/interfaces_pkg/share/interfaces_pkg/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[19.436927] (interfaces_pkg) StdoutLine: {'line': b'-- Installing: /ssd/home/edt/Documents/lunabotics_ros_ws/install/interfaces_pkg/share/interfaces_pkg/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[19.437232] (interfaces_pkg) StdoutLine: {'line': b'-- Installing: /ssd/home/edt/Documents/lunabotics_ros_ws/install/interfaces_pkg/share/interfaces_pkg/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[19.437546] (interfaces_pkg) StdoutLine: {'line': b'-- Installing: /ssd/home/edt/Documents/lunabotics_ros_ws/install/interfaces_pkg/share/interfaces_pkg/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[19.437857] (interfaces_pkg) StdoutLine: {'line': b'-- Installing: /ssd/home/edt/Documents/lunabotics_ros_ws/install/interfaces_pkg/share/interfaces_pkg/cmake/interfaces_pkgConfig.cmake\n'}
+[19.438367] (interfaces_pkg) StdoutLine: {'line': b'-- Installing: /ssd/home/edt/Documents/lunabotics_ros_ws/install/interfaces_pkg/share/interfaces_pkg/cmake/interfaces_pkgConfig-version.cmake\n'}
+[19.438618] (interfaces_pkg) StdoutLine: {'line': b'-- Installing: /ssd/home/edt/Documents/lunabotics_ros_ws/install/interfaces_pkg/share/interfaces_pkg/package.xml\n'}
+[19.445122] (interfaces_pkg) CommandEnded: {'returncode': 0}
+[19.447322] (-) TimerEvent: {}
+[19.548411] (-) TimerEvent: {}
+[19.643005] (interfaces_pkg) JobEnded: {'identifier': 'interfaces_pkg', 'rc': 0}
+[19.645098] (-) EventReactorShutdown: {}

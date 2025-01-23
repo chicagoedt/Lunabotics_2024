@@ -1,0 +1,206 @@
+[0.561s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--packages-select', 'interfaces_pkg']
+[0.561s] DEBUG:colcon:Parsed command line arguments: Namespace(allow_overriding=[], ament_cmake_args=None, base_paths=['.'], build_base='build', catkin_cmake_args=None, catkin_skip_building_tests=False, cmake_args=None, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, cmake_target=None, cmake_target_skip_unavailable=False, continue_on_error=False, event_handlers=None, executor='parallel', ignore_user_meta=False, install_base='install', log_base=None, log_level=None, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0xffff7e283970>>, merge_install=False, metas=['./colcon.meta'], packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_end=None, packages_ignore=None, packages_ignore_regex=None, packages_select=['interfaces_pkg'], packages_select_build_failed=False, packages_select_by_dep=None, packages_select_regex=None, packages_select_test_failures=False, packages_skip=None, packages_skip_build_finished=False, packages_skip_by_dep=None, packages_skip_regex=None, packages_skip_test_passed=False, packages_skip_up_to=None, packages_start=None, packages_up_to=None, packages_up_to_regex=None, parallel_workers=6, paths=None, symlink_install=False, test_result_base=None, verb_extension=<colcon_core.verb.build.BuildVerb object at 0xffff7e283970>, verb_name='build', verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0xffff7e111b20>)
+[1.353s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[1.354s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[1.354s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[1.354s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[1.354s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[1.354s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[1.355s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/ssd/home/edt/Documents/lunabotics_ros_ws'
+[1.355s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[1.355s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[1.355s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[1.355s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[1.355s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[1.356s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[1.356s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[1.356s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[1.356s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[1.380s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[1.381s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[1.381s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[1.381s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[1.381s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[1.381s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[1.382s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[1.382s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[1.382s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[1.382s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[1.382s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[1.383s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[1.383s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[1.383s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[1.383s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[1.383s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[1.383s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[1.383s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[1.383s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[1.384s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[1.384s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[1.384s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[1.384s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[1.384s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[1.384s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[1.384s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[1.384s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[1.384s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[1.385s] Level 1:colcon.colcon_core.package_identification:_identify(src/brain_pkg) by extensions ['ignore', 'ignore_ament_install']
+[1.385s] Level 1:colcon.colcon_core.package_identification:_identify(src/brain_pkg) by extension 'ignore'
+[1.385s] Level 1:colcon.colcon_core.package_identification:_identify(src/brain_pkg) by extension 'ignore_ament_install'
+[1.385s] Level 1:colcon.colcon_core.package_identification:_identify(src/brain_pkg) by extensions ['colcon_pkg']
+[1.385s] Level 1:colcon.colcon_core.package_identification:_identify(src/brain_pkg) by extension 'colcon_pkg'
+[1.385s] Level 1:colcon.colcon_core.package_identification:_identify(src/brain_pkg) by extensions ['colcon_meta']
+[1.385s] Level 1:colcon.colcon_core.package_identification:_identify(src/brain_pkg) by extension 'colcon_meta'
+[1.385s] Level 1:colcon.colcon_core.package_identification:_identify(src/brain_pkg) by extensions ['ros']
+[1.385s] Level 1:colcon.colcon_core.package_identification:_identify(src/brain_pkg) by extension 'ros'
+[1.531s] DEBUG:colcon.colcon_core.package_identification:Package 'src/brain_pkg' with type 'ros.ament_python' and name 'brain_pkg'
+[1.531s] Level 1:colcon.colcon_core.package_identification:_identify(src/interfaces_pkg) by extensions ['ignore', 'ignore_ament_install']
+[1.531s] Level 1:colcon.colcon_core.package_identification:_identify(src/interfaces_pkg) by extension 'ignore'
+[1.532s] Level 1:colcon.colcon_core.package_identification:_identify(src/interfaces_pkg) by extension 'ignore_ament_install'
+[1.532s] Level 1:colcon.colcon_core.package_identification:_identify(src/interfaces_pkg) by extensions ['colcon_pkg']
+[1.532s] Level 1:colcon.colcon_core.package_identification:_identify(src/interfaces_pkg) by extension 'colcon_pkg'
+[1.532s] Level 1:colcon.colcon_core.package_identification:_identify(src/interfaces_pkg) by extensions ['colcon_meta']
+[1.532s] Level 1:colcon.colcon_core.package_identification:_identify(src/interfaces_pkg) by extension 'colcon_meta'
+[1.532s] Level 1:colcon.colcon_core.package_identification:_identify(src/interfaces_pkg) by extensions ['ros']
+[1.532s] Level 1:colcon.colcon_core.package_identification:_identify(src/interfaces_pkg) by extension 'ros'
+[1.533s] DEBUG:colcon.colcon_core.package_identification:Package 'src/interfaces_pkg' with type 'ros.ament_cmake' and name 'interfaces_pkg'
+[1.534s] Level 1:colcon.colcon_core.package_identification:_identify(src/motor_control_pkg) by extensions ['ignore', 'ignore_ament_install']
+[1.534s] Level 1:colcon.colcon_core.package_identification:_identify(src/motor_control_pkg) by extension 'ignore'
+[1.534s] Level 1:colcon.colcon_core.package_identification:_identify(src/motor_control_pkg) by extension 'ignore_ament_install'
+[1.534s] Level 1:colcon.colcon_core.package_identification:_identify(src/motor_control_pkg) by extensions ['colcon_pkg']
+[1.534s] Level 1:colcon.colcon_core.package_identification:_identify(src/motor_control_pkg) by extension 'colcon_pkg'
+[1.534s] Level 1:colcon.colcon_core.package_identification:_identify(src/motor_control_pkg) by extensions ['colcon_meta']
+[1.534s] Level 1:colcon.colcon_core.package_identification:_identify(src/motor_control_pkg) by extension 'colcon_meta'
+[1.534s] Level 1:colcon.colcon_core.package_identification:_identify(src/motor_control_pkg) by extensions ['ros']
+[1.534s] Level 1:colcon.colcon_core.package_identification:_identify(src/motor_control_pkg) by extension 'ros'
+[1.536s] DEBUG:colcon.colcon_core.package_identification:Package 'src/motor_control_pkg' with type 'ros.ament_cmake' and name 'motor_control_pkg'
+[1.537s] Level 1:colcon.colcon_core.package_identification:_identify(src/navigation_pkg) by extensions ['ignore', 'ignore_ament_install']
+[1.537s] Level 1:colcon.colcon_core.package_identification:_identify(src/navigation_pkg) by extension 'ignore'
+[1.537s] Level 1:colcon.colcon_core.package_identification:_identify(src/navigation_pkg) by extension 'ignore_ament_install'
+[1.537s] Level 1:colcon.colcon_core.package_identification:_identify(src/navigation_pkg) by extensions ['colcon_pkg']
+[1.537s] Level 1:colcon.colcon_core.package_identification:_identify(src/navigation_pkg) by extension 'colcon_pkg'
+[1.537s] Level 1:colcon.colcon_core.package_identification:_identify(src/navigation_pkg) by extensions ['colcon_meta']
+[1.538s] Level 1:colcon.colcon_core.package_identification:_identify(src/navigation_pkg) by extension 'colcon_meta'
+[1.538s] Level 1:colcon.colcon_core.package_identification:_identify(src/navigation_pkg) by extensions ['ros']
+[1.538s] Level 1:colcon.colcon_core.package_identification:_identify(src/navigation_pkg) by extension 'ros'
+[1.539s] DEBUG:colcon.colcon_core.package_identification:Package 'src/navigation_pkg' with type 'ros.ament_python' and name 'navigation_pkg'
+[1.539s] Level 1:colcon.colcon_core.package_identification:_identify(src/sensors_pkg) by extensions ['ignore', 'ignore_ament_install']
+[1.540s] Level 1:colcon.colcon_core.package_identification:_identify(src/sensors_pkg) by extension 'ignore'
+[1.540s] Level 1:colcon.colcon_core.package_identification:_identify(src/sensors_pkg) by extension 'ignore_ament_install'
+[1.540s] Level 1:colcon.colcon_core.package_identification:_identify(src/sensors_pkg) by extensions ['colcon_pkg']
+[1.540s] Level 1:colcon.colcon_core.package_identification:_identify(src/sensors_pkg) by extension 'colcon_pkg'
+[1.540s] Level 1:colcon.colcon_core.package_identification:_identify(src/sensors_pkg) by extensions ['colcon_meta']
+[1.540s] Level 1:colcon.colcon_core.package_identification:_identify(src/sensors_pkg) by extension 'colcon_meta'
+[1.540s] Level 1:colcon.colcon_core.package_identification:_identify(src/sensors_pkg) by extensions ['ros']
+[1.540s] Level 1:colcon.colcon_core.package_identification:_identify(src/sensors_pkg) by extension 'ros'
+[1.542s] DEBUG:colcon.colcon_core.package_identification:Package 'src/sensors_pkg' with type 'ros.ament_python' and name 'sensors_pkg'
+[1.542s] Level 1:colcon.colcon_core.package_identification:_identify(src/webgui_pkg) by extensions ['ignore', 'ignore_ament_install']
+[1.542s] Level 1:colcon.colcon_core.package_identification:_identify(src/webgui_pkg) by extension 'ignore'
+[1.542s] Level 1:colcon.colcon_core.package_identification:_identify(src/webgui_pkg) by extension 'ignore_ament_install'
+[1.543s] Level 1:colcon.colcon_core.package_identification:_identify(src/webgui_pkg) by extensions ['colcon_pkg']
+[1.543s] Level 1:colcon.colcon_core.package_identification:_identify(src/webgui_pkg) by extension 'colcon_pkg'
+[1.543s] Level 1:colcon.colcon_core.package_identification:_identify(src/webgui_pkg) by extensions ['colcon_meta']
+[1.543s] Level 1:colcon.colcon_core.package_identification:_identify(src/webgui_pkg) by extension 'colcon_meta'
+[1.543s] Level 1:colcon.colcon_core.package_identification:_identify(src/webgui_pkg) by extensions ['ros']
+[1.543s] Level 1:colcon.colcon_core.package_identification:_identify(src/webgui_pkg) by extension 'ros'
+[1.544s] DEBUG:colcon.colcon_core.package_identification:Package 'src/webgui_pkg' with type 'ros.ament_python' and name 'webgui_pkg'
+[1.544s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[1.545s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[1.545s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[1.545s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[1.545s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[1.767s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'brain_pkg' in 'src/brain_pkg'
+[1.767s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'motor_control_pkg' in 'src/motor_control_pkg'
+[1.767s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'navigation_pkg' in 'src/navigation_pkg'
+[1.767s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'sensors_pkg' in 'src/sensors_pkg'
+[1.767s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'webgui_pkg' in 'src/webgui_pkg'
+[1.769s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[1.769s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[1.773s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 0 installed packages in /ssd/home/edt/Documents/lunabotics_ros_ws/install
+[1.775s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 275 installed packages in /opt/ros/humble
+[1.778s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[2.088s] Level 5:colcon.colcon_core.verb:set package 'interfaces_pkg' build argument 'cmake_args' from command line to 'None'
+[2.088s] Level 5:colcon.colcon_core.verb:set package 'interfaces_pkg' build argument 'cmake_target' from command line to 'None'
+[2.088s] Level 5:colcon.colcon_core.verb:set package 'interfaces_pkg' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.088s] Level 5:colcon.colcon_core.verb:set package 'interfaces_pkg' build argument 'cmake_clean_cache' from command line to 'False'
+[2.088s] Level 5:colcon.colcon_core.verb:set package 'interfaces_pkg' build argument 'cmake_clean_first' from command line to 'False'
+[2.088s] Level 5:colcon.colcon_core.verb:set package 'interfaces_pkg' build argument 'cmake_force_configure' from command line to 'False'
+[2.088s] Level 5:colcon.colcon_core.verb:set package 'interfaces_pkg' build argument 'ament_cmake_args' from command line to 'None'
+[2.088s] Level 5:colcon.colcon_core.verb:set package 'interfaces_pkg' build argument 'catkin_cmake_args' from command line to 'None'
+[2.088s] Level 5:colcon.colcon_core.verb:set package 'interfaces_pkg' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.089s] DEBUG:colcon.colcon_core.verb:Building package 'interfaces_pkg' with the following arguments: {'ament_cmake_args': None, 'build_base': '/ssd/home/edt/Documents/lunabotics_ros_ws/build/interfaces_pkg', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/ssd/home/edt/Documents/lunabotics_ros_ws/install/interfaces_pkg', 'merge_install': False, 'path': '/ssd/home/edt/Documents/lunabotics_ros_ws/src/interfaces_pkg', 'symlink_install': False, 'test_result_base': None}
+[2.089s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[2.092s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[2.093s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/ssd/home/edt/Documents/lunabotics_ros_ws/src/interfaces_pkg' with build type 'ament_cmake'
+[2.093s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/ssd/home/edt/Documents/lunabotics_ros_ws/src/interfaces_pkg'
+[2.097s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[2.098s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.098s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.258s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/ssd/home/edt/Documents/lunabotics_ros_ws/build/interfaces_pkg': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /ssd/home/edt/Documents/lunabotics_ros_ws/src/interfaces_pkg -DCMAKE_INSTALL_PREFIX=/ssd/home/edt/Documents/lunabotics_ros_ws/install/interfaces_pkg
+[14.344s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/ssd/home/edt/Documents/lunabotics_ros_ws/build/interfaces_pkg' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /ssd/home/edt/Documents/lunabotics_ros_ws/src/interfaces_pkg -DCMAKE_INSTALL_PREFIX=/ssd/home/edt/Documents/lunabotics_ros_ws/install/interfaces_pkg
+[14.355s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/ssd/home/edt/Documents/lunabotics_ros_ws/build/interfaces_pkg': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /ssd/home/edt/Documents/lunabotics_ros_ws/build/interfaces_pkg -- -j6 -l6
+[21.198s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/ssd/home/edt/Documents/lunabotics_ros_ws/build/interfaces_pkg' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /ssd/home/edt/Documents/lunabotics_ros_ws/build/interfaces_pkg -- -j6 -l6
+[21.236s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/ssd/home/edt/Documents/lunabotics_ros_ws/build/interfaces_pkg': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /ssd/home/edt/Documents/lunabotics_ros_ws/build/interfaces_pkg
+[21.536s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(interfaces_pkg)
+[21.538s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/ssd/home/edt/Documents/lunabotics_ros_ws/build/interfaces_pkg' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /ssd/home/edt/Documents/lunabotics_ros_ws/build/interfaces_pkg
+[21.687s] Level 1:colcon.colcon_core.environment:checking '/ssd/home/edt/Documents/lunabotics_ros_ws/install/interfaces_pkg' for CMake module files
+[21.688s] Level 1:colcon.colcon_core.environment:checking '/ssd/home/edt/Documents/lunabotics_ros_ws/install/interfaces_pkg' for CMake config files
+[21.689s] Level 1:colcon.colcon_core.shell:create_environment_hook('interfaces_pkg', 'cmake_prefix_path')
+[21.690s] INFO:colcon.colcon_core.shell:Creating environment hook '/ssd/home/edt/Documents/lunabotics_ros_ws/install/interfaces_pkg/share/interfaces_pkg/hook/cmake_prefix_path.ps1'
+[21.692s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/ssd/home/edt/Documents/lunabotics_ros_ws/install/interfaces_pkg/share/interfaces_pkg/hook/cmake_prefix_path.dsv'
+[21.695s] INFO:colcon.colcon_core.shell:Creating environment hook '/ssd/home/edt/Documents/lunabotics_ros_ws/install/interfaces_pkg/share/interfaces_pkg/hook/cmake_prefix_path.sh'
+[21.698s] Level 1:colcon.colcon_core.environment:checking '/ssd/home/edt/Documents/lunabotics_ros_ws/install/interfaces_pkg/lib'
+[21.698s] Level 1:colcon.colcon_core.shell:create_environment_hook('interfaces_pkg', 'ld_library_path_lib')
+[21.698s] INFO:colcon.colcon_core.shell:Creating environment hook '/ssd/home/edt/Documents/lunabotics_ros_ws/install/interfaces_pkg/share/interfaces_pkg/hook/ld_library_path_lib.ps1'
+[21.699s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/ssd/home/edt/Documents/lunabotics_ros_ws/install/interfaces_pkg/share/interfaces_pkg/hook/ld_library_path_lib.dsv'
+[21.700s] INFO:colcon.colcon_core.shell:Creating environment hook '/ssd/home/edt/Documents/lunabotics_ros_ws/install/interfaces_pkg/share/interfaces_pkg/hook/ld_library_path_lib.sh'
+[21.701s] Level 1:colcon.colcon_core.environment:checking '/ssd/home/edt/Documents/lunabotics_ros_ws/install/interfaces_pkg/bin'
+[21.701s] Level 1:colcon.colcon_core.environment:checking '/ssd/home/edt/Documents/lunabotics_ros_ws/install/interfaces_pkg/lib/pkgconfig/interfaces_pkg.pc'
+[21.701s] Level 1:colcon.colcon_core.environment:checking '/ssd/home/edt/Documents/lunabotics_ros_ws/install/interfaces_pkg/lib/python3.8/site-packages'
+[21.702s] Level 1:colcon.colcon_core.environment:checking '/ssd/home/edt/Documents/lunabotics_ros_ws/install/interfaces_pkg/bin'
+[21.702s] INFO:colcon.colcon_core.shell:Creating package script '/ssd/home/edt/Documents/lunabotics_ros_ws/install/interfaces_pkg/share/interfaces_pkg/package.ps1'
+[21.704s] INFO:colcon.colcon_core.shell:Creating package descriptor '/ssd/home/edt/Documents/lunabotics_ros_ws/install/interfaces_pkg/share/interfaces_pkg/package.dsv'
+[21.707s] INFO:colcon.colcon_core.shell:Creating package script '/ssd/home/edt/Documents/lunabotics_ros_ws/install/interfaces_pkg/share/interfaces_pkg/package.sh'
+[21.714s] INFO:colcon.colcon_core.shell:Creating package script '/ssd/home/edt/Documents/lunabotics_ros_ws/install/interfaces_pkg/share/interfaces_pkg/package.bash'
+[21.716s] INFO:colcon.colcon_core.shell:Creating package script '/ssd/home/edt/Documents/lunabotics_ros_ws/install/interfaces_pkg/share/interfaces_pkg/package.zsh'
+[21.717s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/ssd/home/edt/Documents/lunabotics_ros_ws/install/interfaces_pkg/share/colcon-core/packages/interfaces_pkg)
+[21.719s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(interfaces_pkg)
+[21.719s] Level 1:colcon.colcon_core.environment:checking '/ssd/home/edt/Documents/lunabotics_ros_ws/install/interfaces_pkg' for CMake module files
+[21.721s] Level 1:colcon.colcon_core.environment:checking '/ssd/home/edt/Documents/lunabotics_ros_ws/install/interfaces_pkg' for CMake config files
+[21.722s] Level 1:colcon.colcon_core.shell:create_environment_hook('interfaces_pkg', 'cmake_prefix_path')
+[21.722s] INFO:colcon.colcon_core.shell:Creating environment hook '/ssd/home/edt/Documents/lunabotics_ros_ws/install/interfaces_pkg/share/interfaces_pkg/hook/cmake_prefix_path.ps1'
+[21.723s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/ssd/home/edt/Documents/lunabotics_ros_ws/install/interfaces_pkg/share/interfaces_pkg/hook/cmake_prefix_path.dsv'
+[21.724s] INFO:colcon.colcon_core.shell:Creating environment hook '/ssd/home/edt/Documents/lunabotics_ros_ws/install/interfaces_pkg/share/interfaces_pkg/hook/cmake_prefix_path.sh'
+[21.725s] Level 1:colcon.colcon_core.environment:checking '/ssd/home/edt/Documents/lunabotics_ros_ws/install/interfaces_pkg/lib'
+[21.725s] Level 1:colcon.colcon_core.shell:create_environment_hook('interfaces_pkg', 'ld_library_path_lib')
+[21.725s] INFO:colcon.colcon_core.shell:Creating environment hook '/ssd/home/edt/Documents/lunabotics_ros_ws/install/interfaces_pkg/share/interfaces_pkg/hook/ld_library_path_lib.ps1'
+[21.726s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/ssd/home/edt/Documents/lunabotics_ros_ws/install/interfaces_pkg/share/interfaces_pkg/hook/ld_library_path_lib.dsv'
+[21.727s] INFO:colcon.colcon_core.shell:Creating environment hook '/ssd/home/edt/Documents/lunabotics_ros_ws/install/interfaces_pkg/share/interfaces_pkg/hook/ld_library_path_lib.sh'
+[21.728s] Level 1:colcon.colcon_core.environment:checking '/ssd/home/edt/Documents/lunabotics_ros_ws/install/interfaces_pkg/bin'
+[21.728s] Level 1:colcon.colcon_core.environment:checking '/ssd/home/edt/Documents/lunabotics_ros_ws/install/interfaces_pkg/lib/pkgconfig/interfaces_pkg.pc'
+[21.728s] Level 1:colcon.colcon_core.environment:checking '/ssd/home/edt/Documents/lunabotics_ros_ws/install/interfaces_pkg/lib/python3.8/site-packages'
+[21.728s] Level 1:colcon.colcon_core.environment:checking '/ssd/home/edt/Documents/lunabotics_ros_ws/install/interfaces_pkg/bin'
+[21.729s] INFO:colcon.colcon_core.shell:Creating package script '/ssd/home/edt/Documents/lunabotics_ros_ws/install/interfaces_pkg/share/interfaces_pkg/package.ps1'
+[21.730s] INFO:colcon.colcon_core.shell:Creating package descriptor '/ssd/home/edt/Documents/lunabotics_ros_ws/install/interfaces_pkg/share/interfaces_pkg/package.dsv'
+[21.731s] INFO:colcon.colcon_core.shell:Creating package script '/ssd/home/edt/Documents/lunabotics_ros_ws/install/interfaces_pkg/share/interfaces_pkg/package.sh'
+[21.732s] INFO:colcon.colcon_core.shell:Creating package script '/ssd/home/edt/Documents/lunabotics_ros_ws/install/interfaces_pkg/share/interfaces_pkg/package.bash'
+[21.733s] INFO:colcon.colcon_core.shell:Creating package script '/ssd/home/edt/Documents/lunabotics_ros_ws/install/interfaces_pkg/share/interfaces_pkg/package.zsh'
+[21.734s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/ssd/home/edt/Documents/lunabotics_ros_ws/install/interfaces_pkg/share/colcon-core/packages/interfaces_pkg)
+[21.735s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[21.735s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[21.736s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[21.736s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[21.749s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[21.750s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[21.750s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[21.791s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[21.792s] INFO:colcon.colcon_core.shell:Creating prefix script '/ssd/home/edt/Documents/lunabotics_ros_ws/install/local_setup.ps1'
+[21.795s] INFO:colcon.colcon_core.shell:Creating prefix util module '/ssd/home/edt/Documents/lunabotics_ros_ws/install/_local_setup_util_ps1.py'
+[21.798s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/ssd/home/edt/Documents/lunabotics_ros_ws/install/setup.ps1'
+[21.800s] INFO:colcon.colcon_core.shell:Creating prefix script '/ssd/home/edt/Documents/lunabotics_ros_ws/install/local_setup.sh'
+[21.801s] INFO:colcon.colcon_core.shell:Creating prefix util module '/ssd/home/edt/Documents/lunabotics_ros_ws/install/_local_setup_util_sh.py'
+[21.802s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/ssd/home/edt/Documents/lunabotics_ros_ws/install/setup.sh'
+[21.804s] INFO:colcon.colcon_core.shell:Creating prefix script '/ssd/home/edt/Documents/lunabotics_ros_ws/install/local_setup.bash'
+[21.805s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/ssd/home/edt/Documents/lunabotics_ros_ws/install/setup.bash'
+[21.807s] INFO:colcon.colcon_core.shell:Creating prefix script '/ssd/home/edt/Documents/lunabotics_ros_ws/install/local_setup.zsh'
+[21.808s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/ssd/home/edt/Documents/lunabotics_ros_ws/install/setup.zsh'

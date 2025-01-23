@@ -1,0 +1,79 @@
+{
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_custom_target"
+		],
+		"files" : 
+		[
+			"/ssd/home/edt/Documents/lunabotics_ros_ws/build/interfaces_pkg/interfaces_pkg__py/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 34,
+				"parent" : 0
+			}
+		]
+	},
+	"dependencies" : 
+	[
+		{
+			"id" : "interfaces_pkg::@6890427a1f51a3e7e1df"
+		}
+	],
+	"id" : "interfaces_pkg__py::@77ceed9501b9461c1ce9",
+	"name" : "interfaces_pkg__py",
+	"paths" : 
+	{
+		"build" : "interfaces_pkg__py",
+		"source" : "/ssd/home/edt/Documents/lunabotics_ros_ws/build/interfaces_pkg/interfaces_pkg__py"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		},
+		{
+			"name" : "CMake Rules",
+			"sourceIndexes" : 
+			[
+				1,
+				2
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 1,
+			"isGenerated" : true,
+			"path" : "/ssd/home/edt/Documents/lunabotics_ros_ws/build/interfaces_pkg/interfaces_pkg__py/CMakeFiles/interfaces_pkg__py",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/ssd/home/edt/Documents/lunabotics_ros_ws/build/interfaces_pkg/interfaces_pkg__py/CMakeFiles/interfaces_pkg__py.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/ssd/home/edt/Documents/lunabotics_ros_ws/build/interfaces_pkg/rosidl_generator_py/interfaces_pkg/_interfaces_pkg_s.ep.rosidl_typesupport_fastrtps_c.c.rule",
+			"sourceGroupIndex" : 1
+		}
+	],
+	"type" : "UTILITY"
+}

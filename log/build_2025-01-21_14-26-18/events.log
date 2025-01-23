@@ -1,0 +1,385 @@
+[0.000000] (-) TimerEvent: {}
+[0.000759] (-) JobUnselected: {'identifier': 'brain_pkg'}
+[0.000984] (-) JobUnselected: {'identifier': 'interfaces_pkg'}
+[0.001409] (-) JobUnselected: {'identifier': 'navigation_pkg'}
+[0.001692] (-) JobUnselected: {'identifier': 'sensors_pkg'}
+[0.001921] (-) JobUnselected: {'identifier': 'webgui_pkg'}
+[0.002022] (motor_control_pkg) JobQueued: {'identifier': 'motor_control_pkg', 'dependencies': OrderedDict([('interfaces_pkg', '/ssd/home/edt/Documents/lunabotics_ros_ws/install/interfaces_pkg')])}
+[0.002214] (motor_control_pkg) JobStarted: {'identifier': 'motor_control_pkg'}
+[0.030460] (motor_control_pkg) JobProgress: {'identifier': 'motor_control_pkg', 'progress': 'cmake'}
+[0.031737] (motor_control_pkg) Command: {'cmd': ['/usr/bin/cmake', '/ssd/home/edt/Documents/lunabotics_ros_ws/src/motor_control_pkg', '-DCMAKE_INSTALL_PREFIX=/ssd/home/edt/Documents/lunabotics_ros_ws/install/motor_control_pkg'], 'cwd': '/ssd/home/edt/Documents/lunabotics_ros_ws/build/motor_control_pkg', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'edt'), ('SSH_CLIENT', '192.168.0.221 55270 22'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/ssd/home/edt/Documents/lunabotics_ros_ws/install/interfaces_pkg/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/ssd/home/edt'), ('OLDPWD', '/ssd/home/edt/Documents/lunabotics_ros_ws/src'), ('SSH_TTY', '/dev/pts/0'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLCON_PREFIX_PATH', '/ssd/home/edt/Documents/lunabotics_ros_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'edt'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '6'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/ssd/home/edt/Documents/lunabotics_ros_ws/install/interfaces_pkg:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/ssd/home/edt/Documents/lunabotics_ros_ws/build/motor_control_pkg'), ('SSH_CONNECTION', '192.168.0.221 55270 192.168.0.131 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/ssd/home/edt/Documents/lunabotics_ros_ws/install/interfaces_pkg/lib/python3.9/site-packages:/opt/ros/humble/lib/python3.8/site-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/ssd/home/edt/Documents/lunabotics_ros_ws/install/interfaces_pkg:/opt/ros/humble')]), 'shell': False}
+[0.099397] (-) TimerEvent: {}
+[0.200534] (-) TimerEvent: {}
+[0.252102] (motor_control_pkg) StdoutLine: {'line': b'-- The C compiler identification is GNU 9.4.0\n'}
+[0.300778] (-) TimerEvent: {}
+[0.401835] (-) TimerEvent: {}
+[0.445130] (motor_control_pkg) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 9.4.0\n'}
+[0.453800] (motor_control_pkg) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc\n'}
+[0.502077] (-) TimerEvent: {}
+[0.603140] (-) TimerEvent: {}
+[0.680226] (motor_control_pkg) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc -- works\n'}
+[0.682840] (motor_control_pkg) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.703248] (-) TimerEvent: {}
+[0.804085] (-) TimerEvent: {}
+[0.905141] (-) TimerEvent: {}
+[0.912555] (motor_control_pkg) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.940093] (motor_control_pkg) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.940977] (motor_control_pkg) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.947030] (motor_control_pkg) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++\n'}
+[1.005410] (-) TimerEvent: {}
+[1.106464] (-) TimerEvent: {}
+[1.191043] (motor_control_pkg) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ -- works\n'}
+[1.194900] (motor_control_pkg) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[1.206483] (-) TimerEvent: {}
+[1.307252] (-) TimerEvent: {}
+[1.408179] (-) TimerEvent: {}
+[1.447057] (motor_control_pkg) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[1.476634] (motor_control_pkg) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[1.477675] (motor_control_pkg) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[1.482030] (motor_control_pkg) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.6 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[1.508283] (-) TimerEvent: {}
+[1.609067] (-) TimerEvent: {}
+[1.709996] (-) TimerEvent: {}
+[1.767985] (motor_control_pkg) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3.9 (found version "3.9.5") found components: Interpreter \n'}
+[1.810156] (-) TimerEvent: {}
+[1.911083] (-) TimerEvent: {}
+[1.966087] (motor_control_pkg) StdoutLine: {'line': b'-- Found interfaces_pkg: 0.0.0 (/ssd/home/edt/Documents/lunabotics_ros_ws/install/interfaces_pkg/share/interfaces_pkg/cmake)\n'}
+[2.011177] (-) TimerEvent: {}
+[2.035906] (motor_control_pkg) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[2.044984] (motor_control_pkg) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[2.062325] (motor_control_pkg) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[2.092899] (motor_control_pkg) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[2.111270] (-) TimerEvent: {}
+[2.136717] (motor_control_pkg) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[2.165967] (motor_control_pkg) StdoutLine: {'line': b'-- Found rclcpp: 16.0.7 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[2.211435] (-) TimerEvent: {}
+[2.311943] (-) TimerEvent: {}
+[2.344617] (motor_control_pkg) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[2.348796] (motor_control_pkg) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.5 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[2.412086] (-) TimerEvent: {}
+[2.512703] (-) TimerEvent: {}
+[2.574174] (motor_control_pkg) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "1.1.1f")  \n'}
+[2.612841] (-) TimerEvent: {}
+[2.629002] (motor_control_pkg) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[2.713042] (-) TimerEvent: {}
+[2.726076] (motor_control_pkg) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[2.744927] (motor_control_pkg) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[2.813258] (-) TimerEvent: {}
+[2.914221] (-) TimerEvent: {}
+[2.970127] (motor_control_pkg) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[2.971171] (motor_control_pkg) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[3.014292] (-) TimerEvent: {}
+[3.114939] (-) TimerEvent: {}
+[3.215499] (-) TimerEvent: {}
+[3.316088] (-) TimerEvent: {}
+[3.338899] (motor_control_pkg) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed\n'}
+[3.339374] (motor_control_pkg) StdoutLine: {'line': b'-- Looking for pthread_create in pthreads\n'}
+[3.416285] (-) TimerEvent: {}
+[3.516972] (-) TimerEvent: {}
+[3.617467] (-) TimerEvent: {}
+[3.685788] (motor_control_pkg) StdoutLine: {'line': b'-- Looking for pthread_create in pthreads - not found\n'}
+[3.686604] (motor_control_pkg) StdoutLine: {'line': b'-- Looking for pthread_create in pthread\n'}
+[3.717658] (-) TimerEvent: {}
+[3.819105] (-) TimerEvent: {}
+[3.919933] (-) TimerEvent: {}
+[3.924222] (motor_control_pkg) StdoutLine: {'line': b'-- Looking for pthread_create in pthread - found\n'}
+[3.928425] (motor_control_pkg) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[4.020009] (-) TimerEvent: {}
+[4.120678] (-) TimerEvent: {}
+[4.221223] (-) TimerEvent: {}
+[4.308761] (motor_control_pkg) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.9 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[4.321316] (-) TimerEvent: {}
+[4.421719] (-) TimerEvent: {}
+[4.522104] (-) TimerEvent: {}
+[4.624776] (motor_control_pkg) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[4.625210] (-) TimerEvent: {}
+[4.625481] (motor_control_pkg) StdoutLine: {'line': b'-- Configured cppcheck include dirs: \n'}
+[4.625770] (motor_control_pkg) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[4.626207] (motor_control_pkg) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[4.627846] (motor_control_pkg) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[4.628116] (motor_control_pkg) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[4.628860] (motor_control_pkg) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[4.638289] (motor_control_pkg) StdoutLine: {'line': b'-- Configuring done\n'}
+[4.662588] (motor_control_pkg) StdoutLine: {'line': b'-- Generating done\n'}
+[4.679369] (motor_control_pkg) StdoutLine: {'line': b'-- Build files have been written to: /ssd/home/edt/Documents/lunabotics_ros_ws/build/motor_control_pkg\n'}
+[4.710138] (motor_control_pkg) CommandEnded: {'returncode': 0}
+[4.712128] (motor_control_pkg) JobProgress: {'identifier': 'motor_control_pkg', 'progress': 'build'}
+[4.713938] (motor_control_pkg) Command: {'cmd': ['/usr/bin/cmake', '--build', '/ssd/home/edt/Documents/lunabotics_ros_ws/build/motor_control_pkg', '--', '-j6', '-l6'], 'cwd': '/ssd/home/edt/Documents/lunabotics_ros_ws/build/motor_control_pkg', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'edt'), ('SSH_CLIENT', '192.168.0.221 55270 22'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/ssd/home/edt/Documents/lunabotics_ros_ws/install/interfaces_pkg/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/ssd/home/edt'), ('OLDPWD', '/ssd/home/edt/Documents/lunabotics_ros_ws/src'), ('SSH_TTY', '/dev/pts/0'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLCON_PREFIX_PATH', '/ssd/home/edt/Documents/lunabotics_ros_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'edt'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '6'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/ssd/home/edt/Documents/lunabotics_ros_ws/install/interfaces_pkg:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/ssd/home/edt/Documents/lunabotics_ros_ws/build/motor_control_pkg'), ('SSH_CONNECTION', '192.168.0.221 55270 192.168.0.131 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/ssd/home/edt/Documents/lunabotics_ros_ws/install/interfaces_pkg/lib/python3.9/site-packages:/opt/ros/humble/lib/python3.8/site-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/ssd/home/edt/Documents/lunabotics_ros_ws/install/interfaces_pkg:/opt/ros/humble')]), 'shell': False}
+[4.725436] (-) TimerEvent: {}
+[4.820774] (motor_control_pkg) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target scoop\x1b[0m\n'}
+[4.821671] (motor_control_pkg) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target drivetrain\x1b[0m\n'}
+[4.825478] (-) TimerEvent: {}
+[4.926189] (-) TimerEvent: {}
+[4.927859] (motor_control_pkg) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/drivetrain.dir/src/drivetrain.cpp.o\x1b[0m\n'}
+[4.928575] (motor_control_pkg) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/scoop.dir/src/scoop.cpp.o\x1b[0m\n'}
+[5.026481] (-) TimerEvent: {}
+[5.127944] (-) TimerEvent: {}
+[5.229369] (-) TimerEvent: {}
+[5.330386] (-) TimerEvent: {}
+[5.431403] (-) TimerEvent: {}
+[5.532404] (-) TimerEvent: {}
+[5.633265] (-) TimerEvent: {}
+[5.734115] (-) TimerEvent: {}
+[5.835124] (-) TimerEvent: {}
+[5.935942] (-) TimerEvent: {}
+[6.036818] (-) TimerEvent: {}
+[6.137820] (-) TimerEvent: {}
+[6.238817] (-) TimerEvent: {}
+[6.339698] (-) TimerEvent: {}
+[6.440728] (-) TimerEvent: {}
+[6.541758] (-) TimerEvent: {}
+[6.642628] (-) TimerEvent: {}
+[6.743585] (-) TimerEvent: {}
+[6.844490] (-) TimerEvent: {}
+[6.945510] (-) TimerEvent: {}
+[7.046415] (-) TimerEvent: {}
+[7.147464] (-) TimerEvent: {}
+[7.248494] (-) TimerEvent: {}
+[7.349395] (-) TimerEvent: {}
+[7.450463] (-) TimerEvent: {}
+[7.551466] (-) TimerEvent: {}
+[7.652353] (-) TimerEvent: {}
+[7.753323] (-) TimerEvent: {}
+[7.854148] (-) TimerEvent: {}
+[7.955007] (-) TimerEvent: {}
+[8.055928] (-) TimerEvent: {}
+[8.157058] (-) TimerEvent: {}
+[8.257966] (-) TimerEvent: {}
+[8.358935] (-) TimerEvent: {}
+[8.460064] (-) TimerEvent: {}
+[8.561122] (-) TimerEvent: {}
+[8.662020] (-) TimerEvent: {}
+[8.763028] (-) TimerEvent: {}
+[8.863876] (-) TimerEvent: {}
+[8.964768] (-) TimerEvent: {}
+[9.065832] (-) TimerEvent: {}
+[9.166870] (-) TimerEvent: {}
+[9.267704] (-) TimerEvent: {}
+[9.368542] (-) TimerEvent: {}
+[9.469552] (-) TimerEvent: {}
+[9.570570] (-) TimerEvent: {}
+[9.671454] (-) TimerEvent: {}
+[9.815308] (-) TimerEvent: {}
+[9.916151] (-) TimerEvent: {}
+[10.016991] (-) TimerEvent: {}
+[10.117991] (-) TimerEvent: {}
+[10.218945] (-) TimerEvent: {}
+[10.319973] (-) TimerEvent: {}
+[10.420958] (-) TimerEvent: {}
+[10.522007] (-) TimerEvent: {}
+[10.623096] (-) TimerEvent: {}
+[10.724068] (-) TimerEvent: {}
+[10.825053] (-) TimerEvent: {}
+[10.925884] (-) TimerEvent: {}
+[11.026777] (-) TimerEvent: {}
+[11.127851] (-) TimerEvent: {}
+[11.228937] (-) TimerEvent: {}
+[11.329831] (-) TimerEvent: {}
+[11.430859] (-) TimerEvent: {}
+[11.531821] (-) TimerEvent: {}
+[11.632695] (-) TimerEvent: {}
+[11.733668] (-) TimerEvent: {}
+[11.834474] (-) TimerEvent: {}
+[11.935282] (-) TimerEvent: {}
+[12.036098] (-) TimerEvent: {}
+[12.137165] (-) TimerEvent: {}
+[12.238255] (-) TimerEvent: {}
+[12.339167] (-) TimerEvent: {}
+[12.440191] (-) TimerEvent: {}
+[12.541164] (-) TimerEvent: {}
+[12.642084] (-) TimerEvent: {}
+[12.743067] (-) TimerEvent: {}
+[12.843905] (-) TimerEvent: {}
+[12.944673] (-) TimerEvent: {}
+[13.045484] (-) TimerEvent: {}
+[13.146503] (-) TimerEvent: {}
+[13.247554] (-) TimerEvent: {}
+[13.348456] (-) TimerEvent: {}
+[13.449533] (-) TimerEvent: {}
+[13.550601] (-) TimerEvent: {}
+[13.651501] (-) TimerEvent: {}
+[13.752463] (-) TimerEvent: {}
+[13.853306] (-) TimerEvent: {}
+[13.954128] (-) TimerEvent: {}
+[14.055002] (-) TimerEvent: {}
+[14.156039] (-) TimerEvent: {}
+[14.257029] (-) TimerEvent: {}
+[14.357915] (-) TimerEvent: {}
+[14.458944] (-) TimerEvent: {}
+[14.559939] (-) TimerEvent: {}
+[14.660872] (-) TimerEvent: {}
+[14.761881] (-) TimerEvent: {}
+[14.862789] (-) TimerEvent: {}
+[15.003270] (-) TimerEvent: {}
+[15.104339] (-) TimerEvent: {}
+[15.205363] (-) TimerEvent: {}
+[15.306243] (-) TimerEvent: {}
+[15.407315] (-) TimerEvent: {}
+[15.508458] (-) TimerEvent: {}
+[15.609621] (-) TimerEvent: {}
+[15.710798] (-) TimerEvent: {}
+[15.811989] (-) TimerEvent: {}
+[15.913161] (-) TimerEvent: {}
+[16.014683] (-) TimerEvent: {}
+[16.115874] (-) TimerEvent: {}
+[16.217371] (-) TimerEvent: {}
+[16.318865] (-) TimerEvent: {}
+[16.420043] (-) TimerEvent: {}
+[16.521213] (-) TimerEvent: {}
+[16.622423] (-) TimerEvent: {}
+[16.723887] (-) TimerEvent: {}
+[16.825039] (-) TimerEvent: {}
+[16.926500] (-) TimerEvent: {}
+[17.027670] (-) TimerEvent: {}
+[17.129136] (-) TimerEvent: {}
+[17.230684] (-) TimerEvent: {}
+[17.332189] (-) TimerEvent: {}
+[17.433402] (-) TimerEvent: {}
+[17.534597] (-) TimerEvent: {}
+[17.635785] (-) TimerEvent: {}
+[17.736969] (-) TimerEvent: {}
+[17.838184] (-) TimerEvent: {}
+[17.939384] (-) TimerEvent: {}
+[18.040584] (-) TimerEvent: {}
+[18.141741] (-) TimerEvent: {}
+[18.242906] (-) TimerEvent: {}
+[18.344081] (-) TimerEvent: {}
+[18.445242] (-) TimerEvent: {}
+[18.546722] (-) TimerEvent: {}
+[18.648181] (-) TimerEvent: {}
+[18.749369] (-) TimerEvent: {}
+[18.850566] (-) TimerEvent: {}
+[18.951726] (-) TimerEvent: {}
+[19.052883] (-) TimerEvent: {}
+[19.154017] (-) TimerEvent: {}
+[19.255207] (-) TimerEvent: {}
+[19.356385] (-) TimerEvent: {}
+[19.457476] (-) TimerEvent: {}
+[19.558586] (-) TimerEvent: {}
+[19.660043] (-) TimerEvent: {}
+[19.761266] (-) TimerEvent: {}
+[19.862473] (-) TimerEvent: {}
+[19.963924] (-) TimerEvent: {}
+[20.104136] (-) TimerEvent: {}
+[20.205337] (-) TimerEvent: {}
+[20.306552] (-) TimerEvent: {}
+[20.407773] (-) TimerEvent: {}
+[20.508954] (-) TimerEvent: {}
+[20.610079] (-) TimerEvent: {}
+[20.711214] (-) TimerEvent: {}
+[20.812331] (-) TimerEvent: {}
+[20.913459] (-) TimerEvent: {}
+[21.014614] (-) TimerEvent: {}
+[21.115661] (-) TimerEvent: {}
+[21.216674] (-) TimerEvent: {}
+[21.317630] (-) TimerEvent: {}
+[21.418578] (-) TimerEvent: {}
+[21.519693] (-) TimerEvent: {}
+[21.621066] (-) TimerEvent: {}
+[21.722490] (-) TimerEvent: {}
+[21.823571] (-) TimerEvent: {}
+[21.924658] (-) TimerEvent: {}
+[22.026012] (-) TimerEvent: {}
+[22.127114] (-) TimerEvent: {}
+[22.228151] (-) TimerEvent: {}
+[22.329097] (-) TimerEvent: {}
+[22.430016] (-) TimerEvent: {}
+[22.531137] (-) TimerEvent: {}
+[22.632242] (-) TimerEvent: {}
+[22.733344] (-) TimerEvent: {}
+[22.834476] (-) TimerEvent: {}
+[22.935541] (-) TimerEvent: {}
+[23.036479] (-) TimerEvent: {}
+[23.137380] (-) TimerEvent: {}
+[23.238436] (-) TimerEvent: {}
+[23.339378] (-) TimerEvent: {}
+[23.440463] (-) TimerEvent: {}
+[23.541554] (-) TimerEvent: {}
+[23.642635] (-) TimerEvent: {}
+[23.743694] (-) TimerEvent: {}
+[23.844750] (-) TimerEvent: {}
+[23.945825] (-) TimerEvent: {}
+[24.046949] (-) TimerEvent: {}
+[24.147983] (-) TimerEvent: {}
+[24.248969] (-) TimerEvent: {}
+[24.349905] (-) TimerEvent: {}
+[24.450896] (-) TimerEvent: {}
+[24.551986] (-) TimerEvent: {}
+[24.653087] (-) TimerEvent: {}
+[24.754504] (-) TimerEvent: {}
+[24.855571] (-) TimerEvent: {}
+[24.956655] (-) TimerEvent: {}
+[25.057688] (-) TimerEvent: {}
+[25.204790] (-) TimerEvent: {}
+[25.305865] (-) TimerEvent: {}
+[25.406967] (-) TimerEvent: {}
+[25.508036] (-) TimerEvent: {}
+[25.609113] (-) TimerEvent: {}
+[25.710191] (-) TimerEvent: {}
+[25.811570] (-) TimerEvent: {}
+[25.912649] (-) TimerEvent: {}
+[26.013992] (-) TimerEvent: {}
+[26.115094] (-) TimerEvent: {}
+[26.216175] (-) TimerEvent: {}
+[26.317277] (-) TimerEvent: {}
+[26.418382] (-) TimerEvent: {}
+[26.519585] (-) TimerEvent: {}
+[26.620637] (-) TimerEvent: {}
+[26.721530] (-) TimerEvent: {}
+[26.822431] (-) TimerEvent: {}
+[26.923411] (-) TimerEvent: {}
+[27.024258] (-) TimerEvent: {}
+[27.125111] (-) TimerEvent: {}
+[27.226100] (-) TimerEvent: {}
+[27.327004] (-) TimerEvent: {}
+[27.428011] (-) TimerEvent: {}
+[27.529078] (-) TimerEvent: {}
+[27.630021] (-) TimerEvent: {}
+[27.730991] (-) TimerEvent: {}
+[27.831911] (-) TimerEvent: {}
+[27.903744] (motor_control_pkg) StdoutLine: {'line': b'[ 75%] \x1b[32m\x1b[1mLinking CXX executable drivetrain\x1b[0m\n'}
+[27.932225] (-) TimerEvent: {}
+[27.933144] (motor_control_pkg) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable scoop\x1b[0m\n'}
+[28.032499] (-) TimerEvent: {}
+[28.133665] (-) TimerEvent: {}
+[28.234794] (-) TimerEvent: {}
+[28.335724] (-) TimerEvent: {}
+[28.436723] (-) TimerEvent: {}
+[28.537861] (-) TimerEvent: {}
+[28.638720] (-) TimerEvent: {}
+[28.739666] (-) TimerEvent: {}
+[28.840743] (-) TimerEvent: {}
+[28.941751] (-) TimerEvent: {}
+[29.028228] (motor_control_pkg) StdoutLine: {'line': b'[100%] Built target drivetrain\n'}
+[29.041957] (-) TimerEvent: {}
+[29.057484] (motor_control_pkg) StdoutLine: {'line': b'[100%] Built target scoop\n'}
+[29.142152] (-) TimerEvent: {}
+[29.191378] (motor_control_pkg) CommandEnded: {'returncode': 0}
+[29.193799] (motor_control_pkg) JobProgress: {'identifier': 'motor_control_pkg', 'progress': 'install'}
+[29.224885] (motor_control_pkg) Command: {'cmd': ['/usr/bin/cmake', '--install', '/ssd/home/edt/Documents/lunabotics_ros_ws/build/motor_control_pkg'], 'cwd': '/ssd/home/edt/Documents/lunabotics_ros_ws/build/motor_control_pkg', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'edt'), ('SSH_CLIENT', '192.168.0.221 55270 22'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/ssd/home/edt/Documents/lunabotics_ros_ws/install/interfaces_pkg/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/ssd/home/edt'), ('OLDPWD', '/ssd/home/edt/Documents/lunabotics_ros_ws/src'), ('SSH_TTY', '/dev/pts/0'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLCON_PREFIX_PATH', '/ssd/home/edt/Documents/lunabotics_ros_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'edt'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '6'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/ssd/home/edt/Documents/lunabotics_ros_ws/install/interfaces_pkg:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/ssd/home/edt/Documents/lunabotics_ros_ws/build/motor_control_pkg'), ('SSH_CONNECTION', '192.168.0.221 55270 192.168.0.131 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/ssd/home/edt/Documents/lunabotics_ros_ws/install/interfaces_pkg/lib/python3.9/site-packages:/opt/ros/humble/lib/python3.8/site-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/ssd/home/edt/Documents/lunabotics_ros_ws/install/interfaces_pkg:/opt/ros/humble')]), 'shell': False}
+[29.242311] (-) TimerEvent: {}
+[29.253762] (motor_control_pkg) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[29.254515] (motor_control_pkg) StdoutLine: {'line': b'-- Installing: /ssd/home/edt/Documents/lunabotics_ros_ws/install/motor_control_pkg/lib/motor_control_pkg/drivetrain\n'}
+[29.264771] (motor_control_pkg) StdoutLine: {'line': b'-- Set runtime path of "/ssd/home/edt/Documents/lunabotics_ros_ws/install/motor_control_pkg/lib/motor_control_pkg/drivetrain" to ""\n'}
+[29.265058] (motor_control_pkg) StdoutLine: {'line': b'-- Installing: /ssd/home/edt/Documents/lunabotics_ros_ws/install/motor_control_pkg/lib/motor_control_pkg/scoop\n'}
+[29.273691] (motor_control_pkg) StdoutLine: {'line': b'-- Set runtime path of "/ssd/home/edt/Documents/lunabotics_ros_ws/install/motor_control_pkg/lib/motor_control_pkg/scoop" to ""\n'}
+[29.274032] (motor_control_pkg) StdoutLine: {'line': b'-- Installing: /ssd/home/edt/Documents/lunabotics_ros_ws/install/motor_control_pkg/share/ament_index/resource_index/package_run_dependencies/motor_control_pkg\n'}
+[29.274568] (motor_control_pkg) StdoutLine: {'line': b'-- Installing: /ssd/home/edt/Documents/lunabotics_ros_ws/install/motor_control_pkg/share/ament_index/resource_index/parent_prefix_path/motor_control_pkg\n'}
+[29.275137] (motor_control_pkg) StdoutLine: {'line': b'-- Installing: /ssd/home/edt/Documents/lunabotics_ros_ws/install/motor_control_pkg/share/motor_control_pkg/environment/ament_prefix_path.sh\n'}
+[29.275452] (motor_control_pkg) StdoutLine: {'line': b'-- Installing: /ssd/home/edt/Documents/lunabotics_ros_ws/install/motor_control_pkg/share/motor_control_pkg/environment/ament_prefix_path.dsv\n'}
+[29.275824] (motor_control_pkg) StdoutLine: {'line': b'-- Installing: /ssd/home/edt/Documents/lunabotics_ros_ws/install/motor_control_pkg/share/motor_control_pkg/environment/path.sh\n'}
+[29.276085] (motor_control_pkg) StdoutLine: {'line': b'-- Installing: /ssd/home/edt/Documents/lunabotics_ros_ws/install/motor_control_pkg/share/motor_control_pkg/environment/path.dsv\n'}
+[29.276498] (motor_control_pkg) StdoutLine: {'line': b'-- Installing: /ssd/home/edt/Documents/lunabotics_ros_ws/install/motor_control_pkg/share/motor_control_pkg/local_setup.bash\n'}
+[29.276763] (motor_control_pkg) StdoutLine: {'line': b'-- Installing: /ssd/home/edt/Documents/lunabotics_ros_ws/install/motor_control_pkg/share/motor_control_pkg/local_setup.sh\n'}
+[29.276979] (motor_control_pkg) StdoutLine: {'line': b'-- Installing: /ssd/home/edt/Documents/lunabotics_ros_ws/install/motor_control_pkg/share/motor_control_pkg/local_setup.zsh\n'}
+[29.277238] (motor_control_pkg) StdoutLine: {'line': b'-- Installing: /ssd/home/edt/Documents/lunabotics_ros_ws/install/motor_control_pkg/share/motor_control_pkg/local_setup.dsv\n'}
+[29.277493] (motor_control_pkg) StdoutLine: {'line': b'-- Installing: /ssd/home/edt/Documents/lunabotics_ros_ws/install/motor_control_pkg/share/motor_control_pkg/package.dsv\n'}
+[29.277695] (motor_control_pkg) StdoutLine: {'line': b'-- Installing: /ssd/home/edt/Documents/lunabotics_ros_ws/install/motor_control_pkg/share/ament_index/resource_index/packages/motor_control_pkg\n'}
+[29.277949] (motor_control_pkg) StdoutLine: {'line': b'-- Installing: /ssd/home/edt/Documents/lunabotics_ros_ws/install/motor_control_pkg/share/motor_control_pkg/cmake/motor_control_pkgConfig.cmake\n'}
+[29.278202] (motor_control_pkg) StdoutLine: {'line': b'-- Installing: /ssd/home/edt/Documents/lunabotics_ros_ws/install/motor_control_pkg/share/motor_control_pkg/cmake/motor_control_pkgConfig-version.cmake\n'}
+[29.278482] (motor_control_pkg) StdoutLine: {'line': b'-- Installing: /ssd/home/edt/Documents/lunabotics_ros_ws/install/motor_control_pkg/share/motor_control_pkg/package.xml\n'}
+[29.284168] (motor_control_pkg) CommandEnded: {'returncode': 0}
+[29.342489] (-) TimerEvent: {}
+[29.442973] (-) TimerEvent: {}
+[29.463136] (motor_control_pkg) JobEnded: {'identifier': 'motor_control_pkg', 'rc': 0}
+[29.465529] (-) EventReactorShutdown: {}

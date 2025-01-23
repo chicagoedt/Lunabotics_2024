@@ -1,0 +1,42 @@
+[0.017s] Invoking command in '/home/catherineschuch/lunabotics_ros2_ws/build/navigation_pkg': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/catherineschuch/lunabotics_ros2_ws/src/navigation_pkg -DCMAKE_INSTALL_PREFIX=/home/catherineschuch/lunabotics_ros2_ws/install/navigation_pkg
+[0.484s] -- The C compiler identification is GNU 11.4.0
+[2.049s] -- The CXX compiler identification is GNU 11.4.0
+[3.161s] -- Detecting C compiler ABI info
+[3.556s] -- Detecting C compiler ABI info - done
+[3.563s] -- Check for working C compiler: /usr/bin/cc - skipped
+[3.563s] -- Detecting C compile features
+[3.564s] -- Detecting C compile features - done
+[3.568s] -- Detecting CXX compiler ABI info
+[3.954s] -- Detecting CXX compiler ABI info - done
+[3.962s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[3.962s] -- Detecting CXX compile features
+[3.963s] -- Detecting CXX compile features - done
+[3.965s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[4.132s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[4.217s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[4.299s] -- Added test 'lint_cmake' to check CMake code style
+[4.300s] -- Added test 'xmllint' to check XML markup files
+[4.301s] -- Configuring done
+[4.304s] -- Generating done
+[4.306s] -- Build files have been written to: /home/catherineschuch/lunabotics_ros2_ws/build/navigation_pkg
+[4.310s] Invoked command in '/home/catherineschuch/lunabotics_ros2_ws/build/navigation_pkg' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/catherineschuch/lunabotics_ros2_ws/src/navigation_pkg -DCMAKE_INSTALL_PREFIX=/home/catherineschuch/lunabotics_ros2_ws/install/navigation_pkg
+[4.313s] Invoking command in '/home/catherineschuch/lunabotics_ros2_ws/build/navigation_pkg': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/catherineschuch/lunabotics_ros2_ws/build/navigation_pkg -- -j16 -l16
+[4.348s] Invoked command in '/home/catherineschuch/lunabotics_ros2_ws/build/navigation_pkg' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/catherineschuch/lunabotics_ros2_ws/build/navigation_pkg -- -j16 -l16
+[4.349s] Invoking command in '/home/catherineschuch/lunabotics_ros2_ws/build/navigation_pkg': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/catherineschuch/lunabotics_ros2_ws/build/navigation_pkg
+[4.356s] -- Install configuration: ""
+[4.356s] -- Installing: /home/catherineschuch/lunabotics_ros2_ws/install/navigation_pkg/share/ament_index/resource_index/package_run_dependencies/navigation_pkg
+[4.356s] -- Installing: /home/catherineschuch/lunabotics_ros2_ws/install/navigation_pkg/share/ament_index/resource_index/parent_prefix_path/navigation_pkg
+[4.357s] -- Installing: /home/catherineschuch/lunabotics_ros2_ws/install/navigation_pkg/share/navigation_pkg/environment/ament_prefix_path.sh
+[4.357s] -- Installing: /home/catherineschuch/lunabotics_ros2_ws/install/navigation_pkg/share/navigation_pkg/environment/ament_prefix_path.dsv
+[4.358s] -- Installing: /home/catherineschuch/lunabotics_ros2_ws/install/navigation_pkg/share/navigation_pkg/environment/path.sh
+[4.358s] -- Installing: /home/catherineschuch/lunabotics_ros2_ws/install/navigation_pkg/share/navigation_pkg/environment/path.dsv
+[4.359s] -- Installing: /home/catherineschuch/lunabotics_ros2_ws/install/navigation_pkg/share/navigation_pkg/local_setup.bash
+[4.359s] -- Installing: /home/catherineschuch/lunabotics_ros2_ws/install/navigation_pkg/share/navigation_pkg/local_setup.sh
+[4.359s] -- Installing: /home/catherineschuch/lunabotics_ros2_ws/install/navigation_pkg/share/navigation_pkg/local_setup.zsh
+[4.359s] -- Installing: /home/catherineschuch/lunabotics_ros2_ws/install/navigation_pkg/share/navigation_pkg/local_setup.dsv
+[4.361s] -- Installing: /home/catherineschuch/lunabotics_ros2_ws/install/navigation_pkg/share/navigation_pkg/package.dsv
+[4.363s] -- Installing: /home/catherineschuch/lunabotics_ros2_ws/install/navigation_pkg/share/ament_index/resource_index/packages/navigation_pkg
+[4.364s] -- Installing: /home/catherineschuch/lunabotics_ros2_ws/install/navigation_pkg/share/navigation_pkg/cmake/navigation_pkgConfig.cmake
+[4.364s] -- Installing: /home/catherineschuch/lunabotics_ros2_ws/install/navigation_pkg/share/navigation_pkg/cmake/navigation_pkgConfig-version.cmake
+[4.364s] -- Installing: /home/catherineschuch/lunabotics_ros2_ws/install/navigation_pkg/share/navigation_pkg/package.xml
+[4.364s] Invoked command in '/home/catherineschuch/lunabotics_ros2_ws/build/navigation_pkg' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/catherineschuch/lunabotics_ros2_ws/build/navigation_pkg

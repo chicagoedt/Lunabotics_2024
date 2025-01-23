@@ -1,0 +1,81 @@
+[0.029s] Invoking command in '/ssd/home/edt/Documents/lunabotics_ros_ws/build/motor_control_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /ssd/home/edt/Documents/lunabotics_ros_ws/src/motor_control_pkg -DCMAKE_INSTALL_PREFIX=/ssd/home/edt/Documents/lunabotics_ros_ws/install/motor_control_pkg
+[0.248s] -- The C compiler identification is GNU 9.4.0
+[0.434s] -- The CXX compiler identification is GNU 9.4.0
+[0.442s] -- Check for working C compiler: /usr/bin/cc
+[0.669s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.670s] -- Detecting C compiler ABI info
+[0.898s] -- Detecting C compiler ABI info - done
+[0.932s] -- Detecting C compile features
+[0.933s] -- Detecting C compile features - done
+[0.939s] -- Check for working CXX compiler: /usr/bin/c++
+[1.185s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[1.188s] -- Detecting CXX compiler ABI info
+[1.437s] -- Detecting CXX compiler ABI info - done
+[1.464s] -- Detecting CXX compile features
+[1.465s] -- Detecting CXX compile features - done
+[1.470s] -- Found ament_cmake: 1.3.6 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.758s] -- Found Python3: /usr/bin/python3.9 (found version "3.9.5") found components: Interpreter 
+[1.956s] -- Found interfaces_pkg: 0.0.0 (/ssd/home/edt/Documents/lunabotics_ros_ws/install/interfaces_pkg/share/interfaces_pkg/cmake)
+[2.024s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[2.033s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[2.050s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[2.080s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.126s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.153s] -- Found rclcpp: 16.0.7 (/opt/ros/humble/share/rclcpp/cmake)
+[2.330s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[2.335s] -- Found rmw_fastrtps_cpp: 6.2.5 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[2.554s] -- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[2.607s] -- Found FastRTPS: /opt/ros/humble/include  
+[2.705s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.723s] -- Looking for pthread.h
+[2.950s] -- Looking for pthread.h - found
+[2.950s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[3.317s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[3.318s] -- Looking for pthread_create in pthreads
+[3.665s] -- Looking for pthread_create in pthreads - not found
+[3.665s] -- Looking for pthread_create in pthread
+[3.894s] -- Looking for pthread_create in pthread - found
+[3.897s] -- Found Threads: TRUE  
+[4.270s] -- Found ament_lint_auto: 0.12.9 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[4.510s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[4.510s] -- Configured cppcheck include dirs: 
+[4.510s] -- Configured cppcheck exclude dirs and/or files: 
+[4.511s] -- Added test 'lint_cmake' to check CMake code style
+[4.512s] -- Added test 'uncrustify' to check C / C++ code style
+[4.513s] -- Configured uncrustify additional arguments: 
+[4.513s] -- Added test 'xmllint' to check XML markup files
+[4.523s] -- Configuring done
+[4.547s] -- Generating done
+[4.563s] -- Build files have been written to: /ssd/home/edt/Documents/lunabotics_ros_ws/build/motor_control_pkg
+[4.595s] Invoked command in '/ssd/home/edt/Documents/lunabotics_ros_ws/build/motor_control_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /ssd/home/edt/Documents/lunabotics_ros_ws/src/motor_control_pkg -DCMAKE_INSTALL_PREFIX=/ssd/home/edt/Documents/lunabotics_ros_ws/install/motor_control_pkg
+[4.603s] Invoking command in '/ssd/home/edt/Documents/lunabotics_ros_ws/build/motor_control_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /ssd/home/edt/Documents/lunabotics_ros_ws/build/motor_control_pkg -- -j6 -l6
+[4.700s] [35m[1mScanning dependencies of target scoop[0m
+[4.700s] [35m[1mScanning dependencies of target drivetrain[0m
+[4.810s] [ 50%] [32mBuilding CXX object CMakeFiles/drivetrain.dir/src/drivetrain.cpp.o[0m
+[4.811s] [ 50%] [32mBuilding CXX object CMakeFiles/scoop.dir/src/scoop.cpp.o[0m
+[11.826s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[11.826s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[11.826s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[11.826s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[11.827s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[11.827s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[11.827s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[11.827s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[11.827s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[11.827s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[11.827s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[11.827s]                  from [01m[K/ssd/home/edt/Documents/lunabotics_ros_ws/src/motor_control_pkg/src/drivetrain.cpp:1[m[K:
+[11.827s] [01m[K/ssd/home/edt/Documents/lunabotics_ros_ws/src/motor_control_pkg/src/drivetrain.cpp:[m[K In member function ‘[01m[Kvoid DrivetrainNode::duty_cycle_control(const DutyCycleOutput&) const[m[K’:
+[11.828s] [01m[K/ssd/home/edt/Documents/lunabotics_ros_ws/src/motor_control_pkg/src/drivetrain.cpp:49:99:[m[K [01;31m[Kerror: [m[K‘[01m[Kleft_drive_output[m[K’ was not declared in this scope
+[11.828s]    49 |    RCLCPP_INFO(this->get_logger(), "Duty cylce: Left motor set to : %d, Right motor set to : %d", [01;31m[Kleft_drive_output[m[K, right_drive_output);
+[11.828s]       |                                                                                                   [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+[11.837s] [01m[K/ssd/home/edt/Documents/lunabotics_ros_ws/src/motor_control_pkg/src/drivetrain.cpp:49:118:[m[K [01;31m[Kerror: [m[K‘[01m[Kright_drive_output[m[K’ was not declared in this scope
+[11.837s]    49 |    RCLCPP_INFO(this->get_logger(), "Duty cylce: Left motor set to : %d, Right motor set to : %d", left_drive_output, [01;31m[Kright_drive_output[m[K);
+[11.837s]       |                                                                                                                      [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+[19.581s] make[2]: *** [CMakeFiles/drivetrain.dir/build.make:63: CMakeFiles/drivetrain.dir/src/drivetrain.cpp.o] Error 1
+[19.581s] make[1]: *** [CMakeFiles/Makefile2:107: CMakeFiles/drivetrain.dir/all] Error 2
+[19.582s] make[1]: *** Waiting for unfinished jobs....
+[27.813s] [ 75%] [32m[1mLinking CXX executable scoop[0m
+[29.446s] [ 75%] Built target scoop
+[29.448s] make: *** [Makefile:141: all] Error 2
+[29.456s] Invoked command in '/ssd/home/edt/Documents/lunabotics_ros_ws/build/motor_control_pkg' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /ssd/home/edt/Documents/lunabotics_ros_ws/build/motor_control_pkg -- -j6 -l6

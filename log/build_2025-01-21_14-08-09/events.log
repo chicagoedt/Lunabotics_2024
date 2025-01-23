@@ -1,0 +1,8 @@
+[0.000000] (-) TimerEvent: {}
+[0.000598] (-) JobUnselected: {'identifier': 'brain_pkg'}
+[0.000941] (-) JobUnselected: {'identifier': 'control_pkg'}
+[0.001160] (-) JobUnselected: {'identifier': 'interfaces_pkg'}
+[0.001384] (-) JobUnselected: {'identifier': 'navigation_pkg'}
+[0.001490] (-) JobUnselected: {'identifier': 'sensors_pkg'}
+[0.001558] (-) JobUnselected: {'identifier': 'webgui_pkg'}
+[0.001921] (-) EventReactorShutdown: {}

@@ -1,0 +1,37 @@
+[3.266s] Invoking command in '/ssd/home/edt/Documents/lunabotics_ros_ws/src/brain_pkg': AMENT_PREFIX_PATH=/ssd/home/edt/Documents/lunabotics_ros_ws/install/interfaces_pkg CMAKE_PREFIX_PATH=/ssd/home/edt/Documents/lunabotics_ros_ws/install/interfaces_pkg LD_LIBRARY_PATH=/ssd/home/edt/Documents/lunabotics_ros_ws/install/interfaces_pkg/lib PYTHONPATH=/ssd/home/edt/Documents/lunabotics_ros_ws/build/brain_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/ssd/home/edt/Documents/lunabotics_ros_ws/install/brain_pkg/lib/python3.8/site-packages:/ssd/home/edt/Documents/lunabotics_ros_ws/install/interfaces_pkg/lib/python3.9/site-packages /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/brain_pkg build --build-base /ssd/home/edt/Documents/lunabotics_ros_ws/build/brain_pkg/build install --record /ssd/home/edt/Documents/lunabotics_ros_ws/build/brain_pkg/install.log --single-version-externally-managed install_data
+[3.863s] running egg_info
+[3.864s] creating ../../build/brain_pkg/brain_pkg.egg-info
+[3.864s] writing ../../build/brain_pkg/brain_pkg.egg-info/PKG-INFO
+[3.864s] writing dependency_links to ../../build/brain_pkg/brain_pkg.egg-info/dependency_links.txt
+[3.864s] writing entry points to ../../build/brain_pkg/brain_pkg.egg-info/entry_points.txt
+[3.864s] writing requirements to ../../build/brain_pkg/brain_pkg.egg-info/requires.txt
+[3.864s] writing top-level names to ../../build/brain_pkg/brain_pkg.egg-info/top_level.txt
+[3.865s] writing manifest file '../../build/brain_pkg/brain_pkg.egg-info/SOURCES.txt'
+[3.927s] reading manifest file '../../build/brain_pkg/brain_pkg.egg-info/SOURCES.txt'
+[3.928s] writing manifest file '../../build/brain_pkg/brain_pkg.egg-info/SOURCES.txt'
+[3.929s] running build
+[3.929s] running build_py
+[3.929s] creating /ssd/home/edt/Documents/lunabotics_ros_ws/build/brain_pkg/build
+[3.929s] creating /ssd/home/edt/Documents/lunabotics_ros_ws/build/brain_pkg/build/lib
+[3.929s] creating /ssd/home/edt/Documents/lunabotics_ros_ws/build/brain_pkg/build/lib/brain_pkg
+[3.930s] copying brain_pkg/brain.py -> /ssd/home/edt/Documents/lunabotics_ros_ws/build/brain_pkg/build/lib/brain_pkg
+[3.930s] copying brain_pkg/__init__.py -> /ssd/home/edt/Documents/lunabotics_ros_ws/build/brain_pkg/build/lib/brain_pkg
+[3.930s] running install
+[3.932s] running install_lib
+[3.938s] creating /ssd/home/edt/Documents/lunabotics_ros_ws/install/brain_pkg/lib/python3.8/site-packages/brain_pkg
+[3.938s] copying /ssd/home/edt/Documents/lunabotics_ros_ws/build/brain_pkg/build/lib/brain_pkg/brain.py -> /ssd/home/edt/Documents/lunabotics_ros_ws/install/brain_pkg/lib/python3.8/site-packages/brain_pkg
+[3.939s] copying /ssd/home/edt/Documents/lunabotics_ros_ws/build/brain_pkg/build/lib/brain_pkg/__init__.py -> /ssd/home/edt/Documents/lunabotics_ros_ws/install/brain_pkg/lib/python3.8/site-packages/brain_pkg
+[3.940s] byte-compiling /ssd/home/edt/Documents/lunabotics_ros_ws/install/brain_pkg/lib/python3.8/site-packages/brain_pkg/brain.py to brain.cpython-38.pyc
+[3.943s] byte-compiling /ssd/home/edt/Documents/lunabotics_ros_ws/install/brain_pkg/lib/python3.8/site-packages/brain_pkg/__init__.py to __init__.cpython-38.pyc
+[3.943s] running install_data
+[3.944s] creating /ssd/home/edt/Documents/lunabotics_ros_ws/install/brain_pkg/share/ament_index
+[3.944s] creating /ssd/home/edt/Documents/lunabotics_ros_ws/install/brain_pkg/share/ament_index/resource_index
+[3.944s] creating /ssd/home/edt/Documents/lunabotics_ros_ws/install/brain_pkg/share/ament_index/resource_index/packages
+[3.945s] copying resource/brain_pkg -> /ssd/home/edt/Documents/lunabotics_ros_ws/install/brain_pkg/share/ament_index/resource_index/packages
+[3.945s] copying package.xml -> /ssd/home/edt/Documents/lunabotics_ros_ws/install/brain_pkg/share/brain_pkg
+[3.945s] running install_egg_info
+[3.948s] Copying ../../build/brain_pkg/brain_pkg.egg-info to /ssd/home/edt/Documents/lunabotics_ros_ws/install/brain_pkg/lib/python3.8/site-packages/brain_pkg-0.0.0-py3.8.egg-info
+[3.950s] running install_scripts
+[3.987s] Installing brain script to /ssd/home/edt/Documents/lunabotics_ros_ws/install/brain_pkg/lib/brain_pkg
+[3.988s] writing list of installed files to '/ssd/home/edt/Documents/lunabotics_ros_ws/build/brain_pkg/install.log'
+[4.069s] Invoked command in '/ssd/home/edt/Documents/lunabotics_ros_ws/src/brain_pkg' returned '0': AMENT_PREFIX_PATH=/ssd/home/edt/Documents/lunabotics_ros_ws/install/interfaces_pkg CMAKE_PREFIX_PATH=/ssd/home/edt/Documents/lunabotics_ros_ws/install/interfaces_pkg LD_LIBRARY_PATH=/ssd/home/edt/Documents/lunabotics_ros_ws/install/interfaces_pkg/lib PYTHONPATH=/ssd/home/edt/Documents/lunabotics_ros_ws/build/brain_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/ssd/home/edt/Documents/lunabotics_ros_ws/install/brain_pkg/lib/python3.8/site-packages:/ssd/home/edt/Documents/lunabotics_ros_ws/install/interfaces_pkg/lib/python3.9/site-packages /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/brain_pkg build --build-base /ssd/home/edt/Documents/lunabotics_ros_ws/build/brain_pkg/build install --record /ssd/home/edt/Documents/lunabotics_ros_ws/build/brain_pkg/install.log --single-version-externally-managed install_data

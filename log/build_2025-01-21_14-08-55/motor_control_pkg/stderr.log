@@ -1,0 +1,67 @@
+[01m[K/ssd/home/edt/Documents/lunabotics_ros_ws/src/motor_control_pkg/src/scoop.cpp:[m[K In constructor ‘[01m[KScoopNode::ScoopNode()[m[K’:
+[01m[K/ssd/home/edt/Documents/lunabotics_ros_ws/src/motor_control_pkg/src/scoop.cpp:17:30:[m[K [01;31m[Kerror: [m[K‘[01m[Kenable[m[K’ has not been declared
+   17 |  left_lift.SetHardLimitFwdEn([01;31m[Kenable[m[K::false);
+      |                              [01;31m[K^~~~~~[m[K
+[01m[K/ssd/home/edt/Documents/lunabotics_ros_ws/src/motor_control_pkg/src/scoop.cpp:17:38:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[Kfalse[m[K’
+   17 |  left_lift.SetHardLimitFwdEn(enable::[01;31m[Kfalse[m[K);
+      |                                      [01;31m[K^~~~~[m[K
+[01m[K/ssd/home/edt/Documents/lunabotics_ros_ws/src/motor_control_pkg/src/scoop.cpp:18:30:[m[K [01;31m[Kerror: [m[K‘[01m[Kenable[m[K’ has not been declared
+   18 |  left_lift.SetHardLimitFwdEn([01;31m[Kenable[m[K::false);
+      |                              [01;31m[K^~~~~~[m[K
+[01m[K/ssd/home/edt/Documents/lunabotics_ros_ws/src/motor_control_pkg/src/scoop.cpp:18:38:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[Kfalse[m[K’
+   18 |  left_lift.SetHardLimitFwdEn(enable::[01;31m[Kfalse[m[K);
+      |                                      [01;31m[K^~~~~[m[K
+[01m[K/ssd/home/edt/Documents/lunabotics_ros_ws/src/motor_control_pkg/src/scoop.cpp:[m[K In member function ‘[01m[Kvoid ScoopNode::duty_cycle_control(const DutyCycleOutput&) const[m[K’:
+[01m[K/ssd/home/edt/Documents/lunabotics_ros_ws/src/motor_control_pkg/src/scoop.cpp:29:4:[m[K [01;31m[Kerror: [m[K‘[01m[Kleft_lift[m[K’ was not declared in this scope
+   29 |    [01;31m[Kleft_lift[m[K.Heartbeat();
+      |    [01;31m[K^~~~~~~~~[m[K
+[01m[K/ssd/home/edt/Documents/lunabotics_ros_ws/src/motor_control_pkg/src/drivetrain.cpp:[m[K In constructor ‘[01m[KDrivetrainNode::DrivetrainNode()[m[K’:
+[01m[K/ssd/home/edt/Documents/lunabotics_ros_ws/src/motor_control_pkg/src/drivetrain.cpp:17:32:[m[K [01;31m[Kerror: [m[K‘[01m[Kenable[m[K’ has not been declared
+   17 |   left_drive.SetHardLimitFwdEn([01;31m[Kenable[m[K::false);
+      |                                [01;31m[K^~~~~~[m[K
+[01m[K/ssd/home/edt/Documents/lunabotics_ros_ws/src/motor_control_pkg/src/drivetrain.cpp:17:40:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[Kfalse[m[K’
+   17 |   left_drive.SetHardLimitFwdEn(enable::[01;31m[Kfalse[m[K);
+      |                                        [01;31m[K^~~~~[m[K
+[01m[K/ssd/home/edt/Documents/lunabotics_ros_ws/src/motor_control_pkg/src/drivetrain.cpp:18:32:[m[K [01;31m[Kerror: [m[K‘[01m[Kenable[m[K’ has not been declared
+   18 |   left_drive.SetHardLimitRevEn([01;31m[Kenable[m[K::false);
+      |                                [01;31m[K^~~~~~[m[K
+[01m[K/ssd/home/edt/Documents/lunabotics_ros_ws/src/motor_control_pkg/src/drivetrain.cpp:18:40:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[Kfalse[m[K’
+   18 |   left_drive.SetHardLimitRevEn(enable::[01;31m[Kfalse[m[K);
+      |                                        [01;31m[K^~~~~[m[K
+[01m[K/ssd/home/edt/Documents/lunabotics_ros_ws/src/motor_control_pkg/src/drivetrain.cpp:24:33:[m[K [01;31m[Kerror: [m[K‘[01m[Kenable[m[K’ has not been declared
+   24 |   right_drive.SetHardLimitFwdEn([01;31m[Kenable[m[K::false);
+      |                                 [01;31m[K^~~~~~[m[K
+[01m[K/ssd/home/edt/Documents/lunabotics_ros_ws/src/motor_control_pkg/src/drivetrain.cpp:24:41:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[Kfalse[m[K’
+   24 |   right_drive.SetHardLimitFwdEn(enable::[01;31m[Kfalse[m[K);
+      |                                         [01;31m[K^~~~~[m[K
+[01m[K/ssd/home/edt/Documents/lunabotics_ros_ws/src/motor_control_pkg/src/drivetrain.cpp:25:33:[m[K [01;31m[Kerror: [m[K‘[01m[Kenable[m[K’ has not been declared
+   25 |   right_drive.SetHardLimitFwdEn([01;31m[Kenable[m[K::false);
+      |                                 [01;31m[K^~~~~~[m[K
+[01m[K/ssd/home/edt/Documents/lunabotics_ros_ws/src/motor_control_pkg/src/drivetrain.cpp:25:41:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[Kfalse[m[K’
+   25 |   right_drive.SetHardLimitFwdEn(enable::[01;31m[Kfalse[m[K);
+      |                                         [01;31m[K^~~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/ssd/home/edt/Documents/lunabotics_ros_ws/src/motor_control_pkg/src/drivetrain.cpp:1[m[K:
+[01m[K/ssd/home/edt/Documents/lunabotics_ros_ws/src/motor_control_pkg/src/drivetrain.cpp:[m[K In member function ‘[01m[Kvoid DrivetrainNode::duty_cycle_control(const DutyCycleOutput&) const[m[K’:
+[01m[K/ssd/home/edt/Documents/lunabotics_ros_ws/src/motor_control_pkg/src/drivetrain.cpp:49:99:[m[K [01;31m[Kerror: [m[K‘[01m[Kleft_drive_output[m[K’ was not declared in this scope
+   49 |    RCLCPP_INFO(this->get_logger(), "Duty cylce: Left motor set to : %d, Right motor set to : %d", [01;31m[Kleft_drive_output[m[K, right_drive_output);
+      |                                                                                                   [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+[01m[K/ssd/home/edt/Documents/lunabotics_ros_ws/src/motor_control_pkg/src/drivetrain.cpp:49:118:[m[K [01;31m[Kerror: [m[K‘[01m[Kright_drive_output[m[K’ was not declared in this scope
+   49 |    RCLCPP_INFO(this->get_logger(), "Duty cylce: Left motor set to : %d, Right motor set to : %d", left_drive_output, [01;31m[Kright_drive_output[m[K);
+      |                                                                                                                      [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+make[2]: *** [CMakeFiles/scoop.dir/build.make:63: CMakeFiles/scoop.dir/src/scoop.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:80: CMakeFiles/scoop.dir/all] Error 2
+make[1]: *** Waiting for unfinished jobs....
+make[2]: *** [CMakeFiles/drivetrain.dir/build.make:63: CMakeFiles/drivetrain.dir/src/drivetrain.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:107: CMakeFiles/drivetrain.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

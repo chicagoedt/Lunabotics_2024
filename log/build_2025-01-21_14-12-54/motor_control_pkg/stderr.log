@@ -1,0 +1,23 @@
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/ssd/home/edt/Documents/lunabotics_ros_ws/src/motor_control_pkg/src/drivetrain.cpp:1[m[K:
+[01m[K/ssd/home/edt/Documents/lunabotics_ros_ws/src/motor_control_pkg/src/drivetrain.cpp:[m[K In member function ‘[01m[Kvoid DrivetrainNode::duty_cycle_control(const DutyCycleOutput&) const[m[K’:
+[01m[K/ssd/home/edt/Documents/lunabotics_ros_ws/src/motor_control_pkg/src/drivetrain.cpp:49:99:[m[K [01;31m[Kerror: [m[K‘[01m[Kleft_drive_output[m[K’ was not declared in this scope
+   49 |    RCLCPP_INFO(this->get_logger(), "Duty cylce: Left motor set to : %d, Right motor set to : %d", [01;31m[Kleft_drive_output[m[K, right_drive_output);
+      |                                                                                                   [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+[01m[K/ssd/home/edt/Documents/lunabotics_ros_ws/src/motor_control_pkg/src/drivetrain.cpp:49:118:[m[K [01;31m[Kerror: [m[K‘[01m[Kright_drive_output[m[K’ was not declared in this scope
+   49 |    RCLCPP_INFO(this->get_logger(), "Duty cylce: Left motor set to : %d, Right motor set to : %d", left_drive_output, [01;31m[Kright_drive_output[m[K);
+      |                                                                                                                      [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+make[2]: *** [CMakeFiles/drivetrain.dir/build.make:63: CMakeFiles/drivetrain.dir/src/drivetrain.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:107: CMakeFiles/drivetrain.dir/all] Error 2
+make[1]: *** Waiting for unfinished jobs....
+make: *** [Makefile:141: all] Error 2

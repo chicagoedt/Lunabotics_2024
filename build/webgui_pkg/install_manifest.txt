@@ -1,0 +1,15 @@
+/home/catherineschuch/lunabotics_ros2_ws/install/webgui_pkg/share/ament_index/resource_index/package_run_dependencies/webgui_pkg
+/home/catherineschuch/lunabotics_ros2_ws/install/webgui_pkg/share/ament_index/resource_index/parent_prefix_path/webgui_pkg
+/home/catherineschuch/lunabotics_ros2_ws/install/webgui_pkg/share/webgui_pkg/environment/ament_prefix_path.sh
+/home/catherineschuch/lunabotics_ros2_ws/install/webgui_pkg/share/webgui_pkg/environment/ament_prefix_path.dsv
+/home/catherineschuch/lunabotics_ros2_ws/install/webgui_pkg/share/webgui_pkg/environment/path.sh
+/home/catherineschuch/lunabotics_ros2_ws/install/webgui_pkg/share/webgui_pkg/environment/path.dsv
+/home/catherineschuch/lunabotics_ros2_ws/install/webgui_pkg/share/webgui_pkg/local_setup.bash
+/home/catherineschuch/lunabotics_ros2_ws/install/webgui_pkg/share/webgui_pkg/local_setup.sh
+/home/catherineschuch/lunabotics_ros2_ws/install/webgui_pkg/share/webgui_pkg/local_setup.zsh
+/home/catherineschuch/lunabotics_ros2_ws/install/webgui_pkg/share/webgui_pkg/local_setup.dsv
+/home/catherineschuch/lunabotics_ros2_ws/install/webgui_pkg/share/webgui_pkg/package.dsv
+/home/catherineschuch/lunabotics_ros2_ws/install/webgui_pkg/share/ament_index/resource_index/packages/webgui_pkg
+/home/catherineschuch/lunabotics_ros2_ws/install/webgui_pkg/share/webgui_pkg/cmake/webgui_pkgConfig.cmake
+/home/catherineschuch/lunabotics_ros2_ws/install/webgui_pkg/share/webgui_pkg/cmake/webgui_pkgConfig-version.cmake
+/home/catherineschuch/lunabotics_ros2_ws/install/webgui_pkg/share/webgui_pkg/package.xml

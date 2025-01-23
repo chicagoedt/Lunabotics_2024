@@ -1,0 +1,5 @@
+<<<<<<< HEAD
+prepend-non-duplicate;PYTHONPATH;lib/python3.9/site-packages
+=======
+prepend-non-duplicate;PYTHONPATH;local/lib/python3.10/dist-packages
+>>>>>>> 83d0422f78e9a6e3671c3233e8d24f9d7b9d5834

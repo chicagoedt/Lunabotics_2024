@@ -1,0 +1,87 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.8"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "motor_control_pkg",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "drivetrain::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-drivetrain-8aa7a44cddb83692d7a7.json",
+					"name" : "drivetrain",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "motor_control_pkg_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-motor_control_pkg_uninstall-351a2d371f7a281a0774.json",
+					"name" : "motor_control_pkg_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "scoop::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-scoop-bc668e1d6c1d9d6de783.json",
+					"name" : "scoop",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-6b76c373c73135b875e4.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/ssd/home/edt/Documents/lunabotics_ros_ws/build/motor_control_pkg",
+		"source" : "/ssd/home/edt/Documents/lunabotics_ros_ws/src/motor_control_pkg"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 0
+	}
+}

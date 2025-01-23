@@ -1,0 +1,17 @@
+/ssd/home/edt/Documents/lunabotics_ros_ws/install/motor_control_pkg/lib/motor_control_pkg/drivetrain
+/ssd/home/edt/Documents/lunabotics_ros_ws/install/motor_control_pkg/lib/motor_control_pkg/scoop
+/ssd/home/edt/Documents/lunabotics_ros_ws/install/motor_control_pkg/share/ament_index/resource_index/package_run_dependencies/motor_control_pkg
+/ssd/home/edt/Documents/lunabotics_ros_ws/install/motor_control_pkg/share/ament_index/resource_index/parent_prefix_path/motor_control_pkg
+/ssd/home/edt/Documents/lunabotics_ros_ws/install/motor_control_pkg/share/motor_control_pkg/environment/ament_prefix_path.sh
+/ssd/home/edt/Documents/lunabotics_ros_ws/install/motor_control_pkg/share/motor_control_pkg/environment/ament_prefix_path.dsv
+/ssd/home/edt/Documents/lunabotics_ros_ws/install/motor_control_pkg/share/motor_control_pkg/environment/path.sh
+/ssd/home/edt/Documents/lunabotics_ros_ws/install/motor_control_pkg/share/motor_control_pkg/environment/path.dsv
+/ssd/home/edt/Documents/lunabotics_ros_ws/install/motor_control_pkg/share/motor_control_pkg/local_setup.bash
+/ssd/home/edt/Documents/lunabotics_ros_ws/install/motor_control_pkg/share/motor_control_pkg/local_setup.sh
+/ssd/home/edt/Documents/lunabotics_ros_ws/install/motor_control_pkg/share/motor_control_pkg/local_setup.zsh
+/ssd/home/edt/Documents/lunabotics_ros_ws/install/motor_control_pkg/share/motor_control_pkg/local_setup.dsv
+/ssd/home/edt/Documents/lunabotics_ros_ws/install/motor_control_pkg/share/motor_control_pkg/package.dsv
+/ssd/home/edt/Documents/lunabotics_ros_ws/install/motor_control_pkg/share/ament_index/resource_index/packages/motor_control_pkg
+/ssd/home/edt/Documents/lunabotics_ros_ws/install/motor_control_pkg/share/motor_control_pkg/cmake/motor_control_pkgConfig.cmake
+/ssd/home/edt/Documents/lunabotics_ros_ws/install/motor_control_pkg/share/motor_control_pkg/cmake/motor_control_pkgConfig-version.cmake
+/ssd/home/edt/Documents/lunabotics_ros_ws/install/motor_control_pkg/share/motor_control_pkg/package.xml

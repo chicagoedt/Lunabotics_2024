@@ -1,0 +1,4 @@
+source;share/webgui_pkg/local_setup.bash
+source;share/webgui_pkg/local_setup.dsv
+source;share/webgui_pkg/local_setup.sh
+source;share/webgui_pkg/local_setup.zsh

@@ -1,0 +1,40 @@
+{
+  "package_name": "interfaces_pkg",
+<<<<<<< HEAD
+  "output_dir": "/ssd/home/edt/Documents/lunabotics_ros_ws/build/interfaces_pkg/rosidl_generator_py/interfaces_pkg",
+  "template_dir": "/opt/ros/humble/share/rosidl_generator_py/cmake/../resource",
+  "idl_tuples": [
+    "/ssd/home/edt/Documents/lunabotics_ros_ws/build/interfaces_pkg/rosidl_adapter/interfaces_pkg:msg/DutyCycleOutput.idl"
+  ],
+  "target_dependencies": [
+    "/opt/ros/humble/share/rosidl_generator_py/cmake/../../../lib/rosidl_generator_py/rosidl_generator_py",
+    "/opt/ros/humble/lib/python3.8/site-packages/rosidl_generator_py/__init__.py",
+    "/opt/ros/humble/lib/python3.8/site-packages/rosidl_generator_py/generate_py_impl.py",
+=======
+  "output_dir": "/home/catherineschuch/lunabotics_ros2_ws/build/interfaces_pkg/rosidl_generator_py/interfaces_pkg",
+  "template_dir": "/opt/ros/humble/share/rosidl_generator_py/cmake/../resource",
+  "idl_tuples": [
+    "/home/catherineschuch/lunabotics_ros2_ws/build/interfaces_pkg/rosidl_adapter/interfaces_pkg:msg/DutyCycleOutput.idl"
+  ],
+  "target_dependencies": [
+    "/opt/ros/humble/share/rosidl_generator_py/cmake/../../../lib/rosidl_generator_py/rosidl_generator_py",
+    "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_generator_py/__init__.py",
+    "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_generator_py/generate_py_impl.py",
+>>>>>>> 83d0422f78e9a6e3671c3233e8d24f9d7b9d5834
+    "/opt/ros/humble/share/rosidl_generator_py/cmake/../resource/_action_pkg_typesupport_entry_point.c.em",
+    "/opt/ros/humble/share/rosidl_generator_py/cmake/../resource/_action.py.em",
+    "/opt/ros/humble/share/rosidl_generator_py/cmake/../resource/_idl_pkg_typesupport_entry_point.c.em",
+    "/opt/ros/humble/share/rosidl_generator_py/cmake/../resource/_idl_support.c.em",
+    "/opt/ros/humble/share/rosidl_generator_py/cmake/../resource/_idl.py.em",
+    "/opt/ros/humble/share/rosidl_generator_py/cmake/../resource/_msg_pkg_typesupport_entry_point.c.em",
+    "/opt/ros/humble/share/rosidl_generator_py/cmake/../resource/_msg_support.c.em",
+    "/opt/ros/humble/share/rosidl_generator_py/cmake/../resource/_msg.py.em",
+    "/opt/ros/humble/share/rosidl_generator_py/cmake/../resource/_srv_pkg_typesupport_entry_point.c.em",
+    "/opt/ros/humble/share/rosidl_generator_py/cmake/../resource/_srv.py.em",
+<<<<<<< HEAD
+    "/ssd/home/edt/Documents/lunabotics_ros_ws/build/interfaces_pkg/rosidl_adapter/interfaces_pkg/msg/DutyCycleOutput.idl"
+=======
+    "/home/catherineschuch/lunabotics_ros2_ws/build/interfaces_pkg/rosidl_adapter/interfaces_pkg/msg/DutyCycleOutput.idl"
+>>>>>>> 83d0422f78e9a6e3671c3233e8d24f9d7b9d5834
+  ]
+}

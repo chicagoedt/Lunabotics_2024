@@ -1,0 +1,87 @@
+[0.000000] (-) TimerEvent: {}
+[0.000583] (-) JobUnselected: {'identifier': 'interfaces_pkg'}
+[0.000910] (-) JobUnselected: {'identifier': 'motor_control_pkg'}
+[0.001115] (-) JobUnselected: {'identifier': 'navigation_pkg'}
+[0.001558] (-) JobUnselected: {'identifier': 'sensors_pkg'}
+[0.001868] (-) JobUnselected: {'identifier': 'webgui_pkg'}
+[0.002081] (brain_pkg) JobQueued: {'identifier': 'brain_pkg', 'dependencies': OrderedDict([('interfaces_pkg', '/ssd/home/edt/Documents/lunabotics_ros_ws/install/interfaces_pkg')])}
+[0.002190] (brain_pkg) JobStarted: {'identifier': 'brain_pkg'}
+[0.099162] (-) TimerEvent: {}
+[0.199882] (-) TimerEvent: {}
+[0.300222] (-) TimerEvent: {}
+[0.400786] (-) TimerEvent: {}
+[0.501273] (-) TimerEvent: {}
+[0.601596] (-) TimerEvent: {}
+[0.702285] (-) TimerEvent: {}
+[0.802921] (-) TimerEvent: {}
+[0.903157] (-) TimerEvent: {}
+[1.003616] (-) TimerEvent: {}
+[1.104359] (-) TimerEvent: {}
+[1.205078] (-) TimerEvent: {}
+[1.305665] (-) TimerEvent: {}
+[1.406289] (-) TimerEvent: {}
+[1.507103] (-) TimerEvent: {}
+[1.607968] (-) TimerEvent: {}
+[1.708623] (-) TimerEvent: {}
+[1.809357] (-) TimerEvent: {}
+[1.910070] (-) TimerEvent: {}
+[2.010822] (-) TimerEvent: {}
+[2.111264] (-) TimerEvent: {}
+[2.211805] (-) TimerEvent: {}
+[2.312592] (-) TimerEvent: {}
+[2.413304] (-) TimerEvent: {}
+[2.513985] (-) TimerEvent: {}
+[2.614849] (-) TimerEvent: {}
+[2.715356] (-) TimerEvent: {}
+[2.816190] (-) TimerEvent: {}
+[2.916772] (-) TimerEvent: {}
+[3.017340] (-) TimerEvent: {}
+[3.117925] (-) TimerEvent: {}
+[3.218718] (-) TimerEvent: {}
+[3.265651] (brain_pkg) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/brain_pkg', 'build', '--build-base', '/ssd/home/edt/Documents/lunabotics_ros_ws/build/brain_pkg/build', 'install', '--record', '/ssd/home/edt/Documents/lunabotics_ros_ws/build/brain_pkg/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/ssd/home/edt/Documents/lunabotics_ros_ws/src/brain_pkg', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'edt', 'SSH_CLIENT': '192.168.0.221 55218 22', 'XDG_SESSION_TYPE': 'tty', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/ssd/home/edt/Documents/lunabotics_ros_ws/install/interfaces_pkg/lib', 'MOTD_SHOWN': 'pam', 'HOME': '/ssd/home/edt', 'OLDPWD': '/ssd/home/edt/Documents/lunabotics_ros_ws/src', 'SSH_TTY': '/dev/pts/0', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'LOGNAME': 'edt', '_': '/usr/bin/colcon', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '7', 'PATH': '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1000', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'AMENT_PREFIX_PATH': '/ssd/home/edt/Documents/lunabotics_ros_ws/install/interfaces_pkg', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'PWD': '/ssd/home/edt/Documents/lunabotics_ros_ws/build/brain_pkg', 'SSH_CONNECTION': '192.168.0.221 55218 192.168.0.131 22', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/ssd/home/edt/Documents/lunabotics_ros_ws/build/brain_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/ssd/home/edt/Documents/lunabotics_ros_ws/install/brain_pkg/lib/python3.8/site-packages:/ssd/home/edt/Documents/lunabotics_ros_ws/install/interfaces_pkg/lib/python3.9/site-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/ssd/home/edt/Documents/lunabotics_ros_ws/install/interfaces_pkg'}, 'shell': False}
+[3.318825] (-) TimerEvent: {}
+[3.420173] (-) TimerEvent: {}
+[3.521838] (-) TimerEvent: {}
+[3.622634] (-) TimerEvent: {}
+[3.723335] (-) TimerEvent: {}
+[3.793541] (brain_pkg) StdoutLine: {'line': b'running egg_info\n'}
+[3.865236] (-) TimerEvent: {}
+[3.865647] (brain_pkg) StdoutLine: {'line': b'creating ../../build/brain_pkg/brain_pkg.egg-info\n'}
+[3.865905] (brain_pkg) StdoutLine: {'line': b'writing ../../build/brain_pkg/brain_pkg.egg-info/PKG-INFO\n'}
+[3.866062] (brain_pkg) StdoutLine: {'line': b'writing dependency_links to ../../build/brain_pkg/brain_pkg.egg-info/dependency_links.txt\n'}
+[3.866271] (brain_pkg) StdoutLine: {'line': b'writing entry points to ../../build/brain_pkg/brain_pkg.egg-info/entry_points.txt\n'}
+[3.866445] (brain_pkg) StdoutLine: {'line': b'writing requirements to ../../build/brain_pkg/brain_pkg.egg-info/requires.txt\n'}
+[3.866639] (brain_pkg) StdoutLine: {'line': b'writing top-level names to ../../build/brain_pkg/brain_pkg.egg-info/top_level.txt\n'}
+[3.866963] (brain_pkg) StdoutLine: {'line': b"writing manifest file '../../build/brain_pkg/brain_pkg.egg-info/SOURCES.txt'\n"}
+[3.929255] (brain_pkg) StdoutLine: {'line': b"reading manifest file '../../build/brain_pkg/brain_pkg.egg-info/SOURCES.txt'\n"}
+[3.930390] (brain_pkg) StdoutLine: {'line': b"writing manifest file '../../build/brain_pkg/brain_pkg.egg-info/SOURCES.txt'\n"}
+[3.930825] (brain_pkg) StdoutLine: {'line': b'running build\n'}
+[3.931016] (brain_pkg) StdoutLine: {'line': b'running build_py\n'}
+[3.931258] (brain_pkg) StdoutLine: {'line': b'creating /ssd/home/edt/Documents/lunabotics_ros_ws/build/brain_pkg/build\n'}
+[3.931456] (brain_pkg) StdoutLine: {'line': b'creating /ssd/home/edt/Documents/lunabotics_ros_ws/build/brain_pkg/build/lib\n'}
+[3.931627] (brain_pkg) StdoutLine: {'line': b'creating /ssd/home/edt/Documents/lunabotics_ros_ws/build/brain_pkg/build/lib/brain_pkg\n'}
+[3.931804] (brain_pkg) StdoutLine: {'line': b'copying brain_pkg/brain.py -> /ssd/home/edt/Documents/lunabotics_ros_ws/build/brain_pkg/build/lib/brain_pkg\n'}
+[3.932180] (brain_pkg) StdoutLine: {'line': b'copying brain_pkg/__init__.py -> /ssd/home/edt/Documents/lunabotics_ros_ws/build/brain_pkg/build/lib/brain_pkg\n'}
+[3.932556] (brain_pkg) StdoutLine: {'line': b'running install\n'}
+[3.934431] (brain_pkg) StdoutLine: {'line': b'running install_lib\n'}
+[3.940162] (brain_pkg) StdoutLine: {'line': b'creating /ssd/home/edt/Documents/lunabotics_ros_ws/install/brain_pkg/lib/python3.8/site-packages/brain_pkg\n'}
+[3.940517] (brain_pkg) StdoutLine: {'line': b'copying /ssd/home/edt/Documents/lunabotics_ros_ws/build/brain_pkg/build/lib/brain_pkg/brain.py -> /ssd/home/edt/Documents/lunabotics_ros_ws/install/brain_pkg/lib/python3.8/site-packages/brain_pkg\n'}
+[3.940854] (brain_pkg) StdoutLine: {'line': b'copying /ssd/home/edt/Documents/lunabotics_ros_ws/build/brain_pkg/build/lib/brain_pkg/__init__.py -> /ssd/home/edt/Documents/lunabotics_ros_ws/install/brain_pkg/lib/python3.8/site-packages/brain_pkg\n'}
+[3.941938] (brain_pkg) StdoutLine: {'line': b'byte-compiling /ssd/home/edt/Documents/lunabotics_ros_ws/install/brain_pkg/lib/python3.8/site-packages/brain_pkg/brain.py to brain.cpython-38.pyc\n'}
+[3.945224] (brain_pkg) StdoutLine: {'line': b'byte-compiling /ssd/home/edt/Documents/lunabotics_ros_ws/install/brain_pkg/lib/python3.8/site-packages/brain_pkg/__init__.py to __init__.cpython-38.pyc\n'}
+[3.945612] (brain_pkg) StdoutLine: {'line': b'running install_data\n'}
+[3.945908] (brain_pkg) StdoutLine: {'line': b'creating /ssd/home/edt/Documents/lunabotics_ros_ws/install/brain_pkg/share/ament_index\n'}
+[3.946270] (brain_pkg) StdoutLine: {'line': b'creating /ssd/home/edt/Documents/lunabotics_ros_ws/install/brain_pkg/share/ament_index/resource_index\n'}
+[3.946576] (brain_pkg) StdoutLine: {'line': b'creating /ssd/home/edt/Documents/lunabotics_ros_ws/install/brain_pkg/share/ament_index/resource_index/packages\n'}
+[3.946895] (brain_pkg) StdoutLine: {'line': b'copying resource/brain_pkg -> /ssd/home/edt/Documents/lunabotics_ros_ws/install/brain_pkg/share/ament_index/resource_index/packages\n'}
+[3.947127] (brain_pkg) StdoutLine: {'line': b'copying package.xml -> /ssd/home/edt/Documents/lunabotics_ros_ws/install/brain_pkg/share/brain_pkg\n'}
+[3.947347] (brain_pkg) StdoutLine: {'line': b'running install_egg_info\n'}
+[3.950251] (brain_pkg) StdoutLine: {'line': b'Copying ../../build/brain_pkg/brain_pkg.egg-info to /ssd/home/edt/Documents/lunabotics_ros_ws/install/brain_pkg/lib/python3.8/site-packages/brain_pkg-0.0.0-py3.8.egg-info\n'}
+[3.952325] (brain_pkg) StdoutLine: {'line': b'running install_scripts\n'}
+[3.965342] (-) TimerEvent: {}
+[3.989627] (brain_pkg) StdoutLine: {'line': b'Installing brain script to /ssd/home/edt/Documents/lunabotics_ros_ws/install/brain_pkg/lib/brain_pkg\n'}
+[3.990620] (brain_pkg) StdoutLine: {'line': b"writing list of installed files to '/ssd/home/edt/Documents/lunabotics_ros_ws/build/brain_pkg/install.log'\n"}
+[4.065412] (-) TimerEvent: {}
+[4.071225] (brain_pkg) CommandEnded: {'returncode': 0}
+[4.115426] (brain_pkg) JobEnded: {'identifier': 'brain_pkg', 'rc': 0}
+[4.117552] (-) EventReactorShutdown: {}

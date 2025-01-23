@@ -1,0 +1,10 @@
+{
+  "package_name": "interfaces_pkg",
+  "non_idl_tuples": [
+<<<<<<< HEAD
+    "/ssd/home/edt/Documents/lunabotics_ros_ws/src/interfaces_pkg:msg/DutyCycleOutput.msg"
+=======
+    "/home/catherineschuch/lunabotics_ros2_ws/src/interfaces_pkg:msg/DutyCycleOutput.msg"
+>>>>>>> 83d0422f78e9a6e3671c3233e8d24f9d7b9d5834
+  ]
+}

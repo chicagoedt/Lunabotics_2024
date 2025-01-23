@@ -1,0 +1,5 @@
+<<<<<<< HEAD
+/ssd/home/edt/Documents/lunabotics_ros_ws/build/interfaces_pkg/rosidl_adapter/interfaces_pkg:msg/DutyCycleOutput.idl
+=======
+/home/catherineschuch/lunabotics_ros2_ws/build/interfaces_pkg/rosidl_adapter/interfaces_pkg:msg/DutyCycleOutput.idl
+>>>>>>> 83d0422f78e9a6e3671c3233e8d24f9d7b9d5834

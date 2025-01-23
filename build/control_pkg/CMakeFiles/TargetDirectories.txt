@@ -1,0 +1,13 @@
+/home/catherineschuch/lunabotics_ros2_ws/build/control_pkg/CMakeFiles/uninstall.dir
+/home/catherineschuch/lunabotics_ros2_ws/build/control_pkg/CMakeFiles/control_pkg_uninstall.dir
+/home/catherineschuch/lunabotics_ros2_ws/build/control_pkg/CMakeFiles/drivetrain.dir
+/home/catherineschuch/lunabotics_ros2_ws/build/control_pkg/CMakeFiles/scoop.dir
+/home/catherineschuch/lunabotics_ros2_ws/build/control_pkg/CMakeFiles/ament_cmake_python_copy_control_pkg.dir
+/home/catherineschuch/lunabotics_ros2_ws/build/control_pkg/CMakeFiles/ament_cmake_python_build_control_pkg_egg.dir
+/home/catherineschuch/lunabotics_ros2_ws/build/control_pkg/CMakeFiles/test.dir
+/home/catherineschuch/lunabotics_ros2_ws/build/control_pkg/CMakeFiles/edit_cache.dir
+/home/catherineschuch/lunabotics_ros2_ws/build/control_pkg/CMakeFiles/rebuild_cache.dir
+/home/catherineschuch/lunabotics_ros2_ws/build/control_pkg/CMakeFiles/list_install_components.dir
+/home/catherineschuch/lunabotics_ros2_ws/build/control_pkg/CMakeFiles/install.dir
+/home/catherineschuch/lunabotics_ros2_ws/build/control_pkg/CMakeFiles/install/local.dir
+/home/catherineschuch/lunabotics_ros2_ws/build/control_pkg/CMakeFiles/install/strip.dir

@@ -1,0 +1,82 @@
+[0.031s] Invoking command in '/ssd/home/edt/Documents/lunabotics_ros_ws/build/motor_control_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /ssd/home/edt/Documents/lunabotics_ros_ws/src/motor_control_pkg -DCMAKE_INSTALL_PREFIX=/ssd/home/edt/Documents/lunabotics_ros_ws/install/motor_control_pkg
+[0.250s] -- The C compiler identification is GNU 9.4.0
+[0.443s] -- The CXX compiler identification is GNU 9.4.0
+[0.452s] -- Check for working C compiler: /usr/bin/cc
+[0.679s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.681s] -- Detecting C compiler ABI info
+[0.911s] -- Detecting C compiler ABI info - done
+[0.938s] -- Detecting C compile features
+[0.939s] -- Detecting C compile features - done
+[0.945s] -- Check for working CXX compiler: /usr/bin/c++
+[1.189s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[1.193s] -- Detecting CXX compiler ABI info
+[1.445s] -- Detecting CXX compiler ABI info - done
+[1.475s] -- Detecting CXX compile features
+[1.476s] -- Detecting CXX compile features - done
+[1.480s] -- Found ament_cmake: 1.3.6 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.766s] -- Found Python3: /usr/bin/python3.9 (found version "3.9.5") found components: Interpreter 
+[1.964s] -- Found interfaces_pkg: 0.0.0 (/ssd/home/edt/Documents/lunabotics_ros_ws/install/interfaces_pkg/share/interfaces_pkg/cmake)
+[2.034s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[2.043s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[2.060s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[2.091s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.135s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.164s] -- Found rclcpp: 16.0.7 (/opt/ros/humble/share/rclcpp/cmake)
+[2.343s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[2.347s] -- Found rmw_fastrtps_cpp: 6.2.5 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[2.573s] -- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[2.627s] -- Found FastRTPS: /opt/ros/humble/include  
+[2.724s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.743s] -- Looking for pthread.h
+[2.969s] -- Looking for pthread.h - found
+[2.969s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[3.337s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[3.337s] -- Looking for pthread_create in pthreads
+[3.684s] -- Looking for pthread_create in pthreads - not found
+[3.685s] -- Looking for pthread_create in pthread
+[3.922s] -- Looking for pthread_create in pthread - found
+[3.926s] -- Found Threads: TRUE  
+[4.307s] -- Found ament_lint_auto: 0.12.9 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[4.623s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[4.623s] -- Configured cppcheck include dirs: 
+[4.624s] -- Configured cppcheck exclude dirs and/or files: 
+[4.624s] -- Added test 'lint_cmake' to check CMake code style
+[4.626s] -- Added test 'uncrustify' to check C / C++ code style
+[4.626s] -- Configured uncrustify additional arguments: 
+[4.627s] -- Added test 'xmllint' to check XML markup files
+[4.636s] -- Configuring done
+[4.661s] -- Generating done
+[4.677s] -- Build files have been written to: /ssd/home/edt/Documents/lunabotics_ros_ws/build/motor_control_pkg
+[4.709s] Invoked command in '/ssd/home/edt/Documents/lunabotics_ros_ws/build/motor_control_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /ssd/home/edt/Documents/lunabotics_ros_ws/src/motor_control_pkg -DCMAKE_INSTALL_PREFIX=/ssd/home/edt/Documents/lunabotics_ros_ws/install/motor_control_pkg
+[4.713s] Invoking command in '/ssd/home/edt/Documents/lunabotics_ros_ws/build/motor_control_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /ssd/home/edt/Documents/lunabotics_ros_ws/build/motor_control_pkg -- -j6 -l6
+[4.819s] [35m[1mScanning dependencies of target scoop[0m
+[4.820s] [35m[1mScanning dependencies of target drivetrain[0m
+[4.926s] [ 25%] [32mBuilding CXX object CMakeFiles/drivetrain.dir/src/drivetrain.cpp.o[0m
+[4.926s] [ 50%] [32mBuilding CXX object CMakeFiles/scoop.dir/src/scoop.cpp.o[0m
+[27.902s] [ 75%] [32m[1mLinking CXX executable drivetrain[0m
+[27.931s] [100%] [32m[1mLinking CXX executable scoop[0m
+[29.026s] [100%] Built target drivetrain
+[29.056s] [100%] Built target scoop
+[29.190s] Invoked command in '/ssd/home/edt/Documents/lunabotics_ros_ws/build/motor_control_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /ssd/home/edt/Documents/lunabotics_ros_ws/build/motor_control_pkg -- -j6 -l6
+[29.228s] Invoking command in '/ssd/home/edt/Documents/lunabotics_ros_ws/build/motor_control_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /ssd/home/edt/Documents/lunabotics_ros_ws/build/motor_control_pkg
+[29.252s] -- Install configuration: ""
+[29.252s] -- Installing: /ssd/home/edt/Documents/lunabotics_ros_ws/install/motor_control_pkg/lib/motor_control_pkg/drivetrain
+[29.263s] -- Set runtime path of "/ssd/home/edt/Documents/lunabotics_ros_ws/install/motor_control_pkg/lib/motor_control_pkg/drivetrain" to ""
+[29.263s] -- Installing: /ssd/home/edt/Documents/lunabotics_ros_ws/install/motor_control_pkg/lib/motor_control_pkg/scoop
+[29.272s] -- Set runtime path of "/ssd/home/edt/Documents/lunabotics_ros_ws/install/motor_control_pkg/lib/motor_control_pkg/scoop" to ""
+[29.272s] -- Installing: /ssd/home/edt/Documents/lunabotics_ros_ws/install/motor_control_pkg/share/ament_index/resource_index/package_run_dependencies/motor_control_pkg
+[29.272s] -- Installing: /ssd/home/edt/Documents/lunabotics_ros_ws/install/motor_control_pkg/share/ament_index/resource_index/parent_prefix_path/motor_control_pkg
+[29.273s] -- Installing: /ssd/home/edt/Documents/lunabotics_ros_ws/install/motor_control_pkg/share/motor_control_pkg/environment/ament_prefix_path.sh
+[29.273s] -- Installing: /ssd/home/edt/Documents/lunabotics_ros_ws/install/motor_control_pkg/share/motor_control_pkg/environment/ament_prefix_path.dsv
+[29.274s] -- Installing: /ssd/home/edt/Documents/lunabotics_ros_ws/install/motor_control_pkg/share/motor_control_pkg/environment/path.sh
+[29.274s] -- Installing: /ssd/home/edt/Documents/lunabotics_ros_ws/install/motor_control_pkg/share/motor_control_pkg/environment/path.dsv
+[29.274s] -- Installing: /ssd/home/edt/Documents/lunabotics_ros_ws/install/motor_control_pkg/share/motor_control_pkg/local_setup.bash
+[29.275s] -- Installing: /ssd/home/edt/Documents/lunabotics_ros_ws/install/motor_control_pkg/share/motor_control_pkg/local_setup.sh
+[29.275s] -- Installing: /ssd/home/edt/Documents/lunabotics_ros_ws/install/motor_control_pkg/share/motor_control_pkg/local_setup.zsh
+[29.275s] -- Installing: /ssd/home/edt/Documents/lunabotics_ros_ws/install/motor_control_pkg/share/motor_control_pkg/local_setup.dsv
+[29.275s] -- Installing: /ssd/home/edt/Documents/lunabotics_ros_ws/install/motor_control_pkg/share/motor_control_pkg/package.dsv
+[29.276s] -- Installing: /ssd/home/edt/Documents/lunabotics_ros_ws/install/motor_control_pkg/share/ament_index/resource_index/packages/motor_control_pkg
+[29.276s] -- Installing: /ssd/home/edt/Documents/lunabotics_ros_ws/install/motor_control_pkg/share/motor_control_pkg/cmake/motor_control_pkgConfig.cmake
+[29.276s] -- Installing: /ssd/home/edt/Documents/lunabotics_ros_ws/install/motor_control_pkg/share/motor_control_pkg/cmake/motor_control_pkgConfig-version.cmake
+[29.276s] -- Installing: /ssd/home/edt/Documents/lunabotics_ros_ws/install/motor_control_pkg/share/motor_control_pkg/package.xml
+[29.284s] Invoked command in '/ssd/home/edt/Documents/lunabotics_ros_ws/build/motor_control_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /ssd/home/edt/Documents/lunabotics_ros_ws/build/motor_control_pkg

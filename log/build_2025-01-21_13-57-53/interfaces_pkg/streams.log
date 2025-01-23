@@ -1,0 +1,243 @@
+[0.164s] Invoking command in '/ssd/home/edt/Documents/lunabotics_ros_ws/build/interfaces_pkg': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /ssd/home/edt/Documents/lunabotics_ros_ws/src/interfaces_pkg -DCMAKE_INSTALL_PREFIX=/ssd/home/edt/Documents/lunabotics_ros_ws/install/interfaces_pkg
+[1.320s] -- The C compiler identification is GNU 9.4.0
+[2.028s] -- The CXX compiler identification is GNU 9.4.0
+[2.188s] -- Check for working C compiler: /usr/bin/cc
+[2.470s] -- Check for working C compiler: /usr/bin/cc -- works
+[2.614s] -- Detecting C compiler ABI info
+[2.871s] -- Detecting C compiler ABI info - done
+[3.040s] -- Detecting C compile features
+[3.041s] -- Detecting C compile features - done
+[3.048s] -- Check for working CXX compiler: /usr/bin/c++
+[3.338s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[3.342s] -- Detecting CXX compiler ABI info
+[3.761s] -- Detecting CXX compiler ABI info - done
+[3.796s] -- Detecting CXX compile features
+[3.798s] -- Detecting CXX compile features - done
+[3.949s] -- Found ament_cmake: 1.3.6 (/opt/ros/humble/share/ament_cmake/cmake)
+[4.633s] -- Found Python3: /usr/bin/python3.9 (found version "3.9.5") found components: Interpreter 
+[5.167s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[5.176s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[5.194s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[5.449s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[7.704s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[8.693s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[10.845s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[11.035s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3.6") 
+[11.178s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[11.379s] -- Found PythonLibs: /usr/lib/aarch64-linux-gnu/libpython3.8.so (found suitable version "3.8.10", minimum required is "3.5") 
+[11.380s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[11.380s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.8
+[11.380s] -- Using PYTHON_LIBRARIES: /usr/lib/aarch64-linux-gnu/libpython3.8.so
+[11.424s] -- Found PythonExtra: .so  
+[12.077s] -- Found ament_lint_auto: 0.12.9 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[12.135s] -- Added test 'lint_cmake' to check CMake code style
+[12.139s] -- Added test 'xmllint' to check XML markup files
+[12.151s] -- Configuring done
+[12.205s] -- Generating done
+[12.228s] -- Build files have been written to: /ssd/home/edt/Documents/lunabotics_ros_ws/build/interfaces_pkg
+[12.250s] Invoked command in '/ssd/home/edt/Documents/lunabotics_ros_ws/build/interfaces_pkg' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /ssd/home/edt/Documents/lunabotics_ros_ws/src/interfaces_pkg -DCMAKE_INSTALL_PREFIX=/ssd/home/edt/Documents/lunabotics_ros_ws/install/interfaces_pkg
+[12.261s] Invoking command in '/ssd/home/edt/Documents/lunabotics_ros_ws/build/interfaces_pkg': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /ssd/home/edt/Documents/lunabotics_ros_ws/build/interfaces_pkg -- -j6 -l6
+[12.356s] [  3%] [34m[1mGenerating C code for ROS interfaces[0m
+[12.356s] [35m[1mScanning dependencies of target ament_cmake_python_copy_interfaces_pkg[0m
+[12.356s] [35m[1mScanning dependencies of target interfaces_pkg__cpp[0m
+[12.379s] [  6%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[12.402s] [  6%] Built target ament_cmake_python_copy_interfaces_pkg
+[12.426s] [35m[1mScanning dependencies of target ament_cmake_python_build_interfaces_pkg_egg[0m
+[13.315s] [  6%] Built target interfaces_pkg__cpp
+[13.338s] [ 16%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[13.338s] [ 16%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[13.338s] [ 16%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[13.479s] [35m[1mScanning dependencies of target interfaces_pkg__rosidl_generator_c[0m
+[13.570s] [ 19%] [32mBuilding C object CMakeFiles/interfaces_pkg__rosidl_generator_c.dir/rosidl_generator_c/interfaces_pkg/msg/detail/duty_cycle_output__functions.c.o[0m
+[13.878s] [ 22%] [32m[1mLinking C shared library libinterfaces_pkg__rosidl_generator_c.so[0m
+[13.960s] [ 22%] Built target interfaces_pkg__rosidl_generator_c
+[13.984s] [ 29%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[13.984s] [ 29%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[14.125s] running egg_info
+[14.131s] creating interfaces_pkg.egg-info
+[14.132s] writing interfaces_pkg.egg-info/PKG-INFO
+[14.132s] writing dependency_links to interfaces_pkg.egg-info/dependency_links.txt
+[14.133s] writing top-level names to interfaces_pkg.egg-info/top_level.txt
+[14.134s] writing manifest file 'interfaces_pkg.egg-info/SOURCES.txt'
+[14.136s] [35m[1mScanning dependencies of target interfaces_pkg__rosidl_typesupport_cpp[0m
+[14.178s] [35m[1mScanning dependencies of target interfaces_pkg__rosidl_typesupport_fastrtps_cpp[0m
+[14.191s] [35m[1mScanning dependencies of target interfaces_pkg__rosidl_typesupport_introspection_cpp[0m
+[14.330s] [ 35%] [32mBuilding CXX object CMakeFiles/interfaces_pkg__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/interfaces_pkg/msg/detail/duty_cycle_output__type_support.cpp.o[0m
+[14.330s] [ 35%] [32mBuilding CXX object CMakeFiles/interfaces_pkg__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/interfaces_pkg/msg/duty_cycle_output__type_support.cpp.o[0m
+[14.337s] [ 38%] [32mBuilding CXX object CMakeFiles/interfaces_pkg__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/interfaces_pkg/msg/detail/dds_fastrtps/duty_cycle_output__type_support.cpp.o[0m
+[14.574s] reading manifest file 'interfaces_pkg.egg-info/SOURCES.txt'
+[14.576s] writing manifest file 'interfaces_pkg.egg-info/SOURCES.txt'
+[14.586s] [35m[1mScanning dependencies of target interfaces_pkg__rosidl_typesupport_c[0m
+[14.625s] [ 41%] [32mBuilding CXX object CMakeFiles/interfaces_pkg__rosidl_typesupport_c.dir/rosidl_typesupport_c/interfaces_pkg/msg/duty_cycle_output__type_support.cpp.o[0m
+[14.670s] [35m[1mScanning dependencies of target interfaces_pkg__rosidl_typesupport_fastrtps_c[0m
+[14.706s] [ 45%] Built target ament_cmake_python_build_interfaces_pkg_egg
+[14.706s] [ 45%] [32m[1mLinking CXX shared library libinterfaces_pkg__rosidl_typesupport_c.so[0m
+[14.718s] [ 48%] [32mBuilding CXX object CMakeFiles/interfaces_pkg__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/interfaces_pkg/msg/detail/duty_cycle_output__type_support_c.cpp.o[0m
+[14.731s] [ 51%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[14.820s] [ 51%] Built target interfaces_pkg__rosidl_typesupport_c
+[15.389s] [ 54%] [32m[1mLinking CXX shared library libinterfaces_pkg__rosidl_typesupport_cpp.so[0m
+[15.493s] [ 54%] Built target interfaces_pkg__rosidl_typesupport_cpp
+[15.546s] [35m[1mScanning dependencies of target interfaces_pkg__rosidl_typesupport_introspection_c[0m
+[15.659s] [ 58%] [32m[1mLinking CXX shared library libinterfaces_pkg__rosidl_typesupport_fastrtps_cpp.so[0m
+[15.664s] [ 61%] [32mBuilding C object CMakeFiles/interfaces_pkg__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/interfaces_pkg/msg/detail/duty_cycle_output__type_support.c.o[0m
+[15.700s] [ 64%] [32m[1mLinking CXX shared library libinterfaces_pkg__rosidl_typesupport_introspection_cpp.so[0m
+[15.798s] [ 64%] Built target interfaces_pkg__rosidl_typesupport_introspection_cpp
+[15.870s] [ 67%] [32m[1mLinking C shared library libinterfaces_pkg__rosidl_typesupport_introspection_c.so[0m
+[15.870s] [ 67%] Built target interfaces_pkg__rosidl_typesupport_fastrtps_cpp
+[15.935s] [ 67%] Built target interfaces_pkg__rosidl_typesupport_introspection_c
+[16.031s] [ 70%] [32m[1mLinking CXX shared library libinterfaces_pkg__rosidl_typesupport_fastrtps_c.so[0m
+[16.201s] [ 70%] Built target interfaces_pkg__rosidl_typesupport_fastrtps_c
+[16.224s] [35m[1mScanning dependencies of target interfaces_pkg[0m
+[16.246s] [ 70%] Built target interfaces_pkg
+[16.267s] [35m[1mScanning dependencies of target interfaces_pkg__py[0m
+[16.288s] [ 74%] [34m[1mGenerating Python code for ROS interfaces[0m
+[17.341s] [ 74%] Built target interfaces_pkg__py
+[17.364s] [35m[1mScanning dependencies of target interfaces_pkg__rosidl_generator_py[0m
+[17.637s] [ 77%] [32mBuilding C object CMakeFiles/interfaces_pkg__rosidl_generator_py.dir/rosidl_generator_py/interfaces_pkg/msg/_duty_cycle_output_s.c.o[0m
+[18.278s] [ 80%] [32m[1mLinking C shared library rosidl_generator_py/interfaces_pkg/libinterfaces_pkg__rosidl_generator_py.so[0m
+[18.356s] [ 80%] Built target interfaces_pkg__rosidl_generator_py
+[18.380s] [35m[1mScanning dependencies of target interfaces_pkg__rosidl_typesupport_fastrtps_c__pyext[0m
+[18.381s] [35m[1mScanning dependencies of target interfaces_pkg__rosidl_typesupport_c__pyext[0m
+[18.381s] [35m[1mScanning dependencies of target interfaces_pkg__rosidl_typesupport_introspection_c__pyext[0m
+[18.540s] [ 90%] [32mBuilding C object CMakeFiles/interfaces_pkg__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/interfaces_pkg/_interfaces_pkg_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[18.541s] [ 90%] [32mBuilding C object CMakeFiles/interfaces_pkg__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/interfaces_pkg/_interfaces_pkg_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[18.541s] [ 90%] [32mBuilding C object CMakeFiles/interfaces_pkg__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/interfaces_pkg/_interfaces_pkg_s.ep.rosidl_typesupport_c.c.o[0m
+[18.847s] [ 96%] [32m[1mLinking C shared library rosidl_generator_py/interfaces_pkg/interfaces_pkg_s__rosidl_typesupport_introspection_c.cpython-38-aarch64-linux-gnu.so[0m
+[18.847s] [ 96%] [32m[1mLinking C shared library rosidl_generator_py/interfaces_pkg/interfaces_pkg_s__rosidl_typesupport_c.cpython-38-aarch64-linux-gnu.so[0m
+[18.850s] [100%] [32m[1mLinking C shared library rosidl_generator_py/interfaces_pkg/interfaces_pkg_s__rosidl_typesupport_fastrtps_c.cpython-38-aarch64-linux-gnu.so[0m
+[18.922s] [100%] Built target interfaces_pkg__rosidl_typesupport_c__pyext
+[18.923s] [100%] Built target interfaces_pkg__rosidl_typesupport_introspection_c__pyext
+[18.923s] [100%] Built target interfaces_pkg__rosidl_typesupport_fastrtps_c__pyext
+[19.104s] Invoked command in '/ssd/home/edt/Documents/lunabotics_ros_ws/build/interfaces_pkg' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /ssd/home/edt/Documents/lunabotics_ros_ws/build/interfaces_pkg -- -j6 -l6
+[19.141s] Invoking command in '/ssd/home/edt/Documents/lunabotics_ros_ws/build/interfaces_pkg': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /ssd/home/edt/Documents/lunabotics_ros_ws/build/interfaces_pkg
+[19.164s] -- Install configuration: ""
+[19.164s] -- Installing: /ssd/home/edt/Documents/lunabotics_ros_ws/install/interfaces_pkg/share/ament_index/resource_index/rosidl_interfaces/interfaces_pkg
+[19.165s] -- Installing: /ssd/home/edt/Documents/lunabotics_ros_ws/install/interfaces_pkg/include/interfaces_pkg/interfaces_pkg
+[19.165s] -- Installing: /ssd/home/edt/Documents/lunabotics_ros_ws/install/interfaces_pkg/include/interfaces_pkg/interfaces_pkg/msg
+[19.166s] -- Installing: /ssd/home/edt/Documents/lunabotics_ros_ws/install/interfaces_pkg/include/interfaces_pkg/interfaces_pkg/msg/rosidl_generator_c__visibility_control.h
+[19.166s] -- Installing: /ssd/home/edt/Documents/lunabotics_ros_ws/install/interfaces_pkg/include/interfaces_pkg/interfaces_pkg/msg/detail
+[19.166s] -- Installing: /ssd/home/edt/Documents/lunabotics_ros_ws/install/interfaces_pkg/include/interfaces_pkg/interfaces_pkg/msg/detail/duty_cycle_output__functions.h
+[19.167s] -- Installing: /ssd/home/edt/Documents/lunabotics_ros_ws/install/interfaces_pkg/include/interfaces_pkg/interfaces_pkg/msg/detail/duty_cycle_output__struct.h
+[19.167s] -- Installing: /ssd/home/edt/Documents/lunabotics_ros_ws/install/interfaces_pkg/include/interfaces_pkg/interfaces_pkg/msg/detail/duty_cycle_output__type_support.h
+[19.167s] -- Installing: /ssd/home/edt/Documents/lunabotics_ros_ws/install/interfaces_pkg/include/interfaces_pkg/interfaces_pkg/msg/detail/duty_cycle_output__functions.c
+[19.167s] -- Installing: /ssd/home/edt/Documents/lunabotics_ros_ws/install/interfaces_pkg/include/interfaces_pkg/interfaces_pkg/msg/duty_cycle_output.h
+[19.168s] -- Installing: /ssd/home/edt/Documents/lunabotics_ros_ws/install/interfaces_pkg/share/interfaces_pkg/environment/library_path.sh
+[19.168s] -- Installing: /ssd/home/edt/Documents/lunabotics_ros_ws/install/interfaces_pkg/share/interfaces_pkg/environment/library_path.dsv
+[19.168s] -- Installing: /ssd/home/edt/Documents/lunabotics_ros_ws/install/interfaces_pkg/lib/libinterfaces_pkg__rosidl_generator_c.so
+[19.169s] -- Set runtime path of "/ssd/home/edt/Documents/lunabotics_ros_ws/install/interfaces_pkg/lib/libinterfaces_pkg__rosidl_generator_c.so" to ""
+[19.169s] -- Up-to-date: /ssd/home/edt/Documents/lunabotics_ros_ws/install/interfaces_pkg/include/interfaces_pkg/interfaces_pkg
+[19.169s] -- Up-to-date: /ssd/home/edt/Documents/lunabotics_ros_ws/install/interfaces_pkg/include/interfaces_pkg/interfaces_pkg/msg
+[19.169s] -- Up-to-date: /ssd/home/edt/Documents/lunabotics_ros_ws/install/interfaces_pkg/include/interfaces_pkg/interfaces_pkg/msg/detail
+[19.170s] -- Installing: /ssd/home/edt/Documents/lunabotics_ros_ws/install/interfaces_pkg/include/interfaces_pkg/interfaces_pkg/msg/detail/duty_cycle_output__rosidl_typesupport_fastrtps_c.h
+[19.170s] -- Installing: /ssd/home/edt/Documents/lunabotics_ros_ws/install/interfaces_pkg/include/interfaces_pkg/interfaces_pkg/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[19.170s] -- Installing: /ssd/home/edt/Documents/lunabotics_ros_ws/install/interfaces_pkg/lib/libinterfaces_pkg__rosidl_typesupport_fastrtps_c.so
+[19.171s] -- Set runtime path of "/ssd/home/edt/Documents/lunabotics_ros_ws/install/interfaces_pkg/lib/libinterfaces_pkg__rosidl_typesupport_fastrtps_c.so" to ""
+[19.171s] -- Up-to-date: /ssd/home/edt/Documents/lunabotics_ros_ws/install/interfaces_pkg/include/interfaces_pkg/interfaces_pkg
+[19.171s] -- Up-to-date: /ssd/home/edt/Documents/lunabotics_ros_ws/install/interfaces_pkg/include/interfaces_pkg/interfaces_pkg/msg
+[19.171s] -- Up-to-date: /ssd/home/edt/Documents/lunabotics_ros_ws/install/interfaces_pkg/include/interfaces_pkg/interfaces_pkg/msg/detail
+[19.172s] -- Installing: /ssd/home/edt/Documents/lunabotics_ros_ws/install/interfaces_pkg/include/interfaces_pkg/interfaces_pkg/msg/detail/duty_cycle_output__rosidl_typesupport_introspection_c.h
+[19.172s] -- Installing: /ssd/home/edt/Documents/lunabotics_ros_ws/install/interfaces_pkg/include/interfaces_pkg/interfaces_pkg/msg/detail/duty_cycle_output__type_support.c
+[19.172s] -- Installing: /ssd/home/edt/Documents/lunabotics_ros_ws/install/interfaces_pkg/include/interfaces_pkg/interfaces_pkg/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[19.173s] -- Installing: /ssd/home/edt/Documents/lunabotics_ros_ws/install/interfaces_pkg/lib/libinterfaces_pkg__rosidl_typesupport_introspection_c.so
+[19.173s] -- Set runtime path of "/ssd/home/edt/Documents/lunabotics_ros_ws/install/interfaces_pkg/lib/libinterfaces_pkg__rosidl_typesupport_introspection_c.so" to ""
+[19.173s] -- Installing: /ssd/home/edt/Documents/lunabotics_ros_ws/install/interfaces_pkg/lib/libinterfaces_pkg__rosidl_typesupport_c.so
+[19.174s] -- Set runtime path of "/ssd/home/edt/Documents/lunabotics_ros_ws/install/interfaces_pkg/lib/libinterfaces_pkg__rosidl_typesupport_c.so" to ""
+[19.174s] -- Up-to-date: /ssd/home/edt/Documents/lunabotics_ros_ws/install/interfaces_pkg/include/interfaces_pkg/interfaces_pkg
+[19.175s] -- Up-to-date: /ssd/home/edt/Documents/lunabotics_ros_ws/install/interfaces_pkg/include/interfaces_pkg/interfaces_pkg/msg
+[19.175s] -- Up-to-date: /ssd/home/edt/Documents/lunabotics_ros_ws/install/interfaces_pkg/include/interfaces_pkg/interfaces_pkg/msg/detail
+[19.175s] -- Installing: /ssd/home/edt/Documents/lunabotics_ros_ws/install/interfaces_pkg/include/interfaces_pkg/interfaces_pkg/msg/detail/duty_cycle_output__builder.hpp
+[19.176s] -- Installing: /ssd/home/edt/Documents/lunabotics_ros_ws/install/interfaces_pkg/include/interfaces_pkg/interfaces_pkg/msg/detail/duty_cycle_output__traits.hpp
+[19.176s] -- Installing: /ssd/home/edt/Documents/lunabotics_ros_ws/install/interfaces_pkg/include/interfaces_pkg/interfaces_pkg/msg/detail/duty_cycle_output__struct.hpp
+[19.177s] -- Installing: /ssd/home/edt/Documents/lunabotics_ros_ws/install/interfaces_pkg/include/interfaces_pkg/interfaces_pkg/msg/duty_cycle_output.hpp
+[19.177s] -- Up-to-date: /ssd/home/edt/Documents/lunabotics_ros_ws/install/interfaces_pkg/include/interfaces_pkg/interfaces_pkg
+[19.177s] -- Up-to-date: /ssd/home/edt/Documents/lunabotics_ros_ws/install/interfaces_pkg/include/interfaces_pkg/interfaces_pkg/msg
+[19.177s] -- Installing: /ssd/home/edt/Documents/lunabotics_ros_ws/install/interfaces_pkg/include/interfaces_pkg/interfaces_pkg/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[19.178s] -- Up-to-date: /ssd/home/edt/Documents/lunabotics_ros_ws/install/interfaces_pkg/include/interfaces_pkg/interfaces_pkg/msg/detail
+[19.178s] -- Installing: /ssd/home/edt/Documents/lunabotics_ros_ws/install/interfaces_pkg/include/interfaces_pkg/interfaces_pkg/msg/detail/duty_cycle_output__rosidl_typesupport_fastrtps_cpp.hpp
+[19.178s] -- Installing: /ssd/home/edt/Documents/lunabotics_ros_ws/install/interfaces_pkg/include/interfaces_pkg/interfaces_pkg/msg/detail/dds_fastrtps
+[19.178s] -- Installing: /ssd/home/edt/Documents/lunabotics_ros_ws/install/interfaces_pkg/lib/libinterfaces_pkg__rosidl_typesupport_fastrtps_cpp.so
+[19.179s] -- Set runtime path of "/ssd/home/edt/Documents/lunabotics_ros_ws/install/interfaces_pkg/lib/libinterfaces_pkg__rosidl_typesupport_fastrtps_cpp.so" to ""
+[19.179s] -- Up-to-date: /ssd/home/edt/Documents/lunabotics_ros_ws/install/interfaces_pkg/include/interfaces_pkg/interfaces_pkg
+[19.179s] -- Up-to-date: /ssd/home/edt/Documents/lunabotics_ros_ws/install/interfaces_pkg/include/interfaces_pkg/interfaces_pkg/msg
+[19.180s] -- Up-to-date: /ssd/home/edt/Documents/lunabotics_ros_ws/install/interfaces_pkg/include/interfaces_pkg/interfaces_pkg/msg/detail
+[19.180s] -- Installing: /ssd/home/edt/Documents/lunabotics_ros_ws/install/interfaces_pkg/include/interfaces_pkg/interfaces_pkg/msg/detail/duty_cycle_output__rosidl_typesupport_introspection_cpp.hpp
+[19.180s] -- Installing: /ssd/home/edt/Documents/lunabotics_ros_ws/install/interfaces_pkg/include/interfaces_pkg/interfaces_pkg/msg/detail/duty_cycle_output__type_support.cpp
+[19.181s] -- Installing: /ssd/home/edt/Documents/lunabotics_ros_ws/install/interfaces_pkg/lib/libinterfaces_pkg__rosidl_typesupport_introspection_cpp.so
+[19.181s] -- Set runtime path of "/ssd/home/edt/Documents/lunabotics_ros_ws/install/interfaces_pkg/lib/libinterfaces_pkg__rosidl_typesupport_introspection_cpp.so" to ""
+[19.181s] -- Installing: /ssd/home/edt/Documents/lunabotics_ros_ws/install/interfaces_pkg/lib/libinterfaces_pkg__rosidl_typesupport_cpp.so
+[19.181s] -- Set runtime path of "/ssd/home/edt/Documents/lunabotics_ros_ws/install/interfaces_pkg/lib/libinterfaces_pkg__rosidl_typesupport_cpp.so" to ""
+[19.182s] -- Installing: /ssd/home/edt/Documents/lunabotics_ros_ws/install/interfaces_pkg/share/interfaces_pkg/environment/pythonpath.sh
+[19.182s] -- Installing: /ssd/home/edt/Documents/lunabotics_ros_ws/install/interfaces_pkg/share/interfaces_pkg/environment/pythonpath.dsv
+[19.182s] -- Installing: /ssd/home/edt/Documents/lunabotics_ros_ws/install/interfaces_pkg/lib/python3.9/site-packages/interfaces_pkg-0.0.0-py3.9.egg-info
+[19.183s] -- Installing: /ssd/home/edt/Documents/lunabotics_ros_ws/install/interfaces_pkg/lib/python3.9/site-packages/interfaces_pkg-0.0.0-py3.9.egg-info/dependency_links.txt
+[19.183s] -- Installing: /ssd/home/edt/Documents/lunabotics_ros_ws/install/interfaces_pkg/lib/python3.9/site-packages/interfaces_pkg-0.0.0-py3.9.egg-info/SOURCES.txt
+[19.183s] -- Installing: /ssd/home/edt/Documents/lunabotics_ros_ws/install/interfaces_pkg/lib/python3.9/site-packages/interfaces_pkg-0.0.0-py3.9.egg-info/top_level.txt
+[19.183s] -- Installing: /ssd/home/edt/Documents/lunabotics_ros_ws/install/interfaces_pkg/lib/python3.9/site-packages/interfaces_pkg-0.0.0-py3.9.egg-info/PKG-INFO
+[19.184s] -- Installing: /ssd/home/edt/Documents/lunabotics_ros_ws/install/interfaces_pkg/lib/python3.9/site-packages/interfaces_pkg
+[19.184s] -- Installing: /ssd/home/edt/Documents/lunabotics_ros_ws/install/interfaces_pkg/lib/python3.9/site-packages/interfaces_pkg/_interfaces_pkg_s.ep.rosidl_typesupport_introspection_c.c
+[19.184s] -- Installing: /ssd/home/edt/Documents/lunabotics_ros_ws/install/interfaces_pkg/lib/python3.9/site-packages/interfaces_pkg/msg
+[19.184s] -- Installing: /ssd/home/edt/Documents/lunabotics_ros_ws/install/interfaces_pkg/lib/python3.9/site-packages/interfaces_pkg/msg/_duty_cycle_output.py
+[19.185s] -- Installing: /ssd/home/edt/Documents/lunabotics_ros_ws/install/interfaces_pkg/lib/python3.9/site-packages/interfaces_pkg/msg/_duty_cycle_output_s.c
+[19.185s] -- Installing: /ssd/home/edt/Documents/lunabotics_ros_ws/install/interfaces_pkg/lib/python3.9/site-packages/interfaces_pkg/msg/__init__.py
+[19.185s] -- Installing: /ssd/home/edt/Documents/lunabotics_ros_ws/install/interfaces_pkg/lib/python3.9/site-packages/interfaces_pkg/libinterfaces_pkg__rosidl_generator_py.so
+[19.185s] -- Installing: /ssd/home/edt/Documents/lunabotics_ros_ws/install/interfaces_pkg/lib/python3.9/site-packages/interfaces_pkg/interfaces_pkg_s__rosidl_typesupport_fastrtps_c.cpython-38-aarch64-linux-gnu.so
+[19.186s] -- Installing: /ssd/home/edt/Documents/lunabotics_ros_ws/install/interfaces_pkg/lib/python3.9/site-packages/interfaces_pkg/_interfaces_pkg_s.ep.rosidl_typesupport_fastrtps_c.c
+[19.186s] -- Installing: /ssd/home/edt/Documents/lunabotics_ros_ws/install/interfaces_pkg/lib/python3.9/site-packages/interfaces_pkg/interfaces_pkg_s__rosidl_typesupport_introspection_c.cpython-38-aarch64-linux-gnu.so
+[19.186s] -- Installing: /ssd/home/edt/Documents/lunabotics_ros_ws/install/interfaces_pkg/lib/python3.9/site-packages/interfaces_pkg/_interfaces_pkg_s.ep.rosidl_typesupport_c.c
+[19.186s] -- Installing: /ssd/home/edt/Documents/lunabotics_ros_ws/install/interfaces_pkg/lib/python3.9/site-packages/interfaces_pkg/__init__.py
+[19.186s] -- Installing: /ssd/home/edt/Documents/lunabotics_ros_ws/install/interfaces_pkg/lib/python3.9/site-packages/interfaces_pkg/interfaces_pkg_s__rosidl_typesupport_c.cpython-38-aarch64-linux-gnu.so
+[19.401s] Listing '/ssd/home/edt/Documents/lunabotics_ros_ws/install/interfaces_pkg/lib/python3.9/site-packages/interfaces_pkg'...
+[19.401s] Compiling '/ssd/home/edt/Documents/lunabotics_ros_ws/install/interfaces_pkg/lib/python3.9/site-packages/interfaces_pkg/__init__.py'...
+[19.401s] Listing '/ssd/home/edt/Documents/lunabotics_ros_ws/install/interfaces_pkg/lib/python3.9/site-packages/interfaces_pkg/msg'...
+[19.401s] Compiling '/ssd/home/edt/Documents/lunabotics_ros_ws/install/interfaces_pkg/lib/python3.9/site-packages/interfaces_pkg/msg/__init__.py'...
+[19.402s] Compiling '/ssd/home/edt/Documents/lunabotics_ros_ws/install/interfaces_pkg/lib/python3.9/site-packages/interfaces_pkg/msg/_duty_cycle_output.py'...
+[19.417s] -- Installing: /ssd/home/edt/Documents/lunabotics_ros_ws/install/interfaces_pkg/lib/python3.9/site-packages/interfaces_pkg/interfaces_pkg_s__rosidl_typesupport_fastrtps_c.cpython-38-aarch64-linux-gnu.so
+[19.418s] -- Set runtime path of "/ssd/home/edt/Documents/lunabotics_ros_ws/install/interfaces_pkg/lib/python3.9/site-packages/interfaces_pkg/interfaces_pkg_s__rosidl_typesupport_fastrtps_c.cpython-38-aarch64-linux-gnu.so" to ""
+[19.419s] -- Installing: /ssd/home/edt/Documents/lunabotics_ros_ws/install/interfaces_pkg/lib/python3.9/site-packages/interfaces_pkg/interfaces_pkg_s__rosidl_typesupport_introspection_c.cpython-38-aarch64-linux-gnu.so
+[19.420s] -- Set runtime path of "/ssd/home/edt/Documents/lunabotics_ros_ws/install/interfaces_pkg/lib/python3.9/site-packages/interfaces_pkg/interfaces_pkg_s__rosidl_typesupport_introspection_c.cpython-38-aarch64-linux-gnu.so" to ""
+[19.421s] -- Installing: /ssd/home/edt/Documents/lunabotics_ros_ws/install/interfaces_pkg/lib/python3.9/site-packages/interfaces_pkg/interfaces_pkg_s__rosidl_typesupport_c.cpython-38-aarch64-linux-gnu.so
+[19.422s] -- Set runtime path of "/ssd/home/edt/Documents/lunabotics_ros_ws/install/interfaces_pkg/lib/python3.9/site-packages/interfaces_pkg/interfaces_pkg_s__rosidl_typesupport_c.cpython-38-aarch64-linux-gnu.so" to ""
+[19.422s] -- Installing: /ssd/home/edt/Documents/lunabotics_ros_ws/install/interfaces_pkg/lib/libinterfaces_pkg__rosidl_generator_py.so
+[19.423s] -- Set runtime path of "/ssd/home/edt/Documents/lunabotics_ros_ws/install/interfaces_pkg/lib/libinterfaces_pkg__rosidl_generator_py.so" to ""
+[19.423s] -- Installing: /ssd/home/edt/Documents/lunabotics_ros_ws/install/interfaces_pkg/share/interfaces_pkg/msg/DutyCycleOutput.idl
+[19.423s] -- Installing: /ssd/home/edt/Documents/lunabotics_ros_ws/install/interfaces_pkg/share/interfaces_pkg/msg/DutyCycleOutput.msg
+[19.424s] -- Installing: /ssd/home/edt/Documents/lunabotics_ros_ws/install/interfaces_pkg/share/ament_index/resource_index/package_run_dependencies/interfaces_pkg
+[19.424s] -- Installing: /ssd/home/edt/Documents/lunabotics_ros_ws/install/interfaces_pkg/share/ament_index/resource_index/parent_prefix_path/interfaces_pkg
+[19.424s] -- Installing: /ssd/home/edt/Documents/lunabotics_ros_ws/install/interfaces_pkg/share/interfaces_pkg/environment/ament_prefix_path.sh
+[19.425s] -- Installing: /ssd/home/edt/Documents/lunabotics_ros_ws/install/interfaces_pkg/share/interfaces_pkg/environment/ament_prefix_path.dsv
+[19.425s] -- Installing: /ssd/home/edt/Documents/lunabotics_ros_ws/install/interfaces_pkg/share/interfaces_pkg/environment/path.sh
+[19.425s] -- Installing: /ssd/home/edt/Documents/lunabotics_ros_ws/install/interfaces_pkg/share/interfaces_pkg/environment/path.dsv
+[19.426s] -- Installing: /ssd/home/edt/Documents/lunabotics_ros_ws/install/interfaces_pkg/share/interfaces_pkg/local_setup.bash
+[19.426s] -- Installing: /ssd/home/edt/Documents/lunabotics_ros_ws/install/interfaces_pkg/share/interfaces_pkg/local_setup.sh
+[19.426s] -- Installing: /ssd/home/edt/Documents/lunabotics_ros_ws/install/interfaces_pkg/share/interfaces_pkg/local_setup.zsh
+[19.427s] -- Installing: /ssd/home/edt/Documents/lunabotics_ros_ws/install/interfaces_pkg/share/interfaces_pkg/local_setup.dsv
+[19.427s] -- Installing: /ssd/home/edt/Documents/lunabotics_ros_ws/install/interfaces_pkg/share/interfaces_pkg/package.dsv
+[19.427s] -- Installing: /ssd/home/edt/Documents/lunabotics_ros_ws/install/interfaces_pkg/share/ament_index/resource_index/packages/interfaces_pkg
+[19.428s] -- Installing: /ssd/home/edt/Documents/lunabotics_ros_ws/install/interfaces_pkg/share/interfaces_pkg/cmake/export_interfaces_pkg__rosidl_generator_cExport.cmake
+[19.428s] -- Installing: /ssd/home/edt/Documents/lunabotics_ros_ws/install/interfaces_pkg/share/interfaces_pkg/cmake/export_interfaces_pkg__rosidl_generator_cExport-noconfig.cmake
+[19.428s] -- Installing: /ssd/home/edt/Documents/lunabotics_ros_ws/install/interfaces_pkg/share/interfaces_pkg/cmake/export_interfaces_pkg__rosidl_typesupport_fastrtps_cExport.cmake
+[19.429s] -- Installing: /ssd/home/edt/Documents/lunabotics_ros_ws/install/interfaces_pkg/share/interfaces_pkg/cmake/export_interfaces_pkg__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[19.429s] -- Installing: /ssd/home/edt/Documents/lunabotics_ros_ws/install/interfaces_pkg/share/interfaces_pkg/cmake/interfaces_pkg__rosidl_typesupport_introspection_cExport.cmake
+[19.429s] -- Installing: /ssd/home/edt/Documents/lunabotics_ros_ws/install/interfaces_pkg/share/interfaces_pkg/cmake/interfaces_pkg__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[19.430s] -- Installing: /ssd/home/edt/Documents/lunabotics_ros_ws/install/interfaces_pkg/share/interfaces_pkg/cmake/interfaces_pkg__rosidl_typesupport_cExport.cmake
+[19.430s] -- Installing: /ssd/home/edt/Documents/lunabotics_ros_ws/install/interfaces_pkg/share/interfaces_pkg/cmake/interfaces_pkg__rosidl_typesupport_cExport-noconfig.cmake
+[19.431s] -- Installing: /ssd/home/edt/Documents/lunabotics_ros_ws/install/interfaces_pkg/share/interfaces_pkg/cmake/export_interfaces_pkg__rosidl_generator_cppExport.cmake
+[19.431s] -- Installing: /ssd/home/edt/Documents/lunabotics_ros_ws/install/interfaces_pkg/share/interfaces_pkg/cmake/export_interfaces_pkg__rosidl_typesupport_fastrtps_cppExport.cmake
+[19.431s] -- Installing: /ssd/home/edt/Documents/lunabotics_ros_ws/install/interfaces_pkg/share/interfaces_pkg/cmake/export_interfaces_pkg__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[19.432s] -- Installing: /ssd/home/edt/Documents/lunabotics_ros_ws/install/interfaces_pkg/share/interfaces_pkg/cmake/interfaces_pkg__rosidl_typesupport_introspection_cppExport.cmake
+[19.432s] -- Installing: /ssd/home/edt/Documents/lunabotics_ros_ws/install/interfaces_pkg/share/interfaces_pkg/cmake/interfaces_pkg__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[19.432s] -- Installing: /ssd/home/edt/Documents/lunabotics_ros_ws/install/interfaces_pkg/share/interfaces_pkg/cmake/interfaces_pkg__rosidl_typesupport_cppExport.cmake
+[19.433s] -- Installing: /ssd/home/edt/Documents/lunabotics_ros_ws/install/interfaces_pkg/share/interfaces_pkg/cmake/interfaces_pkg__rosidl_typesupport_cppExport-noconfig.cmake
+[19.433s] -- Installing: /ssd/home/edt/Documents/lunabotics_ros_ws/install/interfaces_pkg/share/interfaces_pkg/cmake/export_interfaces_pkg__rosidl_generator_pyExport.cmake
+[19.434s] -- Installing: /ssd/home/edt/Documents/lunabotics_ros_ws/install/interfaces_pkg/share/interfaces_pkg/cmake/export_interfaces_pkg__rosidl_generator_pyExport-noconfig.cmake
+[19.434s] -- Installing: /ssd/home/edt/Documents/lunabotics_ros_ws/install/interfaces_pkg/share/interfaces_pkg/cmake/rosidl_cmake-extras.cmake
+[19.434s] -- Installing: /ssd/home/edt/Documents/lunabotics_ros_ws/install/interfaces_pkg/share/interfaces_pkg/cmake/ament_cmake_export_include_directories-extras.cmake
+[19.434s] -- Installing: /ssd/home/edt/Documents/lunabotics_ros_ws/install/interfaces_pkg/share/interfaces_pkg/cmake/ament_cmake_export_libraries-extras.cmake
+[19.435s] -- Installing: /ssd/home/edt/Documents/lunabotics_ros_ws/install/interfaces_pkg/share/interfaces_pkg/cmake/ament_cmake_export_targets-extras.cmake
+[19.435s] -- Installing: /ssd/home/edt/Documents/lunabotics_ros_ws/install/interfaces_pkg/share/interfaces_pkg/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[19.435s] -- Installing: /ssd/home/edt/Documents/lunabotics_ros_ws/install/interfaces_pkg/share/interfaces_pkg/cmake/ament_cmake_export_dependencies-extras.cmake
+[19.436s] -- Installing: /ssd/home/edt/Documents/lunabotics_ros_ws/install/interfaces_pkg/share/interfaces_pkg/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[19.436s] -- Installing: /ssd/home/edt/Documents/lunabotics_ros_ws/install/interfaces_pkg/share/interfaces_pkg/cmake/interfaces_pkgConfig.cmake
+[19.436s] -- Installing: /ssd/home/edt/Documents/lunabotics_ros_ws/install/interfaces_pkg/share/interfaces_pkg/cmake/interfaces_pkgConfig-version.cmake
+[19.437s] -- Installing: /ssd/home/edt/Documents/lunabotics_ros_ws/install/interfaces_pkg/share/interfaces_pkg/package.xml
+[19.445s] Invoked command in '/ssd/home/edt/Documents/lunabotics_ros_ws/build/interfaces_pkg' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /ssd/home/edt/Documents/lunabotics_ros_ws/build/interfaces_pkg

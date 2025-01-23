@@ -1,0 +1,32 @@
+{
+  "package_name": "interfaces_pkg",
+<<<<<<< HEAD
+  "output_dir": "/ssd/home/edt/Documents/lunabotics_ros_ws/build/interfaces_pkg/rosidl_typesupport_c/interfaces_pkg",
+  "template_dir": "/opt/ros/humble/share/rosidl_typesupport_c/resource",
+  "idl_tuples": [
+    "/ssd/home/edt/Documents/lunabotics_ros_ws/build/interfaces_pkg/rosidl_adapter/interfaces_pkg:msg/DutyCycleOutput.idl"
+  ],
+  "target_dependencies": [
+    "/opt/ros/humble/lib/rosidl_typesupport_c/rosidl_typesupport_c",
+    "/opt/ros/humble/lib/python3.8/site-packages/rosidl_typesupport_c/__init__.py",
+=======
+  "output_dir": "/home/catherineschuch/lunabotics_ros2_ws/build/interfaces_pkg/rosidl_typesupport_c/interfaces_pkg",
+  "template_dir": "/opt/ros/humble/share/rosidl_typesupport_c/resource",
+  "idl_tuples": [
+    "/home/catherineschuch/lunabotics_ros2_ws/build/interfaces_pkg/rosidl_adapter/interfaces_pkg:msg/DutyCycleOutput.idl"
+  ],
+  "target_dependencies": [
+    "/opt/ros/humble/lib/rosidl_typesupport_c/rosidl_typesupport_c",
+    "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_typesupport_c/__init__.py",
+>>>>>>> 83d0422f78e9a6e3671c3233e8d24f9d7b9d5834
+    "/opt/ros/humble/share/rosidl_typesupport_c/resource/action__type_support.c.em",
+    "/opt/ros/humble/share/rosidl_typesupport_c/resource/idl__type_support.cpp.em",
+    "/opt/ros/humble/share/rosidl_typesupport_c/resource/msg__type_support.cpp.em",
+    "/opt/ros/humble/share/rosidl_typesupport_c/resource/srv__type_support.cpp.em",
+<<<<<<< HEAD
+    "/ssd/home/edt/Documents/lunabotics_ros_ws/build/interfaces_pkg/rosidl_adapter/interfaces_pkg/msg/DutyCycleOutput.idl"
+=======
+    "/home/catherineschuch/lunabotics_ros2_ws/build/interfaces_pkg/rosidl_adapter/interfaces_pkg/msg/DutyCycleOutput.idl"
+>>>>>>> 83d0422f78e9a6e3671c3233e8d24f9d7b9d5834
+  ]
+}
