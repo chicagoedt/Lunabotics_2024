@@ -84,11 +84,10 @@ private:
             goal_handle->publish_feedback(feedback);
             RCLCPP_INFO(this->get_logger(), "Current position: %.2f", current_position_);
 
-            // Check if target position is reached
             if (current_position_ >= target_position_)
             {
                 RCLCPP_INFO(this->get_logger(), "Excavation complete. Target position reached.");
-                left_lift_->SetDutyCycle(0.0); // Stop actuator
+                left_lift_->SetDutyCycle(0.0); 
                 result->success = true;
                 goal_handle->succeed(result);
                 goal_active_ = false;
