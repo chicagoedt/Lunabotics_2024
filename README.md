@@ -2,7 +2,7 @@
 source /opt/ros/humble/setup.bash
 
 cd lunabotics_ros2_ws/
-
+colcon build
 source install/setup.bash
 
 ros2 run control_pkg testcontrol.py
