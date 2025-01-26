@@ -11,6 +11,8 @@ ros2 run control_pkg drivetrain
 
 ros2 run control_pkg scoop
 
+ros2 run control_pkg excavation_node
+
 ## Editing packages
 
 Make sure to remove build artifacts and colcon build --packages-select whenever making a change to a specific package
