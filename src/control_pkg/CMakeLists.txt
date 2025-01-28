@@ -36,7 +36,6 @@ ament_target_dependencies(excavation_node
   rclcpp
   rclcpp_action
   geometry_msgs
-  lunabot_msgs
   sparkcan
 )
 
