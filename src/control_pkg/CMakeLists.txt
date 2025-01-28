@@ -14,7 +14,7 @@ find_package(rclpy REQUIRED)
 find_package(sparkcan REQUIRED)
 find_package(nav_msgs REQUIRED)
 find_package(geometry_msgs REQUIRED)
-find_package(lunabot_msgs REQUIRED)
+
 
 add_executable(drivetrain src/drivetrain.cpp)
 add_executable(scoop src/scoop.cpp)
