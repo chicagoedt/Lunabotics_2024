@@ -18,7 +18,6 @@ find_package(geometry_msgs REQUIRED)
 
 add_executable(drivetrain src/drivetrain.cpp)
 add_executable(scoop src/scoop.cpp)
-add_executable(excavation_node src/excavation.cpp)
 
 ament_target_dependencies(drivetrain 
   rclcpp
@@ -32,12 +31,6 @@ ament_target_dependencies(scoop
   sparkcan
 )
 
-ament_target_dependencies(excavation_node 
-  rclcpp
-  rclcpp_action
-  geometry_msgs
-  sparkcan
-)
 
 install(TARGETS
   drivetrain
