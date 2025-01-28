@@ -35,7 +35,6 @@ ament_target_dependencies(scoop
 install(TARGETS
   drivetrain
   scoop
-  excavation_node
   DESTINATION lib/${PROJECT_NAME}
 )
 
