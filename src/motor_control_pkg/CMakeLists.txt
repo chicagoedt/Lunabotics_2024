@@ -11,12 +11,17 @@ find_package(interfaces_pkg REQUIRED)
 find_package(rclcpp REQUIRED)
 find_package(sparkcan REQUIRED)
 
+# Add executables
 add_executable(drivetrain src/drivetrain.cpp)
 add_executable(scoop src/scoop.cpp)
+add_executable(manual_control src/manual_control.cpp)
 
+# Link dependencies
 ament_target_dependencies(drivetrain rclcpp interfaces_pkg sparkcan)
 ament_target_dependencies(scoop rclcpp interfaces_pkg sparkcan)
+ament_target_dependencies(manual_control rclcpp interfaces_pkg sparkcan)
 
+# Install executables
 install(TARGETS
   drivetrain
   DESTINATION lib/${PROJECT_NAME}
@@ -27,6 +32,12 @@ install(TARGETS
   DESTINATION lib/${PROJECT_NAME}
 )
 
+install(TARGETS
+  manual_control
+  DESTINATION lib/${PROJECT_NAME}
+)
+
+# Enable testing
 if(BUILD_TESTING)
   find_package(ament_lint_auto REQUIRED)
   # the following line skips the linter which checks for copyrights
